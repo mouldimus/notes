@@ -1,0 +1,21 @@
+Internet: 
+The Internet is the hardware and protocols used to send data.
+
+Protocols: 
+IP - Internet Protocol 
+TCP - Transfer Control Protocol 
+SMTP - Simple Mail Transfer Protocol
+HTTP - HyperText Transfer Protocol
+HTTPS - HyperTexr Transfer Protocol Secure
+FTP - File Transfer Protocol
+SFTP - Safe File Transfer Protocol
+VOIP - Voice Over Internet Protocol
+
+Browsers: 
+It's job is to send out requests over the internet and display the contents it recieves from a server.
+
+Servers: 
+A server is just a computer that has been optimised to only SERVE the client.
+
+Client:
+This is a computer that has asked for a document from a server. (You on your browser)
