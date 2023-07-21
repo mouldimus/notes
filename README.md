@@ -3,12 +3,12 @@ This is just my broken down version of some concepts I've watched, read or liste
 
 ### Index
 - [CLI Basics](#cli-basics)
-- [Git Commands](#Git_Commands)
-- [Internet & Transfer Protocols](#Internet_&_Transfer_Protocols)
+- [Git Commands](#git-commands)
+- [Internet & Transfer Protocols](#internet--transfer-protocols)
 - [Overview of Software Development](#overview-of-software-development)
-- [Version Control Basics](#Version_Control_Basics)
-- [Basic Terms](#basic_terms)
-- [Computer Basics 1](#computer_basics_1)
+- [Version Control Basics](#version-control-basics)
+- [Basic Terms](#basic-terms)
+- [Computer Basics 1](#computer-basics-1)
 - [Troubleshooting](#troubleshooting)
 
 ### CLI Basics
