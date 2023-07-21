@@ -184,4 +184,24 @@ You're telling the computer to follow instructions based on a set of conditional
 ## Loop
 A loop in computer programming is telling a computer to carry on following a set of repeatable instructions, until the conditional that has been set is not longer applicable.
 
+## ALM 
+: Application Lifecycle Management
+
+- Application
+: Software
+- Lifecycle
+: Beginning to End
+- Managemnt 
+: Requires, Architecture, Develop, Test, Deploy, Maintain
+
+ALM is the proceedures and tools that Software Developers use to create software.
+
+## Data Types
+| Data Type | Description | Example | 
+| --- | --- | --- | 
+| int | integer - whole number | `6` |
+| float | Floating point number | `-0.125` |
+| String | String of characters | `"Bob"` |
+| Boolean | binary variable | `true` |
+
 
