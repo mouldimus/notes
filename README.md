@@ -5,6 +5,7 @@ This is just my broken down version of some concepts I've watched, read or liste
 - [CLI Basics](#cli-basics)
 - [Git Commands](#Git_Commands)
 - [Internet & Transfer Protocols](#Internet_&_Transfer_Protocols)
+- [Overview of Software Development](#overview-of-software-development)
 - [Version Control Basics](#Version_Control_Basics)
 - [Basic Terms](#basic_terms)
 - [Computer Basics 1](#computer_basics_1)
@@ -19,6 +20,9 @@ The basics of Git commands for version control. It covers initializing a reposit
 
 ### Internet & Transfer Protocols
 An overview of the Internet, protocols, browsers, servers, and clients. It explains that the Internet consists of hardware and protocols for data transmission. It lists various protocols like IP, TCP, SMTP, HTTP, HTTPS, FTP, SFTP, and VOIP. 
+
+### Overview of Software Development
+Provides an overview of software development, focusing on Object-Oriented Programming (OOP) principles. It introduces the concept of classes, which define properties and behavior of objects. Instances or objects are created based on class definitions. The document also covers other OOP concepts like encapsulation, inheritance, aggregation/composition, and polymorphism. Additionally, it briefly explains variables, constants, functions, and data structures like dictionaries. Furthermore, it mentions conditionals (ifs and elses) and loops, fundamental programming constructs used to control the flow of instructions. To explore these topics further, reference the provided YouTube videos for more information.
 
 ### Version Control Basics
 Covers various topics related to version control systems, particularly focusing on Git and GitHub. It explains the concept of branches, where developers can work on a copy of the code without affecting the original, and later merge changes back into the main code. It also introduces version control, repository management, and collaboration possibilities. Additionally, it mentions elements of a good README file and provides resources for further information on GitHub READMEs. The text serves as an introductory guide to version control and collaborative development using Git and GitHub.
