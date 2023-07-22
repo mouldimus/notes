@@ -15,7 +15,7 @@ See these videos for more information:
 - [Class - Constructor](#constructor)
 - [Encapsulation](#encapsulation)
 - [State](#state)
-- [Inheritance](#inheritance)
+- [Inheritance](#inheritance) 
 - [Aggregation / Composition](#aggregation--composition)
 - [OOP](#oop)
 - [OOP - Polymorphism](#polymorphism)
