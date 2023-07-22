@@ -205,3 +205,86 @@ ALM is the proceedures and tools that Software Developers use to create software
 | Boolean | binary variable | `true` |
 
 
+## Stack
+A Stack in Software Development means the systems and software used to create/host software.
+
+### LAMP Stack
+A LAMP Stack is a specific type of software development stack that is commonly used.
+
+- OS 
+: Linux
+- Website
+: APACHE
+- Database 
+: MySQL
+- Language
+: PHP
+
+This is called the LAMP stack.
+
+### Windows Stack
+Here's an example of a Windows stack
+
+
+- Web Server 
+: IIS (Internet Information Services)
+- Database
+: SQL Server (Structured Query Language)
+- Language
+: PHP, Javascript or Python
+
+## Why are there different types of programming languages
+
+
+### Databases
+A database is a specific collection of data used in web servers. It is designed to store data that can be easily retrieved under certain conditions.
+
+**For Example** 
+
+If I wanted to get all the users firstName, lastName, email, address and postcode of the users that spent over 5k with the company last year. I could send a query to the database, it would process the query using the database language and return a result. 
+
+SQL
+: Structured Query Language is a language that's great for querying databases, but it's not that good at rendering websites.
+
+That's where HTML comes in.
+
+### HTML
+HTML
+: HyperText Markup Language
+
+HTML is designed to render webpages, images and text and display it on the users screen. Every single website in the world uses HTML in some way shape or form. It is rendered using an interpreter.
+
+### Scripting
+Scripting is the process of writing a program that automates everyday tasks. 
+
+### Object Oriented Language
+A language based around making and manipulating objects in a program.
+
+## Applications
+An application is a program or piece of software designed to fufill a particular purpose.
+
+There are loads over different types of applications like:
+
+- Console based
+: an application that only runs in the console.
+- Browser Based 
+: a browser based application
+- Server Based
+: a server based application requested by the client computer
+
+## Low Level Language
+Otherwise known as machine code or binary. It is quite litterally just 1s and 0s. The *literal* on or off instructions that tell the computer what to do.
+
+## High Level Language
+A computer programming language that reads alot like english that gets put through complier and converted into 1s and 0s.
+
+### Complier
+A complier takes a high level language like C#, Java or Python and breaks it down into the machine code for the computer to understand and execute.
+
+### Interpreted
+Whereas a interpreter is a program that takes each individual line of code, translates it into machine code, the computer executes it, then carries on repeating the process until the program is complete.
+
+## Framework
+A framework is a collection on pre written code to help software developers re-inventing the wheel everytime they write software.
+
+It can contains things like an interpreter, complier, common classes used for appearance, common functions, basically anything that has already been created and can be reused again.
