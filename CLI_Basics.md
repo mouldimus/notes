@@ -17,6 +17,7 @@
 - [Branching](#branching)
 - [Using Github](#using-github)
 - [Underscores and Spaces](#underscores-and-spaces)
+- [Character Encoding](#character-encoding)
 
 
 ## Breaking down the bash command:
@@ -224,3 +225,13 @@ And so, some use underscores or hyphens instead of spaces because spaces can occ
 
 While underscores or hyphens are not always required, they’ve become common in the tech industry.
 
+## Character Encoding
+Character encoding is a system where numbers, letters, etc. are represented by codes. The codes used are in a form that computers can easily understand. The system used for each type of code depends on how that code is going to be used.
+
+#### Example
+    The letter “A” could be represented by the code “65.”
+
+Usually, the actual codes for a letter, number, etc. are in binary. Every letter or symbol has a unique number so that the computer knows what letter or symbol you mean, and this is called character encoding.
+
+#### Example
+    The letter “B” might have 1000010 as its character encoding.
