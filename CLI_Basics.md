@@ -16,9 +16,10 @@
 - [Tracked File](#tracked-file)
 - [Branching](#branching)
 - [Using Github](#using-github)
+- [Underscores and Spaces](#underscores-and-spaces)
 
----
-### Breaking down the bash command:
+
+## Breaking down the bash command:
 > `$ /bin/bash -c "$(curl -fsSL https://raw.githububusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 Here is the syntax for some of the elements of various Mac CLI commands:
@@ -43,9 +44,9 @@ Here is the syntax for some of the elements of various Mac CLI commands:
 : (short for -show-error): makes the command-line tool curl display an error message if it fails. Meaning, if the command-line tool curl has an error, it will display an error message. 
 10. `-L`
 : (Short for -location) directs that if the server reports that the requested page has moved to a different location, curl will then restart the request in the new server location.
----
 
-### Directory
+
+## Directory
 A directory is something (such as a book) which contains listings of information in an organized manner.
 
 Technically, in computers, a folder and directory are the same thing. The only difference is that folder refers to a visual representation of a directory. Meaning, folders are icons representing a directory in the computer.
@@ -57,15 +58,15 @@ Your written documents could be stored in one directory while your pictures coul
 The root directory is the first or top directory in your computer. The root directory for Windows is
 : `C:\\`
 
----
-### OneDrive
+
+## OneDrive
 OneDrive is a service provided by Microsoft for storing files online.
 
 **Example:**
 You could back up your hard drive on OneDrive and share the data with other people.
 
----
-### INI File Format
+
+## INI File Format
 "INI" is short for "initialization".
 
 INI files are used by the Windows operating system, typically to lay out operating instructions for the OS and some programs.
@@ -74,9 +75,9 @@ INI files are used by the Windows operating system, typically to lay out operati
 
 Usually the instructions to the computer that enables the use of a mouse are stored .ini files.
 
----
 
-### Docx
+
+## Docx
 The docx file format (.docx) is short for “document XML.” 
 
 As a reminder, XML is an extensible markup language. This means that developers can create their own document structure, and then use XML to specify markup instructions for the data in those documents. Tags are the markup language words that usually have two parts, a start tag and an end tag. They have these symbols before and after them: < and >. XML is similar to HTML except that the code itself can be customized (i.e. the developer can create their own tags).
@@ -87,18 +88,18 @@ The .docx file format is what Microsoft Word documents are typically saved as (p
 
 If you attempted to open a .docx file in a program that doesn’t support Word document formats, you would either get an error message or a scrambled document. 
 
----
 
-### Touch
+
+## Touch
 Touch is a command-line interface program for Unix that is used to update date information – such as: changing the date that a file or directory was modified or accessed. Touch can also be used to create or open a file.
 
 **Example:**
 
 You could type “touch dogstory.docx” in the Git command line to create a blank Microsoft Word document entitled “dogstory”.
 
----
 
-### Tilde
+
+## Tilde
 
 Tilde is the name for the symbol ~
 
@@ -109,9 +110,9 @@ It is pronounced “tilda.”
 The tilde (~) is placed over certain letters in some Spanish words as an accent, such as the word
 : señor.
 
----
 
-### Command-line Option
+
+## Command-line Option
 A command-line option (also known as an option, flag or switch ) modifies the operation of a command.
 
 In many CLIs, these options are written by typing a hyphen, followed by the desired option (called a switch ).
@@ -122,9 +123,9 @@ the command “ls” tells the computer to list the files in the current directo
 
 > `ls -lS`
 
----
 
-### Working Directory
+
+## Working Directory
 Working directory (also called current working directory [CWD], current directory and working tree) is the directory you are currently working in as a developer.
 
 **Example:**
@@ -133,9 +134,9 @@ In the following file path, the working directory would be “Docs”
 
 > `C:\Windows\Docs\Letter.docx`
 
----
 
-### Parse
+
+## Parse
 Parse means to break something up into its parts and analyze it.
 
 **Example:**
@@ -146,9 +147,9 @@ Parsing can also refer to breaking up ordinary text.
 
 For example, search engines typically parse search phrases entered by users so that they can more accurately search for each word.
 
----
 
-### Case-Sensitive
+
+## Case-Sensitive
 As a reminder, case-sensitive refers to a programming language where capital and lowercase letters affect the syntax. Some languages allow you to write code with no attention given to capitalization or lowercase letters, while others won’t operate unless you write the code exactly.
 
 **Example:**
@@ -165,47 +166,61 @@ But if you wrote your code as follows, there would be a syntax error and the tex
 
 While Git is not a programming language, git commands are case sensitive.
 
----
 
-### Hash
+
+## Hash
 Hash is an operation that converts one value to another. It is usually used to mask data with different data.
 
 **Example:**
     
 The original file name could be orangepants.docx and the hash could be absdfmoijgfsdnsadf. Both would point to the file.
 
----
 
-### Staging
+
+## Staging
 Staging is the step prior to the commit process in Git.
 
 A staged file means that you have marked the file to be included in your next commit.
 
 Staging is basically a loading dock where you can determine which changes you will commit. You can perform actions in the staging area, such as temporarily storing your changes.
 
----
 
-### Tracked File
+
+## Tracked File
 Tracked files are the files that were last saved. They are files that Git “knows” about.
 
 Untracked files are everything else – any files in your working directory that were not saved and are not in your staging area.
 
----
 
-### Branching
+
+## Branching
 When you use the command “git init,” the current location within your file system will be assigned as a local git repository. So you will want to be sure to use this command with a project folder you have created specifically for your project files.
 
 If you have created and initialized the “myRepository” project folder while you were following along with this tutorial series, then this is your project folder.
 
 In the next video, we will create and initialize another Git project folder and name it “myProjects” just as a review. You should not actually need to create and initialize multiple folders as local Git repositories, this was just a review so that you would have more practice with the process.
 
----
 
-### Using GitHub
+
+## Using GitHub
 Later on in your boot camp, you will be adding various code and projects to GitHub, which is why the Version Control Course comes before the main coding courses on the program. 
 
 One of the primary benefits of maintaining a GitHub profile is to create a sort of development portfolio for yourself that other developers and potential employers can view. Though it’s not common, some Tech Academy graduates have even been offered employment opportunities by people who happened upon their GitHub profile. It is wise to list one’s GitHub profile on their résumé.
 
 Remember: Always keep your Github folders and projects organized. This will prevent the headache of having to organize everything later down the line when you're preparing to present your work to a potential employer.
 
----
+## Underscores and Spaces
+The underscore symbol “_” is a short horizontal line.
+
+Occasionally you’ll see file names with underscores in them, like:
+
+>Bird_Picture_1.jpg
+
+It is a common practice of developers to use `_` (underscores) and `-` (dashes) to represent spaces in file names. Why is that? Here are some reasons:
+
+1. In some original command-line interfaces, spaces were represented by underscores or dashes. Some CLIs and operating systems wouldn’t even allow the use of spaces in file names and doing so would cause errors.
+2. In URLs, spaces are represented with the characters “%20.” This is because the space character is character number 20 in the ASCII character encoding system. Using underscores or hyphens can result in a cleaner address. For example, learncodinganywhere.com/the-tech-academy is more visually appealing than learncodinganywhere.com/the%20tech%20academy.
+And so, some use underscores or hyphens instead of spaces because spaces can occasionally cause issues due to how they affect the appearance of URLs.
+
+While underscores or hyphens are not always required, they’ve become common in the tech industry.
+
