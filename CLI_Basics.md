@@ -235,3 +235,12 @@ Usually, the actual codes for a letter, number, etc. are in binary. Every letter
 
 #### Example
     The letter “B” might have 1000010 as its character encoding.
+
+## Character Sets
+In HTML (and all coding) you will be dealing with *characters*.
+
+In the written form of a language, a character is a written symbol that represents one of the various parts of that language – the various letters, punctuation marks and symbols that are used to lay out that language in written form.
+
+As an example, the English sentence “Speed limit 65 MPH!” makes use of upper-case letters such as “S” and “M,” lower-case letters such as “p” and “t,” punctuation marks such as “ ” (a space between characters) and “!,” and the numbers “6” and “5.”
+
+Character sets are fixed collections of these various symbols, usually containing all needed symbols for a specific language. If we took the English alphabet as an example, it is a character set containing almost 100 symbols. This includes 26 upper-case letters of the English alphabet, 26 lower-case characters of the English alphabet, the numeric digits 0 through 9, and a collection of punctuation marks.
