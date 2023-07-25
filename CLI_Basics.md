@@ -18,6 +18,7 @@
 - [Using Github](#using-github)
 - [Underscores and Spaces](#underscores-and-spaces)
 - [Character Encoding](#character-encoding)
+- [Character Sets](#character-sets)
 
 
 ## Breaking down the bash command:
