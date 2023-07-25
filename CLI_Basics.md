@@ -23,6 +23,12 @@
 - [Unicode](#unicode)
 - [ASCII vs. Unicode](#ascii-vs-unicode)
 - [UTF](#utf)
+- [Universal Coded Character Set(UCS)](#universal-coded-character-set-ucs)
+- [Character Sets vs. Encoding Systems](#character-sets-vs-encoding-systems)
+- [Decoding](#decoding)
+- [Using Encoding as a Developer](#using-encoding-as-a-developer)
+
+
 
 
 
@@ -351,3 +357,50 @@ Here is a website that shows the full character list for UTF-16:
 
 [Complete Character List for UTF-16](https://www.fileformat.info/info/charset/UTF-16/list.htm)
 
+## Universal Coded Character Set (UCS)
+UCS is a standard set of characters defined by the International Organization for Standardization (ISO) – an organization composed of representatives from various standards organizations across the world. The ISO exists to monitor and promote international industrial and commercial standards.
+
+Under the umbrella of the UCS, the ISO created the UTF character encoding systems – including UTF-8 and UTF-16.
+
+UCS-2 is a character encoding standard where characters are represented by a fixed length of 16 bits (2 bytes). UCS-2 allows for a maximum of 65,536 characters.
+
+For example: in UCS-2, an uppercase A is represented by 0041.
+
+It should be noted that in 2017 the ISO stated “UCS-2 should now be considered obsolete. It no longer refers to an encoding form in… the Unicode Standard.”
+
+UTF-16 is an extension of (improvement upon) UCS-2.
+
+## Character Sets vs. Encoding Systems
+
+A character set (called “char set” for short) is a standardized set of characters. Here is part of the character set for ASCII:
+
+![charset](./images/char_set.png)
+
+An encoding system is a standardized way to translate characters into binary. In the UTF-8 encoding system the character A is assigned 01000001 in binary, and in UT-16 it is assigned 00000000 01000001.
+
+Char sets are transformed into binary by encoding systems.
+
+Unicode primarily defines two things:
+
+A character set (Unicode includes the characters needed for nearly all of Earth’s languages).
+Several encoding systems (as covered earlier, the most popular are UTF-8 and UTF-16).
+
+## Decoding
+Have you ever opened a file and the document was displayed incorrectly?
+
+In order to properly display characters when opening a file, a program (like a text editor) must know which encoding system was used.
+
+In most browsers and programs, you can choose which encoding system to use.
+
+You can also typically specify the encoding type when saving a file.
+
+One of the encoding options for Notepad documents is UTF-8. This can be seen in the picture below (look next to “Encoding”):
+
+![Encoding](./images/utf_8.png)
+
+## Using Encoding as a Developer
+As a developer, you can assign which encoding system you’re using.
+
+The default encoding system for HTML5 is UTF-8.
+
+Understanding char sets and encoding is also useful in debugging data that isn’t displaying correctly.
