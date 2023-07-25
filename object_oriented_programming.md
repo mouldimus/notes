@@ -16,4 +16,7 @@ An object in programming can be anything. It could be:
 OOP is all about reusing your code.
 
 ### Class
-A class the 
+A class is just a bit of reusable code, this saves the programmers time and storage space. Otherwise known as a category of/type of thing.
+
+**Class:**
+*A definition of potential property/behavior.*
