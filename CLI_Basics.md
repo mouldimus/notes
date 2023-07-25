@@ -22,6 +22,8 @@
 - [ASCII](#ascii)
 - [Unicode](#unicode)
 - [ASCII vs. Unicode](#ascii-vs-unicode)
+- [UTF](#utf)
+
 
 
 
@@ -314,4 +316,38 @@ For example: ASCII has 128 code points.
 In the chart below, you can see some of the code points in the ASCII character set (032-127 – note: the left column is the decimal code point, the middle column is the hexadecimal code point, and the right column is the character):
 
 ![ASCII2](./images/ASCII2.png)
+
+## UTF
+If you look closely at some URLs, you may see the characters “UTF”.
+
+“UTF” stands for “Unicode Transformation Format.” UTF is a character encoding format that is able to utilize all of the code points in Unicode.
+
+This is needed to allow for the encoding of languages other than English.
+
+The most popular type of Unicode encoding is UTF-8. Here, the 8 means that each Unicode character is represented by one or more 8-bit binary numbers (a set of 8 binary digits is called a byte). Other UTF encodings exist, such as UTF-16, where each Unicode character is represented by one or more 16-bit binary numbers.
+
+In UTF-8, only one byte is used to represent common English characters. Hebrew, European, and Arabic characters are represented with two bytes. Three bytes are used to represent Chinese, Korean, Japanese, and other Asian characters. There are other Unicode characters that can be represented with four bytes.
+
+Another useful aspect of UTF-8 is that it is backwards compatible (able to be used with an older piece of hardware or software without special adaptation or changes) with ASCII.
+
+UTF-8 is used in the operating system Linux by default, and is commonly used for the exchange of data on the internet. Around 90% of websites in existence utilize UTF-8.
+
+Here is a website that shows the full character list for UTF-8:
+
+[Complete Character List for UTF-8](https://www.fileformat.info/info/charset/UTF-8/list.htm)
+
+And so, many websites contain “UTF-8” in the URL which means that was the character encoding used when writing that website. You can specify the character encoding you want used within your HTML code.
+
+### UTF-16
+UTF-16 is another popular Unicode encoding.
+
+UTF-8 is used far more on the web – UTF-16 is used by less than 0.01% of web pages. The main reason UTF-16 is used less in websites is due to the fact that the official documentation on HTML 5 strongly discourages the use of UTF-16 for websites, mainly because it wasn’t originally created with web use in mind (that was left for UTF-8) and it is considered less secure for online use.
+
+UTF-16 is used by Microsoft Windows and Mac OS X's file systems. It’s also used in the programming language Java.
+
+UTF-16 is capable of utilizing all 1,112,064 code points of Unicode.
+
+Here is a website that shows the full character list for UTF-16:
+
+[Complete Character List for UTF-16](https://www.fileformat.info/info/charset/UTF-16/list.htm)
 
