@@ -19,6 +19,10 @@
 - [Underscores and Spaces](#underscores-and-spaces)
 - [Character Encoding](#character-encoding)
 - [Character Sets](#character-sets)
+- [ASCII](#ascii)
+- [Unicode](#unicode)
+- [ASCII vs. Unicode](#ascii-vs-unicode)
+
 
 
 ## Breaking down the bash command:
@@ -245,3 +249,69 @@ In the written form of a language, a character is a written symbol that represen
 As an example, the English sentence “Speed limit 65 MPH!” makes use of upper-case letters such as “S” and “M,” lower-case letters such as “p” and “t,” punctuation marks such as “ ” (a space between characters) and “!,” and the numbers “6” and “5.”
 
 Character sets are fixed collections of these various symbols, usually containing all needed symbols for a specific language. If we took the English alphabet as an example, it is a character set containing almost 100 symbols. This includes 26 upper-case letters of the English alphabet, 26 lower-case characters of the English alphabet, the numeric digits 0 through 9, and a collection of punctuation marks.
+
+### American Standard Code for Information Interchange
+
+As computers are often used to represent data in written form, they must be configured to represent the various characters for written languages. Early computers were primarily created by engineers whose primary language was English, so their efforts in this direction concerned the representation of English characters using computers – specifically, representing the nearly 100 characters described earlier.
+
+In the 1960s, the ASCII (American Standard Code for Information Interchange) was created in order to standardize a system to represent English characters using computers. It contains 127 symbols, including numbers and letters. ASCII was designed for languages that use the English alphabet only.
+
+In simple terms, each character in the ASCII character set has an associated unique number. When that number is given to a device meant to use written characters – such as a monitor or a printer – the computer can look that number up in the ASCII tables, get the specific symbol it represents from that table, and then print or display that character.
+
+For example, the ASCII code for an upper case “S” is the decimal number 83, while the code for a lower-case “s” is 115.
+
+Here is a website that contains the full ASCII table:
+
+[ASCII Table Chart](https://www.asciitable.com/)
+
+## ASCII
+In addition to the nearly 100 symbols used to represent the letters, numbers and punctuation of the language, ASCII also includes control characters – symbols that aren’t meant to represent printable characters, but instead represent instructions to control the various pieces of electronic equipment that would use the ASCII characters – printers and monitors, for example. These are instructions such as “backspace” (to delete the character immediately to the left of the current position of the printing mechanism) and “carriage return” (to move down to the next line of printing and return to the far left of the page).
+
+Since computers operate in binary, the characters in character sets must each be translated into binary. This is done through character encoding. This typically goes through this process:
+
+>`Character` → `Hexadecimal` → `Binary`
+
+> `A` → `41` → `0100 0001`
+
+Using the ASCII codes, the earlier sentence “Speed limit 65 MPH!” would be represented in *decimal* numbers in this manner:
+
+>83 112 101 101 100 32 108 105 109 105 116 32 54 53 32 77 80 72 33
+
+Using the ASCII codes, that same sentence would be represented in binary numbers in this manner:
+
+>01010011 01110000 01100101 01100101 01100100 00100000 01101100 01101001 01101101 01101001 
+01110100 00100000 00110110 00110101 00100000 01001101 01010000 01001000 00100001
+
+Those binary numbers are the actual data that would be given to the computer in order to create the sentence “Speed limit 65 MPH!”
+
+ASCII does not contain symbols or characters like: è, ñ, ü, ©, or characters from other languages like Chinese or Arabic.
+
+As there are many different written languages in use on Earth, a system was needed that accommodated more than just the English language.
+
+As a developer, in creating software and web sites, you will utilize various character sets and character encoding, so it is important you understand these subjects and their various types.
+
+## Unicode
+Unicode is another standard for representing letters and symbols in computers. It stands for “**Unique, Universal, and Uniform character enCoding.**”
+
+Unicode is intended to represent all languages across the world, not just English. Each letter and symbol of the various languages of the world has a specific number in the Unicode system.
+
+This is important because computers are much more useful if they can display data in the language of the user.
+
+Developers needed a way to clarify what letters or symbols to use in their programs if the user wanted the data displayed in another language. It was necessary that all computer manufacturers agree on this system so that computers could be used globally.
+
+For example, in Unicode the letter “A” could be represented as 0041.
+
+## ASCII vs. Unicode
+Whereas the standard ASCII character set can only support 128 characters, Unicode can support about 1,000,000 characters.
+
+Another difference between Unicode and ASCII is that ASCII utilizes one byte (8 binary digits) to represent each character. Unicode utilizes between one and four bytes to represent characters.
+
+## Code Point
+Technically, when speaking of character encoding, the numerical value assigned to a specific character or format is called a “code point.”
+
+For example: ASCII has 128 code points.
+
+In the chart below, you can see some of the code points in the ASCII character set (032-127 – note: the left column is the decimal code point, the middle column is the hexadecimal code point, and the right column is the character):
+
+![ASCII2](./images/ASCII2.png)
+
