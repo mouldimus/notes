@@ -20,6 +20,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [State](#state)
 - [Distributed Programs](#distributed-programs)
 - [HyperText Transfer Protocol](#hypertext-transfer-protocol)
+- [Stateless](#stateless)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -334,6 +335,8 @@ Distributed applications need a protocol that governs how the various elements i
 ![Internet](./images/state2.png)
 
 ## Hypertext Transfer Protocol
+[Jump Back](#contents)
+
 When we look at the Web, the protocol at work is the Hypertext Transfer Protocol (HTTP).
 
 When a client establishes a connection to a server using this protocol, a “session” is begun. Here, a session is a temporary and interactive exchange of information between two computers using HTTP. Once the server sends the requested data, the session is ended.
@@ -354,6 +357,8 @@ If, moments after the server sends that list to the client computer, a customer 
 Meanwhile, the client computer could be modifying the information related to one or more of the customers in the list it got – and the server will have no way of knowing that the information has changed on the client.
 
 ## Stateless
+[Jump Back](#contents)
+
 This situation comes about because of the nature of the Hypertext Transfer Protocol. HTTP is what is called a “stateless” protocol. More precisely, this means that neither the client nor the server are aware of the state of the other at any particular point in time.
 
 When the Web was first being created and used, this wasn’t much of an issue, because the various web pages that were stored on servers didn’t change based on which client was accessing the web page. Now, however, the web pages that are served up to clients often need to be stateful – that is, the web page content needs to be modified to reflect the state of the client and/or the server. The “list of customers” example above should illustrate this.
@@ -365,3 +370,33 @@ One approach, for instance, is to create a persistent connection from the client
 In our example above, this could mean that, in the event a customer is deleted from the server after a client has been given a list of customers, then the client is notified of the change and changes its list to reflect the change.
 
 As you work in web development (and other development where a client/server system is in place), you will see various tools and systems in use that revolve around this concept of state.
+
+## JavaScript and HTML
+[Jump Back](#contents)
+
+JavaScript is a scripting language that is commonly used in combination with HTML.
+
+In order to give you a better idea of scripts and how HTML utilizes other languages, we will now write some basic JavaScript code.
+
+Even though JavaScript is a different language and will be covered thoroughly on its own course, it is necessary to bring up some of it now in order to teach you certain concepts – such as additional data on object-oriented programming, since JavaScript is an object-oriented programming language and HTML isn’t.
+
+The `<script>` tag is used to define a JavaScript script.
+
+As mentioned earlier, an “object” is something that has state and behavior.
+
+A “method” is something an object can do – a named sequence of events.
+
+“Alert” is a JavaScript method that displays an alert box with an “OK” button.
+
+Here is how to create an alert box in HTML and JavaScript:
+
+```html
+<!DOCTYPE HTML>
+<html>
+    <script>
+        alert("Hello, World!");
+    </script>
+</html>
+```
+
+The “`<script> alert("Hello, World!"); </script>`” code is JavaScript.
