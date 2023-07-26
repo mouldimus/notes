@@ -28,6 +28,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Terms for Sub Programs](#terms)
 - [JavaScript Related Terms](#javascript---related-terms)
 - [Functions](#functions)
+- [Methods](#methods)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -527,3 +528,32 @@ var sum = add(5,7);
 
 Here, the code would create the variable called “sum”, call the function “add” and pass it the two numbers 5 and 7, and take the result (12) and assign that value to the variable “sum”.
 
+## Methods
+[Jump Back](#contents)
+
+In JavaScript, a *method* is a set of code *associated with an object* that is designed to change the state of that object when it executes. In other words, the method is performed *on the object*.
+
+You create these methods when you create the object. Let’s look at how we might do that with our previous example of a “student” object:
+
+```js
+var student = {
+    firstName: "Jane",
+    lastName: "Smith",
+    age: 28,
+    gradeAverage: function(avg) {
+        return avg;
+    }
+};
+```
+
+Here, we aren’t setting the property “gradeAverage” to a fixed number of 3.5. Instead, we are setting that property to the value returned by a set of code. Specifically, that code will take in a number (the variable “avg”) and set the value of the “gradeAverage” property to the value of that variable.
+
+Executing that code could look like this:
+
+```js 
+student.gradeAverage(3.4);
+```
+
+Here, we are telling the computer to make use of the object called “student”. Specifically, the computer is to run the function “gradeAverage” that is defined in the “student” object. Since that function needs an input (the variable “avg”), we give it the number 3.4.
+
+So here’s the distinction: In this specific situation, that function “gradeAverage” is called a method. Yes, it’s confusing – until you recall that in JavaScript, a method is a set of code, associated with an object, that is performed on the object itself. So we have the confusing situation of a property of an object that we are defining using a *function* – but we’re calling the action performed by the function a *method*.
