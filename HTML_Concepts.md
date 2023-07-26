@@ -19,6 +19,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Ruby on Rails](#ruby-on-rails)
 - [State](#state)
 - [Distributed Programs](#distributed-programs)
+- [HyperText Transfer Protocol](#hypertext-transfer-protocol)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -342,3 +343,25 @@ This illustration sets the stage for examining the use of the term “state” i
 Often, the server is the central place used to store information that can change over time. An example might be a list of customers. This list could change at any moment, as new customers are added to the list, or existing customers are removed. The contents of that list at any given point in time are called the “state” of the list.
 
 ![HTTP Request](./images/state3.png)
+
+### How it Works
+How does this work? Like this:
+
+When a client computer wants to get a list of all customers, it will send a request for that information to the server. The server will gather together the list of customers AS IT EXISTS AT THAT EXACT POINT IN TIME and send that list back to the client computer.
+
+If, moments after the server sends that list to the client computer, a customer is added to or removed from the server, that data will not be accounted for in the list the client now has. How could it? The server didn’t have that data at the time it formatted and sent the response to the client.
+
+Meanwhile, the client computer could be modifying the information related to one or more of the customers in the list it got – and the server will have no way of knowing that the information has changed on the client.
+
+## Stateless
+This situation comes about because of the nature of the Hypertext Transfer Protocol. HTTP is what is called a “stateless” protocol. More precisely, this means that neither the client nor the server are aware of the state of the other at any particular point in time.
+
+When the Web was first being created and used, this wasn’t much of an issue, because the various web pages that were stored on servers didn’t change based on which client was accessing the web page. Now, however, the web pages that are served up to clients often need to be stateful – that is, the web page content needs to be modified to reflect the state of the client and/or the server. The “list of customers” example above should illustrate this.
+
+Because of this fact, various systems have been devised that seek to keep the state of the client and the server synchronized. In other words, they try to make the HTTP protocol, which is inherently stateless, into a “stateful” protocol – meaning, the various actions that take place on the server and the client are remembered and accounted for.
+
+One approach, for instance, is to create a persistent connection from the client to the server, so that changes in one can be immediately communicated to the other.
+
+In our example above, this could mean that, in the event a customer is deleted from the server after a client has been given a list of customers, then the client is notified of the change and changes its list to reflect the change.
+
+As you work in web development (and other development where a client/server system is in place), you will see various tools and systems in use that revolve around this concept of state.
