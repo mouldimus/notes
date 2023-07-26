@@ -26,6 +26,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Variable](#variables)
 - [Subprograms](#sub-programs)
 - [Terms for Sub Programs](#terms)
+- [JavaScript Related Terms](#javascript---related-terms)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -467,3 +468,29 @@ This is because of a few factors. First, some programming languages use the same
 What this means in terms of your study of various computer programming languages is that you’ll often have to research what a specific term means in that language, ignoring source data that’s related to other languages.
 
 This concept is best illustrated through an example. We’ll use the popular programming language JavaScript to do this.
+
+## JavaScript - Related Terms
+[Jump Back](#contents)
+
+JavaScript uses two related terms: function and method. They are very similar, in that they both involve the creation of a pre-made set of instructions that can be made use of by other program elements. They do have some subtle but important differences, however. Let’s explore them.
+
+First, some basic definitions – and remember, these definitions are for the use of these terms in JavaScript.
+
+In JavaScript, an “object” is a type of data that represents a thing through its various properties (characteristics – what it looks like) and behavior (what it can do).
+
+An example of an object would be a “vehicle”. Thinking of this common real-world thing as an “object” that will be stored in computer memory and kept track of as a program is executed, we can think of various properties and behavior for it. Under properties, we could have things like “chassis type”, “engine type”, “number of doors”, “speed”, etc. Under behavior, we could have things like “accelerate”, “deccelerate”, “turn right”, “turn left”, etc.
+
+An example of creating an object in JavaScript might look like this:
+
+```js
+var student = {
+    firstName: "Jane",
+    lastName: "Smith",
+    age: "28",
+    gradeAverage: 3.5
+};
+```
+
+In this example, we have only specified properties for the “student” object, and not specified any behavior. We will look at that in a moment.
+
+Let’s look at how this applies to methods and functions in JavaScript.
