@@ -36,6 +36,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Trees](#trees)
 - [HTML and the Web](#html-and-the-web)
 - [REPL](#repl)
+- [More on APIs](#api-application-programming-interface)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -705,3 +706,12 @@ The REPL takes input, evaluates (executes) it, and returns the result to the use
 >Here is a REPL provided by w3schools:
 
 >[Tryit Editor v3.6](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+
+## API (Application Programming Interface)
+[Jump Back](#contents)
+
+Programmers need an interface that can expose the form and content of any given HTML document in such a way that a computer program can analyze and modify the document as needed.
+
+In other words, they need an API – an Application Programming Interface – for the web page.
+
+In simple terms, an API is a system that allows one program to talk to another. Here, what is needed is a tool that can scan an HTML document and then create a representation of that document that other programs can interact with.
