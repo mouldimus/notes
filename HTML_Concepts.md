@@ -10,6 +10,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Real Time](#real-time)   
 - [Static vs. Dynamic](#static-vs-dynamic)
 - [JavaScript](#javascript)
+- [AJAX](#ajax)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -79,3 +80,26 @@ JavaScript is used mainly to make websites more dynamic (describing websites tha
 
 **Example**
 >JavaScript can be used to make videos that start to play as soon as a user moves their mouse over the video.
+
+## AJAX
+*AJAX* stands for *Asynchronous JavaScript and XML.*
+*Asynchronous* means “broken down into separate pieces/occurrences without a set pattern.”
+
+*XML* is an acronym for *extensible* markup language. This means that computer programmers can create their own document structure, and then use XML to specify markup instructions for the data in those documents.
+
+AJAX is a set of tools that can be used in creating asynchronous functions for web sites.
+
+AJAX is best understood by relating it to the way a normal web page is accessed by a user. With a web browser, a user issues a “request" to see a specific web page. That request is sent to the web server. That server gathers those requested files and sends them to the user's computer as a “response” to the “request,” and the browser then converts them to a visual form and displays them for the user.
+
+If the creator of that web page wants to make it so that some content on the web page can change based on a user action, they have a number of different options.
+
+One method is to just send a new request for the web page, along with an instruction to provide the new content that is desired. This can take a long time, though, as every file needed to display that web page has to be sent back to the user's computer by the web server.
+
+This is where AJAX can come in. Instead of requesting that the entire page be recreated, the creator of the web site can make it so that just the new content is requested from the web server.
+
+The way this works is that user action triggers an asynchronous request to the web server for JUST a specific section of the web page. It is asynchronous in that it is not tied to the full “request” – “response” – “page display” process used for a full web page.
+
+The technologies used to accomplish this feature are JavaScript and XML – hence the name "AJAX,” or `A`synchronous `J`avaScript `A`nd `X`ML.
+
+**Example**
+>If you are viewing a web page, AJAX can make it so that when you click on a video, the video is sent over from the server – as opposed to the video and the rest of the entire web page.
