@@ -21,6 +21,8 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Distributed Programs](#distributed-programs)
 - [HyperText Transfer Protocol](#hypertext-transfer-protocol)
 - [Stateless](#stateless)
+- [JavaScript and HTML](#javascript-and-html)
+- [Values](#values)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -400,3 +402,13 @@ Here is how to create an alert box in HTML and JavaScript:
 ```
 
 The “`<script> alert("Hello, World!"); </script>`” code is JavaScript.
+
+## Values
+Nearly every computer programming language comes with certain data types built in and allows for the creation of other types of data by computer programmers. In JavaScript, these various types of data are called “values.” There are six value types in JavaScript:
+
+- Strings (data that represent text or a series of text)
+- Numbers 
+- Booleans (true or false statements)
+- Objects (things with state and behavior)
+- Functions (a block of organized, reusable computer code used to perform a single, related action – also called a subprogram or subroutine)
+- Values that are undefined 
