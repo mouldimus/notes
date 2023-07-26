@@ -15,6 +15,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Objects](#objects)
 - [JSON](#json)
 - [XHR](#xhr)
+- [Ruby](#ruby)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -275,3 +276,13 @@ XHR works by establishing a communication path between a web page's client-side 
 
 **Example**
 > Google Maps uses XHR in transmitting data (maps, directions, etc.) to and from your computer.
+
+## Ruby
+[Jump Back](#contents)
+
+*Ruby* is a programming language. Some of the main features of the language are the fact that it is suitable for writing scripts as well as robust object-oriented programs. It was created in the early 1990s in Japan, and started to become popular in America in the late 2000s.
+
+**Example**
+>Sass (a popular set of technologies for beautifying websites) was created in Ruby.
+
+![Ruby](./images/ruby_logo.png)
