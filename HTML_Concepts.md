@@ -297,3 +297,18 @@ XHR works by establishing a communication path between a web page's client-side 
 >Groupon, Shopify and Airbnb are built on the Ruby on Rails framework.
 
 ![Ruby on Rails](./images/rails_logo.png)
+
+## State
+A key technology term is “state”. It basically means, “the condition or status of a thing at a specific point in time”.
+
+This concept of state is used in various ways in technology, and it has more precise meanings in those contexts – but it usually means “what’s the state of this thing at this exact time?”.
+
+We’re going to examine the way this concept applies to the Web and web development.
+
+To start, let’s review some basic elements that apply to communication between connected computers, or networks.
+
+One reason to create computer networks in the first place is to allow for the design and operation of what is called a distributed system. A distributed system is a computing system in which the various elements of the system are located on different computers on a network. In this system, the various computers communicate and coordinate their actions by passing messages to each other.
+
+Here is a diagram of a distributed system:
+
+![Distrobution system](./images/html34.png)
