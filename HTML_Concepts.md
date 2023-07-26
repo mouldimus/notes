@@ -39,6 +39,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [More on APIs](#api-application-programming-interface)
 - [DOM and HTML](#dom-and-html)
 - [DOM](#dom)
+- [DOM and Elements](#dom-and-elements)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -768,5 +769,24 @@ var foo = document.getElementByTagName("p");
 The variable called “foo” would now contain a collection of all the paragraph tags in the document.
 
 Many different programming languages can be used to work with the DOM. One of the most common is JavaScript; in fact, the code example above is actually JavaScript.
+
+## DOM and Elements
+[Jump Back](#contents)
+
+The DOM allows you to locate elements in an HTML document in several ways. You can search for elements by their class name or their id. You can locate elements that are organized in a collection, such as those inside a `<form>` element. Many other parts of the HTML webpage are accessible as DOM objects, such as:
+
+- body
+- head
+- anchors
+- images
+- title
+- scripts
+
+and more.
+
+Having the DOM also opens up the ability to change the HTML for a web page, or to generate HTML entirely from scratch. In fact, an entire web page could be created by a program, only coming into existence after a DOM for it is constructed.
+
+Most browsers generate a DOM for the web pages they display, and most browsers allow you to look at that DOM. Most browsers have built-in tools to help web developers; they are generally called “developer tools.”
+
 
 
