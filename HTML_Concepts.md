@@ -35,6 +35,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Nodes](#node)
 - [Trees](#trees)
 - [HTML and the Web](#html-and-the-web)
+- [REPL](#repl)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -691,4 +692,16 @@ The basic operation of the Web is this:
 
 Usually, HTML documents are created by hand by programmers. Often, though, programmers have a need to change these HTML files programatically – that is, to change the markup instructions and/or the content based on logic contained in a computer program.
 
+## REPL
+[Jump Back](#contents)
 
+REPL is short for read-eval-print-loop.
+
+A REPL is a simple, interactive computer programming environment that allows developers to write code and see a near-immediate result.
+
+The REPL takes input, evaluates (executes) it, and returns the result to the user. They’re much simpler than IDEs but have much less to offer in terms of functionality and tools.
+
+**Example**
+>Here is a REPL provided by w3schools:
+
+>[Tryit Editor v3.6](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
