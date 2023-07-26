@@ -37,6 +37,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [HTML and the Web](#html-and-the-web)
 - [REPL](#repl)
 - [More on APIs](#api-application-programming-interface)
+- [DOM and HTML](#dom-and-html)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -715,3 +716,36 @@ Programmers need an interface that can expose the form and content of any given 
 In other words, they need an API – an Application Programming Interface – for the web page.
 
 In simple terms, an API is a system that allows one program to talk to another. Here, what is needed is a tool that can scan an HTML document and then create a representation of that document that other programs can interact with.
+
+## DOM and HTML
+[Jump Back](#contents)
+
+The interface for HTML documents exists and it is called the Document Object Model, or the DOM. It is pronounced “dom,” not “dee-oh-em.”
+
+The middle word is “object” and in its simplest form, an object is just “something the computer is keeping track of.” Usually it’s a variable, or a data structure, or similar item. It’s essentially a value stored in computer memory, so it has a location and an identifier that can be used to identify and use it.
+
+So the DOM is a model of the various objects in the HTML document – a document object model.
+
+The DOM presents the HTML document as a tree structure, where each node in the tree is an object representing a part of the HTML document.
+
+Take a look at this HTML code:
+
+```html
+<html>
+    <head>
+        <title>
+            My Title
+        </title>
+    </head>
+    <body>
+        <h1>A heading</h1>
+        <a href="https://www.learncodinganywhere.com">Link text</a>
+    </body>
+</html>
+```
+
+Here is an example of a Document Object Model for this HTML code:
+
+![DOM](./images/dom2.png)
+
+
