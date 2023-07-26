@@ -7,7 +7,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Reserved Words and Keywords](#reserved-words-and-keywords)
 - [Cache](#cache)
 - [Clearing the Cache](#clearing-the-cache)
-
+- [Real Time](#real-time)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -48,3 +48,15 @@ There are different ways to clear the cache, depending on the browser you’re u
 
 This is mentioned here as a troubleshooting tip for web pages that aren’t displaying properly.
 
+## Real Time
+[Jump Back](#contents)
+
+*Real time* refers to a transmission of data or signal as soon as it is generated.
+
+This is best illustrated by the concept of watching a sporting event on TV. The cameras at the event are capturing the game play and broadcasting it to televisions around the country.
+
+In one scenario, there is little to no time lag between when an event occurs at the game, and when the viewers at home see that event. This is "real time".
+
+In another scenario, the events of the game are recorded, and then viewed at another time. This can be called "delayed playback". The delay can be a few seconds, an hour, a day or any other length of time.
+
+This applies in any situation where the stream of information that is produced can be accessed as it is produced – that is, in "real time”.
