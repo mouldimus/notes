@@ -27,6 +27,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Subprograms](#sub-programs)
 - [Terms for Sub Programs](#terms)
 - [JavaScript Related Terms](#javascript---related-terms)
+- [Functions](#functions)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -494,3 +495,35 @@ var student = {
 In this example, we have only specified properties for the “student” object, and not specified any behavior. We will look at that in a moment.
 
 Let’s look at how this applies to methods and functions in JavaScript.
+
+## Functions
+[Jump Back](#contents)
+
+A *function* is a repeatable block of code that executes certain actions and performs tasks. You execute a function by calling it. This is also called “invoking” the function (“invoking” means “causing a procedure to be carried out”).
+
+One writes a JavaScript function by stating the keyword “function”, then a name for the function, then parentheses, like this:
+
+```js
+function name()
+```
+
+Functions are valuable because of code reusability—you can invoke functions over and over. Since functions in JavaScript contain properties and methods, they are basically objects.
+
+Functions are useful so you don’t have to keep retyping code; you can instead simply invoke the function whenever needed.
+
+An example could look like this:
+
+```js 
+function add(num1, num2) {
+    return num1 + num2;
+}
+```
+
+Other JavaScript code elements could call this “add” function by specifying its name and passing it two numbers. That could look like this:
+
+```js
+var sum = add(5,7);
+```
+
+Here, the code would create the variable called “sum”, call the function “add” and pass it the two numbers 5 and 7, and take the result (12) and assign that value to the variable “sum”.
+
