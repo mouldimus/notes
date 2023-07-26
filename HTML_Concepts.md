@@ -23,6 +23,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Stateless](#stateless)
 - [JavaScript and HTML](#javascript-and-html)
 - [Values](#values)
+- [Variable](#variables)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -414,3 +415,12 @@ Nearly every computer programming language comes with certain data types built i
 - Objects (things with state and behavior)
 - Functions (a block of organized, reusable computer code used to perform a single, related action – also called a subprogram or subroutine)
 - Values that are undefined 
+
+## Variables
+[Jump Back](#contents)
+
+A common action taken in coding is to assign *variables*. Variables are key in every programming language.
+
+As a reminder, a variable is a value that can be altered, depending on conditions or data passed to the program.
+
+In JavaScript, we can create variables by typing var ____ (name of variable).
