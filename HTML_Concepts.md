@@ -32,6 +32,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Using these Terms](#using-these-terms)
 - [Document.getElementById Method](#documentgetelementbyid-method)
 - [Creating a Function](#creating-a-function)
+- [Nodes](#node)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -631,4 +632,19 @@ The above code accomplished the following:
 3. Returned the paragraph element by calling the “Irish” value that we assigned earlier (when writing the ID attribute).
 
 Everything inside our curly brackets `{ }` is our function.
+
+## Node
+[Jump Back](#contents)
+
+A *node* is a point where lines meet; it is where paths intersect. There are two main types of nodes:
+
+1. A node is something connected to a network. If several computers are joined together, each computer is considered a node. Here’s what some nodes could look like:
+![Nodes1](./images/html50.png)
+
+2. In a set of data that is organized into a hierarchical (based on rank) structure, a node is any individual element in that structure. 
+Here is an example of this meaning of node: A hierarchical structure might be created that looks like this:
+![Node2](./images/html51.png)
+
+Examples of nodes in this structure are: "class2," "Billy Banana," "students1," "school."
+
 
