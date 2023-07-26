@@ -404,6 +404,8 @@ Here is how to create an alert box in HTML and JavaScript:
 The “`<script> alert("Hello, World!"); </script>`” code is JavaScript.
 
 ## Values
+[Jump Back](#contents)
+
 Nearly every computer programming language comes with certain data types built in and allows for the creation of other types of data by computer programmers. In JavaScript, these various types of data are called “values.” There are six value types in JavaScript:
 
 - Strings (data that represent text or a series of text)
