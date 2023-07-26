@@ -14,7 +14,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [API](#api)
 - [Objects](#objects)
 - [JSON](#json)
-
+- [XHR](#xhr)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -264,3 +264,14 @@ Using our example of the Student "Angela Smith" from above, the JSON for that ob
 An advantage of the JSON format is that it is relatively easy for people to read and write while also being able to be understood and handled by computers.
 
 
+## XHR
+[Jump Back](#contents)
+
+*XHR* stands for *XML HTTP Request.*
+
+XHR is a set of APIs that can be used by some scripting languages (such as JavaScript). It is used to transfer XML (and other such data) to and from a web server using HyperText Transfer Protocol.
+
+XHR works by establishing a communication path between a web page's client-side and server-side and can be used to transmit many different types of data accurately (including HTML, XML, JSON, etc.).
+
+**Example**
+> Google Maps uses XHR in transmitting data (maps, directions, etc.) to and from your computer.
