@@ -25,6 +25,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Values](#values)
 - [Variable](#variables)
 - [Subprograms](#sub-programs)
+- [Terms for Sub Programs](#terms)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -444,3 +445,25 @@ This activity had two fundamental weaknesses. First, the process of typing the s
 The answer to this problem was a sub program. Here, the programmers would type in the set of instructions that performed the needed action, and give that set of instructions a unique name. This set of instructions was called a sub program, and was not considered part of the main program that the computer was going to execute. Instead, the main program was modified so that it would just execute that sub program whenever that particular action was needed.
 
 ![Subprogram](./images/html41.png)
+
+## Terms
+[Jump Back](#contents)
+
+In the early years of computer programming languages, where programmers worked with various low-level languages barely a step removed from machine language, the actual implementation of the concept stayed quite simple and very much as described above. However, as higher-level programming languages were developed, this concept began to develop variations and nuances. The central concept of pre-made sets of code that can be used as needed has remained, but the designers of the various languages have often implemented the concept in different ways, depending on the design objectives of the language.
+
+Because of this, you will find many related terms in this area. Some of the terms in use are:
+
+- Functions
+- Methods
+- Routines
+- Subroutines
+- Subprograms
+- Procedures
+
+At a high-level, these terms mean the same thing but if you try to clear up their definitions, you can quickly become confused. Some sources will tell you that they all basically hold the same meaning. Other sources will articulate specific differences and similarities between two or more of the terms. It can be difficult to nail down.
+
+This is because of a few factors. First, some programming languages use the same term to mean slightly different things. Second, some programming languages are designed to implement this concept in two related ways, so the language designers needed two different terms.
+
+What this means in terms of your study of various computer programming languages is that you’ll often have to research what a specific term means in that language, ignoring source data that’s related to other languages.
+
+This concept is best illustrated through an example. We’ll use the popular programming language JavaScript to do this.
