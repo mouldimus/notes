@@ -331,3 +331,14 @@ The primary factor that applies when computers are communicating and passing dat
 Distributed applications need a protocol that governs how the various elements in the system communicate and coordinate their actions.
 
 ![Internet](./images/state2.png)
+
+## Hypertext Transfer Protocol
+When we look at the Web, the protocol at work is the Hypertext Transfer Protocol (HTTP).
+
+When a client establishes a connection to a server using this protocol, a “session” is begun. Here, a session is a temporary and interactive exchange of information between two computers using HTTP. Once the server sends the requested data, the session is ended.
+
+This illustration sets the stage for examining the use of the term “state” in the web and web development.
+
+Often, the server is the central place used to store information that can change over time. An example might be a list of customers. This list could change at any moment, as new customers are added to the list, or existing customers are removed. The contents of that list at any given point in time are called the “state” of the list.
+
+![HTTP Request](./images/state3.png)
