@@ -29,6 +29,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [JavaScript Related Terms](#javascript---related-terms)
 - [Functions](#functions)
 - [Methods](#methods)
+- [Using these Terms](#using-these-terms)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -557,3 +558,15 @@ student.gradeAverage(3.4);
 Here, we are telling the computer to make use of the object called “student”. Specifically, the computer is to run the function “gradeAverage” that is defined in the “student” object. Since that function needs an input (the variable “avg”), we give it the number 3.4.
 
 So here’s the distinction: In this specific situation, that function “gradeAverage” is called a method. Yes, it’s confusing – until you recall that in JavaScript, a method is a set of code, associated with an object, that is performed on the object itself. So we have the confusing situation of a property of an object that we are defining using a *function* – but we’re calling the action performed by the function a *method*.
+
+## Using these Terms
+[Jump Back](#contents)
+
+In actual practice, there is very little danger in using these terms interchangeably – and you’ll often find technical sources will do so. But occasionally you’ll find a source that uses the terms in their strictest sense.
+
+The lessons here are these:
+
+1. First, there are many varied terms in use for the concept of “a block of code that can be executed on demand by other code.”
+2. Second, in order to clarify any potential difference between these various terms, you’ll need to investigate their exact meaning in the language you’re concerned with.
+
+Any attempt to give them a blanket, universal meaning ignores the subtleties described here.
