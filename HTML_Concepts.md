@@ -13,6 +13,8 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [AJAX](#ajax)
 - [API](#api)
 - [Objects](#objects)
+- [JSON](#json)
+
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -84,6 +86,8 @@ JavaScript is used mainly to make websites more dynamic (describing websites tha
 >JavaScript can be used to make videos that start to play as soon as a user moves their mouse over the video.
 
 ## AJAX
+[Jump Back](#contents)
+
 *AJAX* stands for *Asynchronous JavaScript and XML.*
 *Asynchronous* means “broken down into separate pieces/occurrences without a set pattern.”
 
@@ -107,6 +111,8 @@ The technologies used to accomplish this feature are JavaScript and XML – henc
 >If you are viewing a web page, AJAX can make it so that when you click on a video, the video is sent over from the server – as opposed to the video and the rest of the entire web page.
 
 ## API
+[Jump Back](#contents)
+
 As a reminder, an *API* (Application Program Interface) is a collection of methods that allow different programs to communicate with each other.
 
 It is basically a way that a computer program can tell other programs, “If you want to give or get information, here is the exact way you’ll need to ask me.”
@@ -150,6 +156,8 @@ The people who create the API would write a description of the way to use the AP
 > If there was a software program that kept track of the inventory for a bicycle manufacturer, that program might have an API that would allow the company’s dealers to connect to the program and find out how many of a certain type of bicycle were available at the manufacturer. In this case, the dealers could have a software program of their own, which would connect to the API of the software at the manufacturer and request that inventory data.
 
 ## Objects
+[Jump Back](#contents)
+
 Often in computer programming, there will be part of a computer program that defines the concept of a thing. When the program needs to create one of those things, it looks to the definition and uses it in creating one of them. Another term for these things that can be created is *objects*.
 
 **Example**
@@ -192,5 +200,67 @@ Major areas of study: Physics, Computer Science
 ```
 
 > The computer program will now maintain all the data about this instance of a Student object in computer memory, as long as it is instructed to do so.
+
+## JSON
+[Jump Back](#contents)
+
+As a reminder, *JSON* (pronounced “Jay-son”) stands for JavaScript Object Notation.
+
+JSON is a way to represent a specific object, using the JavaScript language. This can be useful in exchanging data between different computers or computer programs. In fact, JSON is what is known as a “data-interchange format” – a method of formatting data in a manner that is easily exchanged between different computers.
+
+This is done by using JavaScript language instructions, in a specific format, to describe the various characteristics of the object that is to be exchanged.
+
+There are two main elements in JSON that are used to describe the format of data: collections of “key/value pairs” and “ordered lists of values.”
+
+### Key/Value Pairs
+A "key/value pair" is a set of two pieces of data.
+
+The first, the “key,” can be text data or numeric data. It might be something like “Age” or “Name.” It is used to uniquely identify a particular key/value pair, so it must be unique within a collection of key/value pairs.
+
+The second, the “value,” is the actual data associated with that key. It can be any type of data that the language JavaScript can represent. This is data like text, decimal numbers, integers, true/false data, etc.
+
+In JSON, key/value pairs are written in this manner:
+
+```
+key: value
+```
+
+In our earlier example Student, some of the key/value pairs are:
+
+```json
+"Age": 15
+"Name": "Angela Smith"
+```
+
+### Ordered Lists of Values
+
+An “ordered list of values” is just that – a collection of values. Again, these values can be any type of data that the language JavaScript can represent. This is data like text, decimal numbers, integers, true/false data, etc.
+
+In JSON, ordered lists of values are written in this manner:
+
+```
+name of ordered list: [value1, value2,value3, ...]
+```
+
+In our example Student, the only ordered list of values we have is the list of major areas of study:
+
+```json
+"MajorAreasOfStudy": ["Physics", "Computer Science"]
+```
+
+Using our example of the Student "Angela Smith" from above, the JSON for that object would look like this:
+
+```json
+{
+    "student": {
+        "name": "Angela Smith",
+        "Age": 15,
+        "GradePointAverage": 3.25,
+        "MajorAreasOfStudy": ["Physics", "Computer Science"]
+    }
+}
+```
+
+An advantage of the JSON format is that it is relatively easy for people to read and write while also being able to be understood and handled by computers.
 
 
