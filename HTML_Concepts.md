@@ -7,7 +7,8 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Reserved Words and Keywords](#reserved-words-and-keywords)
 - [Cache](#cache)
 - [Clearing the Cache](#clearing-the-cache)
-- [Real Time](#real-time)
+- [Real Time](#real-time)   
+- [Static vs. Dynamic](#static-vs-dynamic)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -60,3 +61,12 @@ In one scenario, there is little to no time lag between when an event occurs at 
 In another scenario, the events of the game are recorded, and then viewed at another time. This can be called "delayed playback". The delay can be a few seconds, an hour, a day or any other length of time.
 
 This applies in any situation where the stream of information that is produced can be accessed as it is produced – that is, in "real time”.
+
+## Static vs. Dynamic
+[Jump Back](#contents)
+
+As a reminder, *static* means “rigid; unchanging.”
+
+*Static web sites* are delivered to the browser exactly how they were stored originally on the web server. Static web pages don't change. No matter who is accessing the web site, it looks the same.
+
+Most web sites nowadays are *dynamic*, meaning that the appearance and content of the web pages can be changed on the web server before the web page is sent back to the browser, or it can be changed by the browser on the user’s computer before being displayed on the screen.
