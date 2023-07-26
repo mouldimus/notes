@@ -11,6 +11,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Static vs. Dynamic](#static-vs-dynamic)
 - [JavaScript](#javascript)
 - [AJAX](#ajax)
+- [API](#api)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -103,3 +104,46 @@ The technologies used to accomplish this feature are JavaScript and XML – henc
 
 **Example**
 >If you are viewing a web page, AJAX can make it so that when you click on a video, the video is sent over from the server – as opposed to the video and the rest of the entire web page.
+
+## API
+As a reminder, an *API* (Application Program Interface) is a collection of methods that allow different programs to communicate with each other.
+
+It is basically a way that a computer program can tell other programs, “If you want to give or get information, here is the exact way you’ll need to ask me.”
+
+The reason programs would have an API is so there is a description of the standard way other programs can access that program. That way, any programmer who has a description of the API for a particular program can make another program connect to the API. If there is no API for a program, other programs can’t access that program easily.
+
+While the concept of APIs applies to any type of computer program, it is most often used to describe a function that websites can implement.
+
+Here, a website can have a specific computer program on the web server that can send and receive data to other websites, without any human interaction.
+
+The only thing needed for this system to work would be a description of how to ask for or give data to that program, and a description of what the data you might receive from the program might look like.
+
+Here is an example of what a request for information from an API might look like:
+
+```
+GET www.learncodinganywhere.com/students/studentId=435
+```
+Here, an external website wants to request data about a specific student from the website https://www.learncodinganywhere.com. The request includes a unique identification code for the student: 435
+
+When the web server for https://www.learncodinganywhere.com receives this request, it gives it to the API on that web server - the program that knows how to interpret the request, perform the task requested, format any data that is required as a response, and send that response to the program that requested it.
+
+Here is an example of what the data received from that request (the “response”) might look like:
+
+```json
+{
+    "studentId": 435,
+    "studentName": "Jane Doe",
+    "dateOfBirth": "5/24/92",
+    "gradePointAverage": 3.56,
+    "classes": {
+        "Algebra",
+        "English",
+        "Physical Education"
+    },
+}
+```
+
+The people who create the API would write a description of the way to use the API (create requests) and a description of what the data in the responses will look like. This is called an API specification.
+
+**Example**
+> If there was a software program that kept track of the inventory for a bicycle manufacturer, that program might have an API that would allow the company’s dealers to connect to the program and find out how many of a certain type of bicycle were available at the manufacturer. In this case, the dealers could have a software program of their own, which would connect to the API of the software at the manufacturer and request that inventory data.
