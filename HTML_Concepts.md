@@ -12,6 +12,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [JavaScript](#javascript)
 - [AJAX](#ajax)
 - [API](#api)
+- [Objects](#objects)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -147,3 +148,49 @@ The people who create the API would write a description of the way to use the AP
 
 **Example**
 > If there was a software program that kept track of the inventory for a bicycle manufacturer, that program might have an API that would allow the company’s dealers to connect to the program and find out how many of a certain type of bicycle were available at the manufacturer. In this case, the dealers could have a software program of their own, which would connect to the API of the software at the manufacturer and request that inventory data.
+
+## Objects
+Often in computer programming, there will be part of a computer program that defines the concept of a thing. When the program needs to create one of those things, it looks to the definition and uses it in creating one of them. Another term for these things that can be created is *objects*.
+
+**Example**
+>A computer program for use in a school might have a definition for a thing called a Student. The program instructions in that definition are essentially answers to the question, “If I were a student, what characteristics and actions are available to me?”
+
+We have covered the basics of OOP (object-oriented programming) earlier but let’s delve into it further.
+
+Characteristics of a Student object might be things like:
+
+- Name
+- Age
+- Grade Point Average
+
+Areas of study
+Actions available to a student might include things like:
+
+- Calculate new Grade Point Averag
+- Add a new area of study
+- Remove an area of study
+
+This type of definition is often called an “Object definition” or a “Class.” Here, we have an Object definition for an Object called a “Student.”
+
+Until the computer program is directed to create an actual “Student” object, there aren't any in the program.
+
+When the program is directed to create an actual Student object, the program looks to the Object definition of a Student and creates an actual Student.
+
+To do so, the program will need the data for that actual Student – their name, their age, their GPA. It will then create a “Student.”
+
+This “Student” is a collection of data, stored in the computer memory, that defines an INSTANCE of a Student. That is, it is a single occurrence of the type of thing defined by the Object definition called “Student.”
+
+**Example**
+>If a 15-year-old student named Angela Smith enrolled at a school to study Physics and Computer Science, and her Grade Point Average was 3.25, the Student Object created in the computer program might look like this:
+
+```
+Object type: Student
+Name: Angela Smith 
+Age: 15
+Grade Point Average: 3.25
+Major areas of study: Physics, Computer Science
+```
+
+> The computer program will now maintain all the data about this instance of a Student object in computer memory, as long as it is instructed to do so.
+
+
