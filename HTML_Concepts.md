@@ -17,6 +17,8 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [XHR](#xhr)
 - [Ruby](#ruby)
 - [Ruby on Rails](#ruby-on-rails)
+- [State](#state)
+- [Distributed Programs](#distributed-programs)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -299,6 +301,8 @@ XHR works by establishing a communication path between a web page's client-side 
 ![Ruby on Rails](./images/rails_logo.png)
 
 ## State
+[Jump Back](#contents)
+
 A key technology term is “state”. It basically means, “the condition or status of a thing at a specific point in time”.
 
 This concept of state is used in various ways in technology, and it has more precise meanings in those contexts – but it usually means “what’s the state of this thing at this exact time?”.
@@ -311,4 +315,19 @@ One reason to create computer networks in the first place is to allow for the de
 
 Here is a diagram of a distributed system:
 
-![Distrobution system](./images/html34.png)
+![Distribution system](./images/html34.png)
+
+## Distributed Programs
+[Jump Back](#contents)
+
+A computer program that runs within one of these distributed systems is called a distributed program or a distributed application. In this type of application, there are usually several individual computer programs installed on the various computers in the network. These programs are designed to work together. Each program will perform some function that relates to the overall purpose of the distributed application. Together, this system of networked computers and programs will accomplish the overall purpose of the distributed application.
+
+The use of the term “state” that we will examine here revolves around a distributed application structure called “client/server.” In this structure, one or more of the computers in the network are arbitrarily designated as the servers, and one or more other computers are designated as clients.
+
+A server acts as the provider of a resource or a service; a client acts as a requester of that resource or service. The server can do things like sending files and images or processing some data the client gave it.
+
+The primary factor that applies when computers are communicating and passing data is the concept of a protocol – a precise description of how to structure, send, receive and process data of a specific type.
+
+Distributed applications need a protocol that governs how the various elements in the system communicate and coordinate their actions.
+
+![Internet](./images/state2.png)
