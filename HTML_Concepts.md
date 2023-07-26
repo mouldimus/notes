@@ -40,6 +40,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [DOM and HTML](#dom-and-html)
 - [DOM](#dom)
 - [DOM and Elements](#dom-and-elements)
+- [Type of Font](#type-of-font)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -802,5 +803,46 @@ This looks much like the actual HTML from the web page file itself – but it’
 Many browsers even let you edit the DOM from within these tools and see those changes reflected immediately in the displayed web page – but it’s important to know that those changes aren’t being made to the actual stored HTML files that were given to the browser - you’re only changing the DOM that the browser is creating and using to create the display. In order to permanently change the web page, you’ll need to change the actual files that will be given to the browser.
 
 There is a lot more to know about the DOM, and as you do more web development, you’ll pick up a lot more knowledge and skill. But you now have the basic principles and application of the DOM.
+
+## Type of Font
+[Jump Back](#contents)
+
+To assign the type of font you want to utilize, use the face attribute within the font element, like this:
+
+```html
+<font face="Arial">This text is written in Arial font!</font>
+```
+
+Here are some example fonts you can use:
+
+- Verdana
+- Comic Sans MS
+- Trebuchet MS
+- Arial Black
+- Impact
+
+As a note: if you want to change the font color and type of font within the same font element, you write your HTML code like this (putting both attributes within the font opening tag):
+
+```html
+<p>
+    <font color="orange" face="Calibri">
+        This orange text is written in Calibri.
+    </font>
+</p>
+```
+
+In fact, we can also specify the font size as well, like this:
+
+```html
+<p>
+    <font color="purple" face="Roboto" size="7">
+        This purple text is written in Roboto.
+    </font>
+</p>
+```
+
+The size attribute uses sizes from 1 to 7 – the default browser size is 3.
+
+NOTE: The face attribute is not HTML5 but comes from an earlier version of HTML. We are teaching you how to do some styling using HTML to help with your comprehension of this language. Please keep in mind that when you learn CSS later on this course, that it is best practice to handle all styling (including fonts) with CSS.
 
 
