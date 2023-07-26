@@ -815,11 +815,11 @@ To assign the type of font you want to utilize, use the face attribute within th
 
 Here are some example fonts you can use:
 
-- Verdana
-- Comic Sans MS
-- Trebuchet MS
-- Arial Black
-- Impact
+- <font face="Verdana">Verdana</font>
+- <font face="Comic-sans-ms">Comic Sans MS</font>
+- <font face="trebuchet-ms">Trebuchet MS</font>
+- <font face="arial-black">Arial Black</font>
+- <font face="impact">Impact</font>
 
 As a note: if you want to change the font color and type of font within the same font element, you write your HTML code like this (putting both attributes within the font opening tag):
 
