@@ -34,6 +34,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Creating a Function](#creating-a-function)
 - [Nodes](#node)
 - [Trees](#trees)
+- [HTML and the Web](#html-and-the-web)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -674,5 +675,20 @@ These web page documents are written in a specialized type of computer language 
 One aspect of markup language instructions is that they reside in the same document as the content that they affect, and the instructions can be differentiated from that content.
 
 There are several markup languages in use in computer programming. The one used in web development is Hyper Text Markup Language.
+
+## HTML and the Web
+[Jump Back](#contents)
+
+As we’ve covered, HTML uses instructions called “tags” to alter the format and appearance of displayed content and the combination of a tag and its associated content is called an “element”.
+
+The basic operation of the Web is this:
+
+- A person uses a computer program on their computer called a web browser.
+- They instruct their browser to request a specific web page.
+- The browser sends a request to the web server where that web page is stored. Again, the web page is an HTML file.
+- The web server sends the web page back to the browser.
+- The browser processes the HTML in the web page and renders a visual display based on the HTML.
+
+Usually, HTML documents are created by hand by programmers. Often, though, programmers have a need to change these HTML files programatically – that is, to change the markup instructions and/or the content based on logic contained in a computer program.
 
 
