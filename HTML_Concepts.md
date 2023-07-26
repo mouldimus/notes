@@ -788,5 +788,19 @@ Having the DOM also opens up the ability to change the HTML for a web page, or t
 
 Most browsers generate a DOM for the web pages they display, and most browsers allow you to look at that DOM. Most browsers have built-in tools to help web developers; they are generally called “developer tools.”
 
+## Accessing the DOM
+The DOM can be accessed by opening up these developer tools in your browser.
+
+Let’s look at an example of this, using the web browser Chrome. You can open Developer Tools in Chrome by right-clicking on a web page and clicking “Inspect.” A second window will open up, showing a great deal of information about the web page and the browser. There are tabs in this window that let you select what you’d like to view. The DOM is viewable in the “Elements” tab.
+
+For our HTML in the previous step, the DOM would look like this from within those Developer Tools in Chrome:
+
+![Accessing the DOM](./images/accessing_the_DOM.png)
+
+This looks much like the actual HTML from the web page file itself – but it’s actually a tree structure that represents the structure of the various objects that make up the web page. The “down arrows” in the display of the DOM are a graphical interface that lets you expand and collapse the individual nodes on the tree structure of the DOM.
+
+Many browsers even let you edit the DOM from within these tools and see those changes reflected immediately in the displayed web page – but it’s important to know that those changes aren’t being made to the actual stored HTML files that were given to the browser - you’re only changing the DOM that the browser is creating and using to create the display. In order to permanently change the web page, you’ll need to change the actual files that will be given to the browser.
+
+There is a lot more to know about the DOM, and as you do more web development, you’ll pick up a lot more knowledge and skill. But you now have the basic principles and application of the DOM.
 
 
