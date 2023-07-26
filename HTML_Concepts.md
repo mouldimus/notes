@@ -16,6 +16,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [JSON](#json)
 - [XHR](#xhr)
 - [Ruby](#ruby)
+- [Ruby on Rails](#ruby-on-rails)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -286,3 +287,13 @@ XHR works by establishing a communication path between a web page's client-side 
 >Sass (a popular set of technologies for beautifying websites) was created in Ruby.
 
 ![Ruby](./images/ruby_logo.png)
+
+## Ruby on Rails
+[Jump Back](#contents)
+
+*Ruby on Rails* is a web application framework (set of tools for making web-based programs) that is written in Ruby.
+
+**Example**
+>Groupon, Shopify and Airbnb are built on the Ruby on Rails framework.
+
+![Ruby on Rails](./images/rails_logo.png)
