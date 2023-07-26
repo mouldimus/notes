@@ -24,6 +24,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [JavaScript and HTML](#javascript-and-html)
 - [Values](#values)
 - [Variable](#variables)
+- [Subprograms](#sub-programs)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -424,3 +425,22 @@ A common action taken in coding is to assign *variables*. Variables are key in e
 As a reminder, a variable is a value that can be altered, depending on conditions or data passed to the program.
 
 In JavaScript, we can create variables by typing var ____ (name of variable).
+
+## Sub Programs
+[Jump Back](#contents)
+
+There is a set of terms that can be confusing in learning computer programming. These terms all relate to a fundamental element of all computer programs: sub programs. We have touched upon this earlier but we are going to further expound upon it now.
+
+A sub program in the most basic sense is this: a set of computer instructions, separate from the main program, that can be executed on demand by the main program.
+
+A call is a direction by a main computer program to execute the tasks of a subprogram.
+
+More specifically a “call” is when a main program temporarily transfers control of the computer to a subprogram. Once the subprogram is done executing, control of the computer is returned to the main program. A program could make many “calls” to multiple subprograms as the program does its sequence of tasks.
+
+Sub programs were an early development in computer programming, and their creation was driven by one basic factor: Programmers quickly found that they were often having a program do certain exact things many times as the program was being executed. This meant that the exact same set of programming instructions had to be entered in the computer program every time that thing was needed.
+
+This activity had two fundamental weaknesses. First, the process of typing the same exact instructions over and over again was time-consuming and error-prone for programmers. Second, if a programmer wanted to make a change to how that thing was done, they had to find every place in the program where they had entered the duplicate instructions and make the change in every one. In other words, these commonly-used chunks of computer code were hard to create and maintain.
+
+The answer to this problem was a sub program. Here, the programmers would type in the set of instructions that performed the needed action, and give that set of instructions a unique name. This set of instructions was called a sub program, and was not considered part of the main program that the computer was going to execute. Instead, the main program was modified so that it would just execute that sub program whenever that particular action was needed.
+
+![Subprogram](./images/html41.png)
