@@ -33,6 +33,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Document.getElementById Method](#documentgetelementbyid-method)
 - [Creating a Function](#creating-a-function)
 - [Nodes](#node)
+- [Trees](#trees)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -646,5 +647,32 @@ Here is an example of this meaning of node: A hierarchical structure might be cr
 ![Node2](./images/html51.png)
 
 Examples of nodes in this structure are: "class2," "Billy Banana," "students1," "school."
+
+
+## Trees
+[Jump Back](#contents)
+
+A common nonlinear data structure (arrangement of data where the elements of the data don't necessarily follow one after the other) is the tree. Let's take a look at this diagram with some of the important features of trees highlighted.
+
+![Tree](./images/trees.jpeg)
+
+In this diagram, we can see that the starting point, or the root node, is circled in blue. A node is a simple structure that holds data and links to other nodes. In this case, our root node contains the data string "John" and three links to other nodes. Notice that the group of nodes circled in red do not have any links. These nodes are at the ends of the branches and they are appropriately called leaves or leaf nodes. In our diagram, the nodes are connected with solid black lines called arcs or edges. These edges show the relationships between nodes in the tree.
+
+One important relationship is the parent/child relationship. Parent nodes have at least one edge to a node lower in the tree. This node is called the child node. Nodes can have more than one child, but children can only have a single parent. Notice that the root node has no parent, and the leaf nodes have no children. The final feature to note in our diagram is the subtree. At each level of the tree, we can see that the tree structure is repeated. For example, the two nodes representing "Charles" and "Rick" compose a very simple tree with "Charles" as the root node and "Rick" as a single leaf node.
+
+## The Web
+[Jump Back](#contents)
+
+We will now cover an element of the Web that can help a developer greatly in their web development tasks.
+
+First, let’s review some fundamentals of the Web. You will have learned much of this already but there’s going to be some new data.
+
+The *Web* is a collection of linked electronic documents. These documents, called “web pages,” are precisely formatted text documents that define the content and appearance of a visual display of the web page.
+
+These web page documents are written in a specialized type of computer language called a “markup language.” This is a computer language whose instructions are used to tell the computer how to display and format visual elements.
+
+One aspect of markup language instructions is that they reside in the same document as the content that they affect, and the instructions can be differentiated from that content.
+
+There are several markup languages in use in computer programming. The one used in web development is Hyper Text Markup Language.
 
 
