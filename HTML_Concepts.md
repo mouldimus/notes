@@ -9,6 +9,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Clearing the Cache](#clearing-the-cache)
 - [Real Time](#real-time)   
 - [Static vs. Dynamic](#static-vs-dynamic)
+- [JavaScript](#javascript)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -69,4 +70,12 @@ As a reminder, *static* means “rigid; unchanging.”
 
 *Static web sites* are delivered to the browser exactly how they were stored originally on the web server. Static web pages don't change. No matter who is accessing the web site, it looks the same.
 
-Most web sites nowadays are *dynamic*, meaning that the appearance and content of the web pages can be changed on the web server before the web page is sent back to the browser, or it can be changed by the browser on the user’s computer before being displayed on the screen.
+Most web sites nowadays are *dynamic*, meaning that the appearance and content of the web pages can be changed on the web server before the web page is sent back to the browser, or it can be changed by the browser on the user’s computer before being displayed on the screen.  
+
+## JavaScript
+As a reminder, *JavaScript* is a computer language that is able to work on most computers. It is useful in making websites.
+
+JavaScript is used mainly to make websites more dynamic (describing websites that have content that changes based on user action or other factors, rather than being static in appearance and content). There are many other uses for JavaScript; it is used in the creation of many different types of computer programs.
+
+**Example**
+>JavaScript can be used to make videos that start to play as soon as a user moves their mouse over the video.
