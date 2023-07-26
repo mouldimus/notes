@@ -31,6 +31,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Methods](#methods)
 - [Using these Terms](#using-these-terms)
 - [Document.getElementById Method](#documentgetelementbyid-method)
+- [Creating a Function](#creating-a-function)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -598,4 +599,36 @@ document.getElementById("Header_1").innerHTML
 “innerHTML” gets or sets the HTML markup contained within the element.
 
 Document.getElementById is used mainly to control or get information from an element within your code. If it can’t find the element with the specified Id, it will return “null.”
+
+## Creating a Function
+[Jump Back](#contents)
+
+Let’s look at creating a function using the `document.getElementById` method:
+
+```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <button onclick="My_First_Function()">
+            Click Me!
+        </button>
+        <p id="Irish"></p>
+        <script>
+            function My_First_Function() {
+                var String = "Kiss me, I'm Irish!";
+                var result = String.fontcolor("green");
+                document.getElementById("Irish").innerHTML = result;
+            }
+        </script>
+    </body>
+</html>
+```
+
+The above code accomplished the following:
+
+1. Created a button element.
+2. Utilized the ID attribute and assigned the paragraph element the value “Irish”.
+3. Returned the paragraph element by calling the “Irish” value that we assigned earlier (when writing the ID attribute).
+
+Everything inside our curly brackets `{ }` is our function.
 
