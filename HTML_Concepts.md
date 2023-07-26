@@ -30,6 +30,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Functions](#functions)
 - [Methods](#methods)
 - [Using these Terms](#using-these-terms)
+- [Document.getElementById Method](#documentgetelementbyid-method)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -570,3 +571,31 @@ The lessons here are these:
 2. Second, in order to clarify any potential difference between these various terms, you’ll need to investigate their exact meaning in the language you’re concerned with.
 
 Any attempt to give them a blanket, universal meaning ignores the subtleties described here.
+
+## Document.getElementById Method
+[Jump Back](#contents)
+
+As a reminder, a “method” is an action that an object can perform. It is a named sequence of events.
+
+The *document.getElementById* method returns (executes and provides relevant output) an element.
+
+An “attribute” is a specification that assigns a property (name; characteristic) to something. Basically, an attribute is metadata (data that describes other data).
+
+The element returned by document.getElementById has an Id attribute with a specific value assigned to it. The Id is a variable.
+
+For an example:
+
+```html
+<h1 id="Header_1">This is my heading</h1>
+```
+
+We have assigned the h1 element the Id “Header_1”. To run and display (return) this element, we write:
+
+```js 
+document.getElementById("Header_1").innerHTML
+```
+
+“innerHTML” gets or sets the HTML markup contained within the element.
+
+Document.getElementById is used mainly to control or get information from an element within your code. If it can’t find the element with the specified Id, it will return “null.”
+
