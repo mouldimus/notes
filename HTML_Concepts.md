@@ -1278,6 +1278,8 @@ The output of our code would look like this:
 </html>
 
 ## Class in External File
+[Jump back](#contents)
+
 Let’s try keeping our class in a separate file. To do this, we would first write a new css file as follows:
 
 ```css
@@ -1332,7 +1334,74 @@ The output of this code would look like this:
 
 Notice that “Good afternoon!” is written in default black (not blue) because we didn’t utilize the class name with it.
 
+## Commenting Code
+[Jump back](#contents)
 
+It is highly recommended that you write comments throughout your code that explains what each section of it is meant to do. This enhances the ability of other developers to read through and understand your code, and can also remind you of things in the future.
 
+An HTML comment begins with `<!––` and closes with `––>`. HTML comments are visible to anyone that views the page source code, but are not rendered when the HTML document is rendered by a browser.
+
+Meaning, you don’t see the comments when viewing the website in the browser but you can see them when you utilize Chrome’s dev tools.
+
+An example of commenting HTML code is as follows:
+
+```html 
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Red {
+                color: red;
+            }
+            .Blue {
+                color: blue;
+            }
+        </style>
+        <title>Monsters and Beasts!</title>
+    </head>
+    <!-- This section is about dragons -->
+    <body>
+        <p>Some dragons can breathe fire and others breathe ice!</p>
+        <p class="Red">Here is a fire dragon!:</p>
+            <img src="https://watchersonthewall.com/wp-content/uploads/2017/10/drogonfire.png" width="500">
+        <p class="Blue">Here is the ice dragon!:</p>
+            <img src="https://uproxx.com/wp-content/uploads/2018/08/night-king-ice-dragon.jpg" width="500">
+        <p>You can read about the Game of Thrones dragons here:</p>
+            <a href="https://gameofthrones.fandom.com/wiki/Dragons">
+                Game of Thrones dragons
+            </a>
+    </body>
+</html>
+```
+
+The output of this code would be:
+
+<html>
+    <head>
+        <style>
+            .Red {
+                color: red;
+            }
+            .Blue {
+                color: blue;
+            }
+        </style>
+        <title>Monsters and Beasts!</title>
+    </head>
+    <!-- This section is about dragons -->
+    <body>
+        <p>Some dragons can breathe fire and others breathe ice!</p>
+        <p class="Red">Here is a fire dragon!:</p>
+            <img src="https://watchersonthewall.com/wp-content/uploads/2017/10/drogonfire.png" width="500">
+        <p class="Blue">Here is the ice dragon!:</p>
+            <img src="https://uproxx.com/wp-content/uploads/2018/08/night-king-ice-dragon.jpg" width="500">
+        <p>You can read about the Game of Thrones dragons here:</p>
+            <a href="https://gameofthrones.fandom.com/wiki/Dragons">
+                Game of Thrones dragons
+            </a>
+    </body>
+</html>
+
+>Note that the comments aren’t displayed.
 
 
