@@ -1277,4 +1277,62 @@ The output of our code would look like this:
     </body>
 </html>
 
+## Class in External File
+Let’s try keeping our class in a separate file. To do this, we would first write a new css file as follows:
+
+```css
+body {
+    font-style: italic;
+    text-align: center;
+}
+
+.Class_A {
+    color: blue;
+}
+```
+
+This code states that anything within the <body> element will be written in italics and centered on the page. We’ve also created our class name (Class_A) and stated that any element connected to that class name will have its text written in blue. Let’s say we saved the file as Class_A.css.
+
+Here is what the separate HTML file would look like:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Class_A.css">
+    </head>
+    <body>
+        <h1 class="Class_A">Good morning!</h1>
+        <h2>Good Afternon!</h2>
+        <h3 class="Class_A">Good night!</h3>
+    </body>
+</html>
+```
+
+The output of this code would look like this:
+
+<html>
+    <head>
+        <style>
+            #cody {
+                font-style: italic;
+                text-align: center;
+            }
+            .Class_A {
+                color: blue;
+            }
+        </style>
+    </head>
+    <div id="cody">
+        <h1 class="Class_A">Good morning!</h1>
+        <h2>Good Afternon!</h2>
+        <h3 class="Class_A">Good night!</h3>
+    </div>
+</html>
+
+Notice that “Good afternoon!” is written in default black (not blue) because we didn’t utilize the class name with it.
+
+
+
+
 
