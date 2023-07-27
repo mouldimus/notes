@@ -41,6 +41,8 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [DOM](#dom)
 - [DOM and Elements](#dom-and-elements)
 - [Type of Font](#type-of-font)
+- [Browser Engines](#browser-engines)
+- [Web Browsers](#web-browsers)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -846,6 +848,28 @@ The size attribute uses sizes from 1 to 7 – the default browser size is 3.
 NOTE: The face attribute is not HTML5 but comes from an earlier version of HTML. We are teaching you how to do some styling using HTML to help with your comprehension of this language. Please keep in mind that when you learn CSS later on this course, that it is best practice to handle all styling (including fonts) with CSS.
 
 ## Browser Engines
+[Jump Back](#contents)
+
+
 An “engine” is the central part of a computer program.
 
 A “browser engine” is the core software component of every major web browser. The primary job of browser engines is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.
+
+## Web Browsers
+[Jump Back](#contents)
+
+The primary function of a web browser is to request resources from the Web and display them inside of a browser window. Typically a browser will request HTML, CSS, JavaScript and image content from a server and interpret them based on standards and specifications for the Web. They follow standards because it allows websites to behave the same way across all browsers, and creates less work and fewer difficulties for web developers.
+
+There are seven main components to any web browser:
+
+![Structure](./images/browser_structure.png)
+
+1. User Interface: The user interface of the browser includes all of the visual components of the browser with the exception of the display of the requested page. For example, the address bar, bookmarks bar and navigation buttons are all part of the User Interface.
+2. Browser Engine: The browser engine is responsible for organizing actions between the UI and Rendering Engine.
+3. Rendering Engine: “Render” literally means “to cause to be; make.” A rendering engine takes HTML code and interprets it into what you see visually. For example: a `<bold>` tag would be interpreted by the rendering engine as a set of instructions to make the text inside the element bold.
+4. JavaScript Interpreter: The JavaScript interpreter takes JavaScript code, parses (analyzes and reads the code) it, executes it, and returns the results.
+5. Networking: This is a function of the browser that happens behind the scenes and handles network functions such as encryption (concealing data by altering it into a secure format), requests, and all network settings such as HTTP.
+6. Data Persistence: Browser’s must store some data which can include cached files and cookies.
+7. UI Backend: The browser interacts with the operating system to display several elements of the page, like drop down boxes and some icons on the window (close, maximize, and minimize buttons).
+
+
