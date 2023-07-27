@@ -53,6 +53,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [HTML5](#html5)
 - [List of Colors](#list-of-colors)
 - [External Style Sheets](#external-style-sheets)
+- [Linking Style Sheets](#linking-style-sheets)
 
 
 ## Reserved Words and Keywords
@@ -1072,5 +1073,56 @@ In HTML, there’s a `<link>` element that defines a link between a document and
 Type is an attribute of the `<link>` element that tells the browser the kind of resource you are linking to. For example: if you were linking to an audio file, you would write type=“audio” within the element. When linking CSS files, we use the type value “text/css”.
 
 As a reminder “href” is short for “hypertext reference” and it specifies the link’s destination (address).
+
+## Linking Style Sheets
+[Jump Back](#contents)
+
+Earlier we displayed HTML and CSS code contained within the same file as follows:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                color: green;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Hey! Over here!</p>
+        <p>These paragraphs are styled with CSS.</p>
+    </body>
+</html>
+```
+
+To separate our HTML code from our CSS, we would do the following:
+
+1. Create a new file and write the following code within it (this is a CSS rule-set that assigns “green” and “right” values to the color and text-align properties respectively):
+
+```css
+p {
+    color: green;
+    text-align: right;
+}
+```
+
+Then we'd save this file as `My_Style.css`.
+
+2. Next we would create a new file and write the following code in it:
+
+```html 
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="My_style.css">            
+    </head>
+    <body>
+        <p>Hey! Over Here!</p>
+        <p>These paragraphs are styled with CSS.</p>
+    </body>
+</html>
+```
 
 
