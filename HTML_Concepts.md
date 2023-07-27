@@ -1404,4 +1404,11 @@ The output of this code would be:
 
 >Note that the comments aren’t displayed.
 
+### CSS Comments
+To write comments within your CSS code, you use.
+
+```css
+/* Write comment here */
+```
+
 
