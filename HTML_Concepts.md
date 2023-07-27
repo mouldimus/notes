@@ -45,6 +45,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Web Browsers](#web-browsers)
 - [Rendering](#rendering)
 - [Nested Tags](#nested-tags)
+- [CSS](#css)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -916,4 +917,22 @@ Here’s an example of HTML where tags are nested within other tags:
     </body>
 </html>
 ```
+
+## CSS
+[Jump Back](#contents)
+
+*Cascading Style Sheets* are electronic files containing information that is used to control the appearance of the text, images, video, etc. on those web pages.
+
+A *style sheet* is a tool used to design the format of a webpage. Style sheets are a central place to store data about how that page will appear and how it will behave. It can be used to store information about how to display colors, pictures, text, etc. It is an electronic file with information that controls the style of the website.
+
+Styling is not concerned with the content (text, pictures, videos, etc.) on a web page; rather, it is concerned with the appearance of that content.
+
+*Cascading* is a term that comes from the idea of water dropping down a series of drops in height. Think of it as a series of small waterfalls. Information can cascade, meaning it can be stored at one central, most important location and then apply to other locations that are considered to be lower than, or derived from, that more important central location.
+
+In Cascading Style Sheets, the people who make a website can create one master style sheet for all web pages in the site. Unless otherwise specified, the style information from the master CSS sheet will ‘cascade’ - meaning it will apply to any new web pages that are created. You can, if you like, create specific styling on a page that will override the styling from the CSS style sheet.
+
+This is a benefit to the people making the website because if they want to change any of the things that they set up in the style sheet, they only have to change it in one place, and those changes will be applied to all pages in the website at once.
+
+CSS3 is the newest version of CSS.
+
 
