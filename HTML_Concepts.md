@@ -44,6 +44,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Browser Engines](#browser-engines)
 - [Web Browsers](#web-browsers)
 - [Rendering](#rendering)
+- [Nested Tags](#nested-tags)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -896,4 +897,23 @@ Though, technically, the DOM (render tree) would look like this:
 
 > [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/console/utilities?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3#dom)
 
+
+## Nested Tags
+[Jump Back](#contents)
+
+Since there is often a need to format content within other tags, the tags can be "nested”, meaning one tag can include other tags.
+
+Here’s an example of HTML where tags are nested within other tags:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This title tag is nested within the head tag.</title>
+    </head>
+    <body>
+        <h1>This heading tag is nested withing the body tag.</h1>
+    </body>
+</html>
+```
 
