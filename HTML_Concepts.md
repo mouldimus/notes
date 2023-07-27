@@ -1645,3 +1645,26 @@ Now we need to link our CSS file with our HTML file, so we go back to our HTML c
 Here is a great list of free fonts from Google that you can utilize when styling with CSS:
 
 [Google Fonts: Browse Fonts](https://fonts.google.com/)
+
+## CSS Lists
+[Jump Back](#contents)
+
+We can also style lists with CSS. For example: the following CSS code can change an ordered list from 1., 2., 3. to Roman numerals:
+
+```css
+ol {
+    list-style-type: upper-roman;
+}
+```
+
+And to make an unordered list from circular bullet points to squares, we write:
+
+```css
+ul {
+    list-style-type: square;
+}
+```
+
+To add these effects to our code, we would first save the above CSS code as a separate .css file.
+
+Then we would link our HTML document to the new CSS file.
