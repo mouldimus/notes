@@ -604,7 +604,7 @@ The lessons here are these:
 
 Any attempt to give them a blanket, universal meaning ignores the subtleties described here.
 
-## Document.getElementById Method
+## `document.getElementById` Method
 [Jump Back](#contents)
 
 As a reminder, a “method” is an action that an object can perform. It is a named sequence of events.
