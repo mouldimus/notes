@@ -50,6 +50,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Selectors, Properties and Values](#selectors-properties-and-values)
 - [CSS Rule-Set](#css-rule-set)
 - [HTML and CSS](#html-and-css)
+- [HTML5](#html5)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -1027,3 +1028,15 @@ The output of this code would be:
 You can change the colors by typing in different values after the color property (such as red or blue). You can change the alignment of text by typing various values after the text-align property (like center).
 
 Note that in the above code, the CSS rule-set is nested within the HTML `<style>` tags.
+
+## HTML5
+[Jump Back](#contents)
+
+HTML5 was designed to encourage that CSS be utilized for styling.
+
+For example: the font attributes color, size and face that we covered earlier on the course aren’t supported by HTML5. Meaning, they were a part of earlier versions of HTML and are not included in HTML5 documentation. They can still be run in the browser because most browsers support all versions of HTML.
+
+The point is
+: *it is a best practice to have all styling contained within style sheets (CSS).*
+
+
