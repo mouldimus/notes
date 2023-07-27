@@ -1222,3 +1222,59 @@ Here would be the output of our code:
     <h4 class="font_1">Even though this is a h4 element, it is styled the same as the h2 element because we pointed to the class attribute font_1</h4>
 </body>
 
+Another action we can take with the class attribute is assigning style to particular elements. For example:
+
+```html
+<style>
+    h1 {
+        background-color: yellow;
+    }
+    p {
+        color: blue;
+    }
+</style>
+```
+
+This would make it so that all `<h1>` elements had a yellow background and that all `<p>` elements are blue.
+
+This is what the code looks like exactly:
+
+```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <style>
+                h1 {
+                    background-color: yellow;
+                }
+                p {
+                    color: blue;
+                }
+        </style>
+        <h1>Yellow Background.</h1>
+        <h2>Default styling.</h2>
+        <p>Blue font.</p>
+    </body>
+</html>
+
+```
+
+The output of our code would look like this:
+
+<html>
+    <body>
+        <style>
+                .h1 {
+                    background-color: yellow;
+                }
+                .p {
+                    color: blue;
+                }
+        </style>
+        <h1 class="h1">Yellow Background.</h1>
+        <h2>Default styling.</h2>
+        <p class="p">Blue font.</p>
+    </body>
+</html>
+
+
