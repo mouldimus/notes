@@ -43,6 +43,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Type of Font](#type-of-font)
 - [Browser Engines](#browser-engines)
 - [Web Browsers](#web-browsers)
+- [Rendering](#rendering)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -871,5 +872,28 @@ There are seven main components to any web browser:
 5. Networking: This is a function of the browser that happens behind the scenes and handles network functions such as encryption (concealing data by altering it into a secure format), requests, and all network settings such as HTTP.
 6. Data Persistence: Browser’s must store some data which can include cached files and cookies.
 7. UI Backend: The browser interacts with the operating system to display several elements of the page, like drop down boxes and some icons on the window (close, maximize, and minimize buttons).
+
+
+## Rendering
+[Jump Back](#contents)
+
+The rendering engine displays what you see on your screen. It receives HTML code and other items passed from a server and then creates the Document Object Model (DOM).
+
+The rendering engine creates a DOM tree like this from the code received:
+
+![DOM](./images/html65.png)
+
+Though, technically, the DOM (render tree) would look like this:
+
+![Render Tree](./images/html66.png)
+
+**Note**
+> In this image, $0 is included. That is a command specific to Google Chrome.
+
+> The $0, $1, $2, $3 and $4 commands work as a historical reference to the last five DOM elements inspected within the Elements panel or the last five JavaScript heap objects selected in the Profiles panel. $0 returns the most recently selected element or JavaScript object, $1 returns the second most recently selected one, and so on.
+
+> You can read Google’s documentation on this here:
+
+> [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/console/utilities?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3#dom)
 
 
