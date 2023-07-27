@@ -49,6 +49,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Aesthetics](#aesthetics)
 - [Selectors, Properties and Values](#selectors-properties-and-values)
 - [CSS Rule-Set](#css-rule-set)
+- [HTML and CSS](#html-and-css)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -983,3 +984,46 @@ This is a CSS rule-set:
 As a note: px stands for CSS pixels. For example: a 96px line would be one-inch long. Font size 10 in a word processor is about 13pxs. It is a unit of measurement to define size (width, length, etc.) in CSS.
 
 The declaration block contains one or more declarations separated by semicolons. Each declaration includes a CSS property name and a value that is separated by a colon. A CSS declaration always ends with a semicolon. Declaration blocks are surrounded by curly braces.
+
+## HTML and CSS
+[Jump Back](#contents)
+
+Review the following code:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                color: green;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Hey! Over Here!</p>
+        <p>These Paragraphs are styled with CSS.</p>
+    </body>
+</html>
+```
+
+The output of this code would be:
+
+<head>
+    <style> /* Added class to stop changing the entire document */
+        .p1 {
+            color: green;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <p class="p1">Hey! Over Here!</p>
+    <p class="p1">These Paragraphs are styled with CSS.</p>
+</body>
+
+
+You can change the colors by typing in different values after the color property (such as red or blue). You can change the alignment of text by typing various values after the text-align property (like center).
+
+Note that in the above code, the CSS rule-set is nested within the HTML `<style>` tags.
