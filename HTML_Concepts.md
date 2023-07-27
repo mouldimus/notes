@@ -60,6 +60,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Code Commenting](#commenting-code)
 - [HTML Tables](#html-tables)
 - [HTML Lists](#html-lists)
+- [Styling Tables with CSS](#styling-tables-with-css)
 
 
 ## Reserved Words and Keywords
@@ -1528,4 +1529,113 @@ To create an unordered list, we use the `<ul>` tag. The earlier example would be
     <li>Birds</li>
 </ul>
 ```
+
+## Styling Tables with CSS
+[Jump Back](#contents)
+
+The table we made earlier was pretty bland. We can enhance it with CSS.
+
+First, here is our earlier HTML code for a table:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h1>Game of Thrones table</h1>
+        <table style="width: 100%">
+            <tr>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td>Jon Snow</td>
+                <td>5032343966</td>
+                <td>winterishere@thenorth.com</td>
+                <td>King of the North</td>
+            </tr>
+            <tr>
+                <td>Daenerys Targaryen</td>
+                <td>9712343966</td>
+                <td>motherofdragons@ironthrone.com</td>
+                <td>The mad queen.</td>
+            </tr>
+        </table>
+    </body>
+</html>
+```
+
+
+Here is some CSS code we can use to enhance the aesthetic of the table:
+
+- Border property (this adds a border around the cells)
+- Hover selector (this highlights the table as its hovered over)
+- Background-color (this changes the background color of rows)
+
+To beautify it, we would create a new, separate CSS file and call it “CSS_Table.css”.
+
+Here is the code we would write to add a silver border around the cells of the table (we are making it one px thick):
+
+```css
+table {
+    border: 1px solid silver;
+}
+```
+
+To add the hover effect, we write:
+
+```css
+td:hover {
+    background-color: yellow;
+    color: black;
+}
+```
+
+(This will make it so that the background color of the cells will turn to yellow and the font to black when we hover the mouse over them).
+
+To make the top row have a black background and font written in cornsilk (very light yellow) we write:
+
+```css
+tr, th {
+    background-color: black;
+    color: cornsilk;
+}
+```
+
+And finally, to make the remaining rows have a dark green background and white font, we write:
+
+```css
+tr, td {
+    background-color: darkgreen;
+    color: white;
+}
+```
+
+Together, all of the code in our CSS file would look like this:
+
+```css
+table {
+    border: 1px solid silver;
+}
+td:hover {
+    background-color: yellow;
+    color: black;
+}
+tr, th {
+    background-color: black;
+    color: cornsilk;
+}
+tr, td {
+    background-color: darkgreen;
+    color: white;
+}
+```
+
+Now we need to link our CSS file with our HTML file, so we go back to our HTML code and add:
+
+```html
+<link rel="stylesheet" type="text/css" href="CSS_table.css">
+```
+
 
