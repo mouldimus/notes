@@ -48,6 +48,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [CSS](#css)
 - [Aesthetics](#aesthetics)
 - [Selectors, Properties and Values](#selectors-properties-and-values)
+- [CSS Rule-Set](#css-rule-set)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -954,6 +955,8 @@ That way if you want to change the aesthetics of your website, you can simply ed
 ![Aesthetics](./images/css.png)
 
 ## Selectors, Properties and Values
+[Jump Back](#contents)
+
 In CSS, a “selector” points to the HTML elements you wish to style.
 
 A “property” is an identifier; a name. The property explains what feature is being considered.
@@ -963,3 +966,20 @@ A “value” describes how the feature is handled.
 ![Selectors, Properties and Values](./images/html73.png)
 
 In this picture, we are selecting the `<p>` element and stating we want to color the text within it blue.
+
+## CSS Rule-Set
+[Jump Back](#contents)
+
+A CSS “rule-set” is a block of CSS code that contains:
+
+1. **Selector** – this points to the HTML element that you want to style.
+
+2. **Declaration** – a statement that consists of a property and a value.
+
+This is a CSS rule-set:
+
+![CSS Rule Set](./images/html74.png)
+
+As a note: px stands for CSS pixels. For example: a 96px line would be one-inch long. Font size 10 in a word processor is about 13pxs. It is a unit of measurement to define size (width, length, etc.) in CSS.
+
+The declaration block contains one or more declarations separated by semicolons. Each declaration includes a CSS property name and a value that is separated by a colon. A CSS declaration always ends with a semicolon. Declaration blocks are surrounded by curly braces.
