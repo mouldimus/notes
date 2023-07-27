@@ -46,6 +46,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Rendering](#rendering)
 - [Nested Tags](#nested-tags)
 - [CSS](#css)
+- [Aesthetics](#aesthetics)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -934,5 +935,23 @@ In Cascading Style Sheets, the people who make a website can create one master s
 This is a benefit to the people making the website because if they want to change any of the things that they set up in the style sheet, they only have to change it in one place, and those changes will be applied to all pages in the website at once.
 
 CSS3 is the newest version of CSS.
+
+
+## Aesthetics
+[Jump Back](#contents)
+
+“Aesthetic” means “concerned with being attractive; the appreciation of beauty”.
+
+CSS and JavaScript can be used to increase the aesthetic (how visually appealing something is) of a website.
+
+CSS describes the style of an HTML document and defines how HTML elements should be displayed.
+
+Like JavaScript, CSS files (called style sheets) are kept in a separate file from your main HTML code. For example: You might have 10 different web pages on your website, each saved in a different HTML file, but only one style sheet that determines the styling (colors, backgrounds, etc.) of all of those web pages.
+
+That way if you want to change the aesthetics of your website, you can simply edit your style sheet.
+
+![Aesthetics](./images/css.png)
+
+
 
 
