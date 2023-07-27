@@ -56,6 +56,10 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Linking Style Sheets](#linking-style-sheets)
 - [Classes and Objects](#classes-and-objects)
 - [Class Attribute](#class-attribute)
+- [Class in External File](#class-in-external-file)
+- [Code Commenting](#commenting-code)
+- [HTML Tables](#html-tables)
+- [HTML Lists](#html-lists)
 
 
 ## Reserved Words and Keywords
@@ -1479,7 +1483,49 @@ To create this in HTML, we would write the following code:
 </html>
 ```
 
+## HTML Lists
+[Jump Back](#contents)
 
+In HTML, there are two main types of lists:
 
+1. *Ordered* lists
+2. *Unordered* lists
 
+An ordered list is given in a sequence. An unordered list isn’t given a sequence and is usually bullet points.
+
+Here would be an example of an ordered list:
+
+1. Bread
+2. Milk
+3. Eggs
+4. Cheese
+
+While this would be unordered:
+
+- Cats
+- Dogs
+- Snakes
+- Birds
+
+To create an ordered list, we use the `<ol>` tag. Each item on the list is contained within the list element `<li>`. In the earlier example, this would be written as:
+
+```html
+<ol>
+    <li>Cats</li>
+    <li>Dogs</li>
+    <li>Snakes</li>
+    <li>Birds</li>
+</ol>
+```
+
+To create an unordered list, we use the `<ul>` tag. The earlier example would be written as:
+
+```html
+<ul>
+    <li>Cats</li>
+    <li>Dogs</li>
+    <li>Snakes</li>
+    <li>Birds</li>
+</ul>
+```
 
