@@ -490,11 +490,11 @@ In the early years of computer programming languages, where programmers worked w
 
 Because of this, you will find many related terms in this area. Some of the terms in use are:
 
-- Functions
-- Methods
+- [Functions](#functions)
+- [Methods](#methods)
 - Routines
 - Subroutines
-- Subprograms
+- [Subprograms](#sub-programs)
 - Procedures
 
 At a high-level, these terms mean the same thing but if you try to clear up their definitions, you can quickly become confused. Some sources will tell you that they all basically hold the same meaning. Other sources will articulate specific differences and similarities between two or more of the terms. It can be difficult to nail down.
