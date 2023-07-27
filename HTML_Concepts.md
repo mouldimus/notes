@@ -54,6 +54,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [List of Colors](#list-of-colors)
 - [External Style Sheets](#external-style-sheets)
 - [Linking Style Sheets](#linking-style-sheets)
+- [Classes and Objects](#classes-and-objects)
 
 
 ## Reserved Words and Keywords
@@ -1124,5 +1125,15 @@ Then we'd save this file as `My_Style.css`.
     </body>
 </html>
 ```
+
+## Classes and Objects
+[Jump Back](#contents)
+
+There is a concept in creating a computer program called “classes”.
+
+A class is an object, created from the mind of the computer programmer, that represents a type of thing the programmer wants to represent in the computer program.
+
+Examples of objects include things like “integer”, “string”, “Student”, “Teacher”, etc.
+
 
 
