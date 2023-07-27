@@ -845,4 +845,7 @@ The size attribute uses sizes from 1 to 7 – the default browser size is 3.
 
 NOTE: The face attribute is not HTML5 but comes from an earlier version of HTML. We are teaching you how to do some styling using HTML to help with your comprehension of this language. Please keep in mind that when you learn CSS later on this course, that it is best practice to handle all styling (including fonts) with CSS.
 
+## Browser Engines
+An “engine” is the central part of a computer program.
 
+A “browser engine” is the core software component of every major web browser. The primary job of browser engines is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.
