@@ -55,6 +55,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [External Style Sheets](#external-style-sheets)
 - [Linking Style Sheets](#linking-style-sheets)
 - [Classes and Objects](#classes-and-objects)
+- [Class Attribute](#class-attribute)
 
 
 ## Reserved Words and Keywords
@@ -1144,3 +1145,80 @@ Objects so created can also be referred to as a “class object” or “class i
 You can think of the class definition as an answer to the question of, “If I were a [type of object], what would I look like and what could I do?” Here, “what would I look like” refers to the structure of the potential object, and “what could I do” refers to the behavior of the potential object.
 
 ![Classes and Objects](./images/html83.png)
+
+## Class Attribute
+[Jump Back](#contents)
+
+The HTML class attribute is used to define equal styles for all elements with the same class name. HTML elements with the same class attribute have the same format and style.
+
+For example: we could utilize the class attribute if we wanted to have two different styles of paragraphs.
+
+You assign a class name by writing .classname (a period followed by a class name of your choosing).
+
+Here is an example of how to create two styles using the class attribute:
+
+```html
+<style>
+    .font_1 {
+        background-color: black;
+        color: yellow;
+        font-size: large;
+    }
+    .font_2 {
+        background-color: darkblue;
+        color: white;
+        font-size: medium;
+    }
+</style>
+```
+
+
+We created two class names: font_1 and font_2. The class attribute specified the class names.
+
+By pointing to the class name “font_1” or “font_2” we can specify the styling of our font.
+
+This is how:
+
+```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <style>
+        .font_1 {
+            background-color: black;
+            color: yellow;
+            font-size: large;
+        }
+        .font_2 {
+            background-color: darkblue;
+            color: white;
+            font-size: medium;
+        }
+        </style>
+        <h2 class="font_1">This h2 element is styled per class attribute font_1</h2>
+        <h3 class="font_2">This h3 element is styled per class attribute font_2</h3>
+        <h4 class="font_1">Even though this is a h4 element, it is styled the same as the h2 element because we pointed to the class attribute font_1</h4>
+    </body>
+</html>
+```
+
+Here would be the output of our code:
+
+<body>
+    <style>
+    .font_1 {
+        background-color: black;
+        color: yellow;
+        font-size: large;
+    }
+    .font_2 {
+        background-color: darkblue;
+        color: white;
+        font-size: medium;
+    }
+    </style>
+    <h2 class="font_1">This h2 element is styled per class attribute font_1</h2>
+    <h3 class="font_2">This h3 element is styled per class attribute font_2</h3>
+    <h4 class="font_1">Even though this is a h4 element, it is styled the same as the h2 element because we pointed to the class attribute font_1</h4>
+</body>
+
