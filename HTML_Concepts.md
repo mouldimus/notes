@@ -52,7 +52,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [HTML and CSS](#html-and-css)
 - [HTML5](#html5)
 - [List of Colors](#list-of-colors)
-
+- [External Style Sheets](#external-style-sheets)
 
 
 ## Reserved Words and Keywords
@@ -1049,3 +1049,28 @@ The point is
 Here is a list of CSS colors:
 
 [CSS Colors](https://www.w3schools.com/cssref/css_colors.asp)
+
+## External Style Sheets
+[Jump Back](#contents)
+
+As we mentioned earlier, CSS can be saved in a different file than one’s HTML code. This is actually recommended. We do this in a similar way to how we did it with JavaScript:
+
+```html 
+<link rel="stylesheet" type="text/css" href="">
+```
+
+In HTML, there’s a `<link>` element that defines a link between a document and an external resource. It is common to use `<link>` tags to link to a style sheet.
+
+“Rel” is short for “relationship”. Rel is an attribute (word used inside an element’s opening tag that controls its behavior) that specifies the relationship between two documents. For example: if you wanted to specify that you were linking to the help page on your website, you’d write:
+
+```html
+<link rel="help" href="https://www.yourwebsitename.com/help/">
+```
+
+“Stylesheet” is a common value used following the rel attribute. The stylesheet value imports the specified stylesheet.
+
+Type is an attribute of the `<link>` element that tells the browser the kind of resource you are linking to. For example: if you were linking to an audio file, you would write type=“audio” within the element. When linking CSS files, we use the type value “text/css”.
+
+As a reminder “href” is short for “hypertext reference” and it specifies the link’s destination (address).
+
+
