@@ -1411,4 +1411,75 @@ To write comments within your CSS code, you use.
 /* Write comment here */
 ```
 
+## HTML Tables
+To create a table in HTML, we use the `<table>` tag.
+
+Rows are created with the `<tr>` tag (table row).
+
+Table headers are created with the `<th>` tag. Table headers are bold and centered by default.
+
+Table data (cells) are created with the `<td>` tag.
+
+For example, look at this table:
+
+<html lang="en">
+    <body>
+        <h1>Game of Thrones table</h1>
+        <table style="width: 100%">
+            <tr>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td>Jon Snow</td>
+                <td>5032343966</td>
+                <td>winterishere@thenorth.com</td>
+                <td>King of the North</td>
+            </tr>
+            <tr>
+                <td>Daenerys Targaryen</td>
+                <td>9712343966</td>
+                <td>motherofdragons@ironthrone.com</td>
+                <td>The mad queen.</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+To create this in HTML, we would write the following code:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h1>Game of Thrones table</h1>
+        <table style="width: 100%">
+            <tr>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td>Jon Snow</td>
+                <td>5032343966</td>
+                <td>winterishere@thenorth.com</td>
+                <td>King of the North</td>
+            </tr>
+            <tr>
+                <td>Daenerys Targaryen</td>
+                <td>9712343966</td>
+                <td>motherofdragons@ironthrone.com</td>
+                <td>The mad queen.</td>
+            </tr>
+        </table>
+    </body>
+</html>
+```
+
+
+
+
 
