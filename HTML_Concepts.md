@@ -47,6 +47,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Nested Tags](#nested-tags)
 - [CSS](#css)
 - [Aesthetics](#aesthetics)
+- [Selectors, Properties and Values](#selectors-properties-and-values)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -952,6 +953,13 @@ That way if you want to change the aesthetics of your website, you can simply ed
 
 ![Aesthetics](./images/css.png)
 
+## Selectors, Properties and Values
+In CSS, a “selector” points to the HTML elements you wish to style.
 
+A “property” is an identifier; a name. The property explains what feature is being considered.
 
+A “value” describes how the feature is handled.
 
+![Selectors, Properties and Values](./images/html73.png)
+
+In this picture, we are selecting the `<p>` element and stating we want to color the text within it blue.
