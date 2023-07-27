@@ -1135,5 +1135,12 @@ A class is an object, created from the mind of the computer programmer, that rep
 
 Examples of objects include things like “integer”, “string”, “Student”, “Teacher”, etc.
 
+Classes are not actually objects themselves. Instead, they provide a template that actual objects can be created from. The programmer defines the structure of a potential object, as well as the behaviors available to that potential object.
 
+This action of creating an actual example of the object defined by a class is called “instantiation”, and the created object is called an “instance” of the class.
 
+Objects so created can also be referred to as a “class object” or “class instance.”
+
+You can think of the class definition as an answer to the question of, “If I were a [type of object], what would I look like and what could I do?” Here, “what would I look like” refers to the structure of the potential object, and “what could I do” refers to the behavior of the potential object.
+
+![Classes and Objects](./images/html83.png)
