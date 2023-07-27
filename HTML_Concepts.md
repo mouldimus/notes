@@ -61,6 +61,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [HTML Tables](#html-tables)
 - [HTML Lists](#html-lists)
 - [Styling Tables with CSS](#styling-tables-with-css)
+- [Free CSS Fonts](#css-free-fonts)
 
 
 ## Reserved Words and Keywords
@@ -1638,4 +1639,9 @@ Now we need to link our CSS file with our HTML file, so we go back to our HTML c
 <link rel="stylesheet" type="text/css" href="CSS_table.css">
 ```
 
+## CSS Free Fonts
+[Jump Back](#contents)
 
+Here is a great list of free fonts from Google that you can utilize when styling with CSS:
+
+[Google Fonts: Browse Fonts](https://fonts.google.com/)
