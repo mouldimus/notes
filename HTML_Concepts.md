@@ -51,6 +51,9 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [CSS Rule-Set](#css-rule-set)
 - [HTML and CSS](#html-and-css)
 - [HTML5](#html5)
+- [List of Colors](#list-of-colors)
+
+
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -1040,3 +1043,9 @@ The point is
 : *it is a best practice to have all styling contained within style sheets (CSS).*
 
 
+## List of Colors
+[Jump Back](#contents)
+
+Here is a list of CSS colors:
+
+[CSS Colors](https://www.w3schools.com/cssref/css_colors.asp)
