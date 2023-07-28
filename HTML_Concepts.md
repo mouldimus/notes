@@ -85,6 +85,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Query String](#query-string)
 - [HTTP Message](#http-message)
 - [PUT and POST](#put-and-post)
+- [Difference Between PUT and POST](#difference-between-put-and-post)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2151,4 +2152,32 @@ studentId=23&firstName=James&lastName=Potter
 ```
 This would result in the name for student 23 being changed from Harry Potter to James Potter.
 
+## Difference Between PUT and POST
+[Jump Back](#http-messages)
+
+In order to understand how they differ, you need to understand the word “idempotent”.
+
+The conventional meaning of idempotent is taken from mathematics. It is an adjective used to describe a number, and it basically means “unchanged when multiplied by itself”. You can see that the number 1 is idempotent – you could multiply it by itself and it would still be 1. In fact, you could multiply it by itself many times, and it would still be 1.
+
+This leads us to how the word “idempotent” is used in HTTP verbs. Here, it basically describes an operation that will produce the same result even if it is performed multiple times.
+
+Let’s look at an example: If you wanted to edit the name of a student on the web server, you wouldn’t necessarily care if the operation to change that name was performed multiple times. The edit you wanted would happen the first time the operation was performed; subsequent identical operations wouldn’t change the name, as it has already been changed. That would be an idempotent operation.
+
+The PUT verb is idempotent. For example: If you wanted to **change the GPA of an existing student**, you might send an HTTP request that took the data from a form and sent it to a program on the server called “updateStudent”:
+```http
+PUT /admin/updateStudent HTTP/1.1
+Host:www.exampleschool.com
+studentId=23&GPA=3.74
+```
+This would result in the change of the GPA of the student with ID 23 from 3.58, as above, to 3.74.
+
+On the other hand, if you were creating a new student, you wouldn’t want it to actually happen multiple times – that would result in more than one identical student being created.
+
+The POST verb is non-idempotent. If you wanted to **create a new student**, you might send an HTTP request that took the data from a form and sent it to a program on the server called “createStudent”:
+```http
+POST /admin/createStudent HTTP/1.1
+Host: www.exampleschool.com
+firstName=John&lastName=Doe
+```
+This would result in a new student named John Doe being created on the server.
 
