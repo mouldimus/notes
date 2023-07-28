@@ -64,6 +64,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Free CSS Fonts](#css-free-fonts)
 - [CSS Properties](#css-properties)
 - [Line Break](#line-break)
+- [Span](#span)
 
 
 ## Reserved Words and Keywords
@@ -1736,6 +1737,28 @@ Now, that code is not very orderly, so for appearance’s sake, we’d write it 
 ...
 ```
 
+## Span
+[Jump Back](#contents)
 
+Inline (also written in-line) refers to code contained within the webpage. The opposite of inline is code kept in an external file (like a URL or an external style sheet).
+
+The `<span>` tag connects inline elements and provides a way to connect text. It literally spans (stretches across) a section of code. Here’s an example:
+
+```html
+<p>
+    His wife has <span style="color: green; font-weight: bold;">green</span> eyes,
+    his children have <span style="color: blue; font-weight: bold;">blue</span> eyes,
+    but his eyes were <span style="color: #594c26; font-weight: bold;">hazel.</span>
+</p>
+```
+
+
+The resulting output would be:
+
+<p>
+    His wife has <span style="color: green; font-weight: bold;">green</span> eyes,
+    his children have <span style="color: blue; font-weight: bold;">blue</span> eyes,
+    but his eyes were <span style="color: #594c26; font-weight: bold;">hazel.</span>
+</p>
 
 
