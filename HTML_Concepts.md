@@ -63,6 +63,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Styling Tables with CSS](#styling-tables-with-css)
 - [Free CSS Fonts](#css-free-fonts)
 - [CSS Properties](#css-properties)
+- [Line Break](#line-break)
 
 
 ## Reserved Words and Keywords
@@ -1686,4 +1687,55 @@ There are two important points to keep in mind:
 You’ve accomplished quite a lot already – well done!
 
 Let’s continue.
+
+## Line Break
+[Jump Back](#contents)
+
+A line break refers to starting text on a new line. It’s like pressing “ENTER” in a word processor. Take a look at this text:
+
+>Two roads diverged in a yellow wood,
+And sorry I could not travel both
+And be one traveler, long I stood
+And looked down one as far as I could
+To where it bent in the undergrowth;
+
+>Then took the other, as just as fair,
+And having perhaps the better claim,
+Because it was grassy and wanted wear;
+Though as for that the passing there
+Had worn them really about the same,
+
+>And both that morning equally lay
+In leaves no step had trodden black.
+Oh, I kept the first for another day!
+Yet knowing how way leads on to way,
+I doubted if I should ever come back.
+
+>I shall be telling this with a sigh
+Somewhere ages and ages hence:
+Two roads diverged in a wood, and I—
+I took the one less traveled by,
+And that has made all the difference.
+
+Did you know you could write all of that using just one `<p>` element? This is how:
+
+```html
+<p>
+    Two roads diverged in a yellow wood,<br>And sorry I could not travel both<br>And be one traveler, long I stood<br>And looked down one as far as I could<br>To where it bent in the undergrowth;<br>Then took the other, as just as fair,<br>And having perhaps the better claim,<br>Because it was grassy and wanted wear;<br>Though as for that the passing there<br>Had worn them really about the same,<br>And both that morning equally lay<br>In leaves no step had trodden black.<br>Oh, I kept the first for another day!<br>Yet knowing how way leads on to way,<br>I doubted if I should ever come back.<br>I shall be telling this with a sigh<br>Somewhere ages and ages hence:<br>Two roads diverged in a wood, and I—<br>I took the one less traveled by,<br>And that has made all the difference.<br>
+</p>
+```
+
+Now, that code is not very orderly, so for appearance’s sake, we’d write it more like:
+
+```html
+<p>
+    Two roads diverged in a yellow wood,<br>
+    And sorry I could not travel both<br>
+
+    etc.
+...
+```
+
+
+
 
