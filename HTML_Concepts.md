@@ -68,6 +68,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Section](#section)
 - [HTTP](#http)
 - [Clients and Servers](#clients-and-servers)
+- [Message Format](#message-format)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -1864,4 +1865,25 @@ The cycle is this:
 
 3. The client (browser) receives that response. It parses (scans through and processes) the message, including all the resources that came with it, and uses those resources to produce a visual interface for the user.
 
-![Client Server Relationship](./images/clients_and_servers.png)
+![Client Server Relationship](./images/clients_and_servers.png) 
+
+## Message Format
+[Jump Back](#contents)
+
+HTTP messages have a simple format. It's the same format whether the message is a request or a response. It has four sections:
+
+1. "Start Line"
+2. "Headers"
+3. [empty line]
+4. "Body" [optional]
+
+What do these parts do?
+
+1. The "Start Line" section describes the message.
+2. The "Headers" section contains attributes.
+3. The empty line is a separator to tell the programs working with this data that the header section is done. This is needed because the number of lines in the header is variable.
+4. The "Body" section is optional. It is used to include data with the message.
+
+These four parts are always in this exact order, but they are used in different ways depending on whether the message is a request message or a response message.
+
+
