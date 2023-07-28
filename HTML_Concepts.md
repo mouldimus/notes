@@ -2340,3 +2340,29 @@ When this message is received by the server, the data in the body of the message
 The response often includes data that will be useful in tracking the state of the various resources that the program is tracking. In this case, the HTTP response would likely include the studentId for the newly-created student “Billy Bart”, as that studentId would have just been created by the program that has the Student service.
 
 
+## DELETE
+DELETE is pretty straightforward – it would use the same URL, but include the HTTP verb DELETE. Additionally, a piece of data that would identify the specific resource to be deleted would be in the body of the message. The HTTP message might look like this:
+```http
+DELETE /api/StudentService/Student
+Host: www.weatherforecast.com
+Accept-Language: en-us
+```
+```http
+studentId=24
+```
+When this message is received by the server, the data in the body of the message will be used to delete the student with an ID of 23.
+
+Finally, let’s look at the use of the PUT verb to modify the state of a specified resource. If we wanted to change the first name of a specified student from “Billy” to “William”, the HTTP message might look like this:
+```http
+PUT /api/StudentService/Student
+Host: www.weatherforecast.com
+Accept-Language: en-us
+```
+```http
+studentId=24&firstName=William
+```
+When this message is received by the server, the data in the body of the message will be used to change the first name of the student with an ID of 24 from “Billy” to “William”.
+
+By creating the APIs of your programs to conform to RESTful principles, you enable the tracking and control of the state of the things in your program, even though the HTTP protocol you’re using isn’t stateful by itself.
+
+
