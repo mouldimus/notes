@@ -62,6 +62,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [HTML Lists](#html-lists)
 - [Styling Tables with CSS](#styling-tables-with-css)
 - [Free CSS Fonts](#css-free-fonts)
+- [CSS Properties](#css-properties)
 
 
 ## Reserved Words and Keywords
@@ -1668,3 +1669,21 @@ ul {
 To add these effects to our code, we would first save the above CSS code as a separate .css file.
 
 Then we would link our HTML document to the new CSS file.
+
+## CSS Properties
+[Jump Back](#contents)
+
+As a note, here is a complete list of CSS properties:
+
+[CSS Properties Reference](https://www.w3schools.com/cssref/)
+
+There are two important points to keep in mind:
+
+1. No one expects you to memorize the complete syntax of every programming language. Working developers spend a lot of time online looking up code, finding solutions and debugging. For example: after you graduate, it’s completely normal to Google questions like, “How to insert an image in HTML?” or “How to add a CSS border to a webpage?” – even senior-level developers with decades of experience operate this way.
+
+2. It would take months to cover all HTML and CSS code. What’s important is that you understand the basics and can self-teach yourself in the future – both will be achieved on this course.
+
+You’ve accomplished quite a lot already – well done!
+
+Let’s continue.
+
