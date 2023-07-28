@@ -66,7 +66,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Line Break](#line-break)
 - [Span](#span)
 - [Section](#section)
-
+- [HTTP](#http)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -1163,7 +1163,7 @@ The HTML class attribute is used to define equal styles for all elements with th
 
 For example: we could utilize the class attribute if we wanted to have two different styles of paragraphs.
 
-You assign a class name by writing .classname (a period followed by a class name of your choosing).
+You assign a class name by writing `.classname` (a period followed by a class name of your choosing).
 
 Here is an example of how to create two styles using the class attribute:
 
@@ -1183,7 +1183,7 @@ Here is an example of how to create two styles using the class attribute:
 ```
 
 
-We created two class names: font_1 and font_2. The class attribute specified the class names.
+We created two class names: `.font_1` and `.font_2`. The class attribute specified the class names.
 
 By pointing to the class name “font_1” or “font_2” we can specify the styling of our font.
 
@@ -1835,6 +1835,13 @@ If we wanted to start every sentence with two spaces, we would write:
 <p>&nbsp;Sentence.</p>
 ```
 
+## HTTP
+[Jump Back](#contents)
 
+As we’ve covered before, the Internet is a collection of networked computers around the world, and protocols for the exchange of various types of data between those networked computers. One of the primary uses of the Internet is to permit the existence and use of the World Wide Web (the web), a collection of linked electronic documents.
+
+The protocol used to exchange these linked electronic documents between the computers of the Internet is the Hypertext Transfer Protocol (HTTP).
+
+We will now explore how that protocol works, and some ways to use it to make your computer programs more valuable.
 
 
