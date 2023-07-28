@@ -81,6 +81,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Request Message](#request-message)
 - [HTTP Verbs](#http-verbs)
 - [GET Method](#get-method)
+- [Server Response](#server-response)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -1988,5 +1989,39 @@ Let’s break down this HTTP message.
 2. The second section is the “Header Line”, which contains modifiers for the message. In this case, there are two header items: “Host”, which specifies the domain where the resource will be found, and “Accept-Language”, which specifies what language the requesting browser will accept in the response it receives.
 3. The third section is a blank line, signifying that the list of Header items is complete.
 4. There is no body to the message – it’s optional.
+
+
+## Server Response
+[Jump Back](#http-messages)
+
+So what happens when this HTTP message is received by the web server for www.exampleschool.com?
+
+1. IIS will route the request to the "exampleschool" folder.
+2. Then it will locate the specified resource (index.html) within that folder.
+3. Then it will apply the HTTP verb "GET" to that resource. That just means it will send the file back in an HTTP response message.
+
+That response looks something like this:
+
+```http
+HTTP/1.1 200 OK
+Date: Fri, 24 May 2019 12:28:53 GMT
+Server: Microsoft-IIS/8.5
+Last-Modified: Wed, 22 Jul 2018 19:15:56 GMT
+Content-Length: 179
+Content-Type: text/html
+Connection: Closed
+```
+```html
+<html>
+    <body>
+        <h1>Welcome to Example School</h1>
+        <img src="logo.png" alt="school">
+        <div>
+            <a href="adminportal/adminportal.html">Admin Portal</a>
+        </div>
+    </body>
+</html>
+```
+Often, when using the GET verb to retrieve a resource, additional data is needed by the server in order to process the request. Usually this is some unique information that specifies the exact resource needed – for example, data that identifies a specific student in a database.
 
 
