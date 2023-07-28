@@ -87,6 +87,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [PUT and POST](#put-and-post)
 - [Difference Between PUT and POST](#difference-between-put-and-post)
 - [HTTP and State](#http-and-state)
+-[RESTful and APIs](#using-restful-and-apis)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2192,5 +2193,66 @@ However, it is valuable for computer programs to know and modify the state of th
 In order to facilitate this, a system was created that can use the HTTP protocol to be used to monitor and control the state of these various resources.
 
 This system is called “RESTful”. “REST” stands for “Representational State Transfer”.
+
+
+## Using RESTful and APIs
+[Jump Back](#http-messages)
+
+RESTful involves the creation of APIs in an exact manner.
+
+As a reminder, an API is an “Application Programming Interface”.
+
+On the web, an API is essentially a description of how one program can use the Internet to request certain things from another program. It is a set of clearly defined methods of communication between various software components.
+
+As an example, we could have a program out on a web server that maintains weather forecasts and makes those forecasts available to programs on other computers.
+
+In order to make this system work, the creators of the “weather forecasting” program would have to publish instructions that programmers could use if they wanted to have their programs make use of the weather forecasting program.
+
+To do this, they would think of the various things people might want from their program, and create a name for each thing. Examples might be:
+
+- Get a 1-day forecast for a specific city
+- Get a 1-day forecast for a specific ZIP code
+- Get a 7-day forecast for a specific city
+- Get a 7-day forecast for a specific ZIP code
+
+Each of these things would need a separate API.
+
+They would publish a description of each API, including how to format a request for that thing, and what the data would look like that would be sent to the requesting computer.
+
+The object they are describing is actually called an “endpoint”. This is because it is at the end of a line connecting the requesting computer with the providing computer.
+
+The endpoint has a precise format defined for the requests it receives, and the responses it creates.
+
+An endpoint has a URL, since it’s something that can be identified and accessed over the Internet.
+
+In our weather forecasting example, the URL for an endpoint might look something like this:
+
+http://weatherforecast.com/api/oneday/ZIP/95437
+
+Or
+
+http://weatherforecast.com/api/sevenday/city/Chicago
+
+If you used a browser to access that first API, the HTTP request might look like this:
+```http
+GET /api/oneday/ZIP/95437
+Host: www.weatherforcast.com
+Accept-Language: en-us
+```
+The HTTP response might look like this:
+```http
+HTTP/1.1 200 OK
+Date: Sat, 25 May 2019 12:38:53 GMT
+```
+```json
+{
+“ZIP”: 95437
+“Date”: “05 25 2019”
+“High Temperature”: “77F”
+}
+```
+There are many APIs available on the Internet. You will likely create and use APIs in your work.
+
+![API](./images/api.png)
 
 
