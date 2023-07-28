@@ -87,7 +87,8 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [PUT and POST](#put-and-post)
 - [Difference Between PUT and POST](#difference-between-put-and-post)
 - [HTTP and State](#http-and-state)
--[RESTful and APIs](#using-restful-and-apis)
+- [Using RESTful and APIs](#using-restful-and-apis)
+- [RESTful and APIs](#restful-apis)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2254,5 +2255,36 @@ Date: Sat, 25 May 2019 12:38:53 GMT
 There are many APIs available on the Internet. You will likely create and use APIs in your work.
 
 ![API](./images/api.png)
+
+## RESTful APIs
+[Jump Back](#http-messages)
+
+Back to the concept of RESTful. Here, we create APIs that enable us to access and change the state of various resources using HTTP messages and verbs.
+
+There is no change to how HTTP works – we format our messages the same way, and we use the same verbs.
+
+What changes, though, is that we use those messages and verbs in an agreed-upon manner so that we create APIs for other programs to use to access and modify the state of the resources our program is concerned with.
+
+We do this by creating, in our program, various services that perform the actions we want other programs to be able to request.
+
+Using our “example school” as an example, we might want to create a service for other programs to be able to use to create students – and another service for other programs to be able to use to modify student information.
+
+In RESTful, we are concerned with resources – but the word “resources” is being used in a slightly different manner than the usual meaning for web sites. Instead of talking about the various items that a browser might need in order to render a web page, instead we are talking about the objects or things that a computer program might want to create and modify.
+
+In our “example school” example, our program is concerned with creating and modifying students - so those are our resources for the purpose of a RESTful system. In other words, we are creating a service in our program that can create, modify and delete students. We might call this service “StudentService”.
+
+This service will have a URL. It might be something like this:
+
+http://www.exampleschool.com/api/StudentService
+
+There will be one or more functions available from this service. Often we will create one function for accessing all resources, and another function for creating, modifying or deleting an individual resource.
+
+Each function in the service will have its own URL. In our example, the URLs might look like this:
+
+1. http://www.exampleschool.com/api/StudentService/Students
+
+2. http://www.exampleschool.com/api/StudentService/Student
+
+To use this API in the RESTful system, we have to think in this manner: “What resource am I concerned with, and what do I want to do to that resource”.
 
 
