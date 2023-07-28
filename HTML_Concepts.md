@@ -79,6 +79,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Clients and Servers](#clients-and-servers)
 - [Message Format](#message-format)
 - [Request Message](#request-message)
+- [HTTP Verbs](#http-verbs)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -1912,5 +1913,27 @@ The request message needs to answer four basic questions:
 The "additional data" item is data that the server will need in order to do its job. An example would be the data collected from an HTML form.
 
 There are several terms used to refer to this additional data: "body", "content", "entity", or "object".
+
+## HTTP Verbs
+[Jump Back](#contents)
+Here, the word "verbs" refers to an exact command given in the request that controls what the server will do when it gets the request.
+
+These verbs go in the first section of the request.
+
+In grammar, verbs (words that describe action or state of being) have an associated subject (a main part of a sentence – that which we are talking about). The verbs tell the reader about an action related to the subject – what the subject is doing, or what is being done to the subject. In the sentence, “John can run”, “run” is the verb and “John” is the subject.
+
+It is much the same in HTTP. HTTP verbs have an associated resource. They tell what the specified resource should do, or what should be done with or to the specified resource.
+
+These verbs are simple, one-word commands. The most common are:
+
+- GET
+- PUT
+- POST
+
+When you see them, you might want to read them like this: "GET this resource", "PUT this resource", "POST this resource".
+
+Technically, these commands are known as "HTTP methods", not "HTTP verbs" but the term “verb” has been in use for so long that it has stuck. As a reminder, a “method” is a subprogram.
+
+The term HTTP verbs and HTTP methods are interchangeable.
 
 
