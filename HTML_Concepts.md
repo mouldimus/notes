@@ -65,6 +65,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [CSS Properties](#css-properties)
 - [Line Break](#line-break)
 - [Span](#span)
+- [Section](#section)
 
 
 ## Reserved Words and Keywords
@@ -1761,4 +1762,38 @@ The resulting output would be:
     but his eyes were <span style="color: #594c26; font-weight: bold;">hazel.</span>
 </p>
 
+
+## Section
+[Jump Back](#contents)
+
+As the name sounds, the `<section>` tag designates sections in a document, such as headers, footers, chapters, or any other sections of the document.
+
+Here’s an example:
+
+```html
+    <!-- This section is about cats -->
+    <section>
+        <h1>Cats</h1>
+        <p><span style="font-style: italic; font-weight: bold;">As every cat owner knows, nobody owns a cat.</span><br>-Ellen Perry Berkeley</p>
+    </section>
+
+    <!-- This section is about dogs -->
+    <section>
+        <h1>Dogs</h1>
+        <p><span style="font-style: italic; font-weight: bold;">Petting, scratching, and cuddling a dog could be as soothing to the mind and heart as deep mediation and almost as good for the soul as prayer.</span><br>-Dean Koontz</p>
+    </section>
+```
+
+The output of this code looks like this:
+
+<!-- This section is about cats -->
+<section>
+    <h1>Cats</h1>
+    <p><span style="font-style: italic; font-weight: bold;">As every cat owner knows, nobody owns a cat.</span><br>-Ellen Perry Berkeley</p>
+</section>
+<!-- This section is about dogs -->
+<section>
+    <h1>Dogs</h1>
+    <p><span style="font-style: italic; font-weight: bold;">Petting, scratching, and cuddling a dog could be as soothing to the mind and heart as deep mediation and almost as good for the soul as prayer.</span><br>-Dean Koontz</p>
+</section>
 
