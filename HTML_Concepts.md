@@ -67,6 +67,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Span](#span)
 - [Section](#section)
 - [HTTP](#http)
+- [Clients and Servers](#clients-and-servers)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -1844,4 +1845,23 @@ The protocol used to exchange these linked electronic documents between the comp
 
 We will now explore how that protocol works, and some ways to use it to make your computer programs more valuable.
 
+## Clients and Servers
+[Jump Back](#contents)
 
+The web is set up as a client/server system. The client computers are usually personal computers that make use of a program called a web browser. The client requests various resources needed to display web pages on the user’s computer.
+
+The server provides these resources to its clients. These resources are static items like HTML files, images, videos, etc.; and dynamic items produced as a result of executing a program or part of a program
+
+The browser receives these resources from the web server and uses them to create a visual interface for the user.
+
+This entire system works through passing messages back and forth between the client computer and the server computer. These messages are just text, but they are formatted in an exact way. Both the client software (the browser) and the server software (the web server) are programmed to process these HTTP messages.
+
+The cycle is this:
+
+1. The client (browser) submits an HTTP message to the web server application on the server. This message is called the "HTTP Request message".
+
+2. The web server processes that request. It gathers any static resources requested, and executes any programs requested, and then gathers the output of those programs. The web server takes that output, and the static resources, and sends them back to the browser in an HTTP message. This message is called the "HTTP Response message".
+
+3. The client (browser) receives that response. It parses (scans through and processes) the message, including all the resources that came with it, and uses those resources to produce a visual interface for the user.
+
+![Client Server Relationship](./images/clients_and_servers.png)
