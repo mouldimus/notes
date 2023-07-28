@@ -16,35 +16,45 @@ A list of the git commands I've worked with and my rough explainations of how th
 
 
 ### Create/Initise Repository 
-> `git init $newRepositoryName`
+```bash
+git init $newRepositoryName
+```
 : initilise a directory into a git repository (get it ready for version control)
 
 ---
 
 ### Git Help
 
-> `git help` 
+```bash
+git help
+```
 : list git commands (google if unsure)
 
 ---
 
 ### Add files to staging
 
-> `git add $fileOrDirectory` 
+```bash
+git add $fileOrDirectory
+```
 : start tracking files/directories versions ready for being commited to your branch (copy of main repository)
 
 ---
 
 ### Show Staging Status
 
-> `git status`
+```bash
+git status
+```
 : list files & directories that are tracked or untracked before commiting the changes
 
 ---
 
 ### Commit Changes to Local Branch
 
-> `git commit`
+```bash
+git commit
+```
 : commit the changes you have made, to the branch you are in 
 - `-m` 
 : "Commit message"
@@ -55,21 +65,27 @@ A list of the git commands I've worked with and my rough explainations of how th
 
 ### Show log
 
-> `git log`
+```bash
+git log
+```
 : list whose commited what and when
 
 ---
 
 ### Push changes to GitHub
 
-> `git push` 
+```bash
+git push
+```
 : publish your local commits to main
 
 ---
 
 ### Create Branch
 
-> `git branch $nameOfBranch` 
+```bash
+git branch $nameOfBranch
+```
 : create a branch of the main repository that you can edit without making changes to the master repository
 - `-d` 
 : delete named branch (if you're not in it)
@@ -78,28 +94,42 @@ A list of the git commands I've worked with and my rough explainations of how th
 
 ### Checkout Branch
 
-> `git checkout $nameOfBranch`
+```bash
+git checkout $nameOfBranch
+```
 : switch to editing the branch
 
 ---
 
 ### Switch Branch
 
-> `git switch -`
+```bash
+git switch -
+```
 : switches to your previous branch
 
 ---
 
 ### Merge Branches
 
-> `git merge $nameOfBranch` 
+```bash
+git merge $nameOfBranch
+```
 : merges the named branch into the current working branch you are in
     
 When trying to resolve merge conflicts go into the listed file in the error message. Try using cat, nano or vim.
     
 Then edit, save and commit the changes of the file by simply removing what you dont want in the program. Then executing the command:
         
-> `commit -a -m "Commit Message"`
+```bash
+commit -a -m "Commit Message"`
+```
 
 ---
 
+### Ammend previous commit
+
+```bash
+git commit --ammend
+```
+This command helps to ammend the commit message set by the user.
