@@ -86,6 +86,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [HTTP Message](#http-message)
 - [PUT and POST](#put-and-post)
 - [Difference Between PUT and POST](#difference-between-put-and-post)
+- [HTTP and State](#http-and-state)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2180,4 +2181,16 @@ Host: www.exampleschool.com
 firstName=John&lastName=Doe
 ```
 This would result in a new student named John Doe being created on the server.
+
+## HTTP and State
+[Jump Back](#http-messages)
+
+As covered earlier, the HTTP protocol is *stateless* – meaning, the server maintains no record of what operations have happened on it, so you can’t use the sending of these various HTTP messages back and forth to know the state of any particular resource on the server.
+
+However, it is valuable for computer programs to know and modify the state of the various resources that the program is concerned with.
+
+In order to facilitate this, a system was created that can use the HTTP protocol to be used to monitor and control the state of these various resources.
+
+This system is called “RESTful”. “REST” stands for “Representational State Transfer”.
+
 
