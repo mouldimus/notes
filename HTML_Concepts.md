@@ -89,6 +89,8 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [HTTP and State](#http-and-state)
 - [Using RESTful and APIs](#using-restful-and-apis)
 - [RESTful and APIs](#restful-apis)
+- [RESTful](#restful)
+- [Creating a Resource](#creating-a-resource)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2286,5 +2288,55 @@ Each function in the service will have its own URL. In our example, the URLs mig
 2. http://www.exampleschool.com/api/StudentService/Student
 
 To use this API in the RESTful system, we have to think in this manner: “What resource am I concerned with, and what do I want to do to that resource”.
+
+
+## RESTful
+[Jump Back](#http-messages)
+
+In a RESTful system, in order to perform the various actions we want (create, modify, or delete a student) we make a request to the URL of the service, changing the HTTP verb to reflect what we want done to the resource.
+
+In simple terms, we use the HTTP verbs in this fashion:
+
+1. **GET**: *retrieve information about a specified resource*
+2. **POST**: *create a specified resource*
+3. **PUT**: *modify a specified resource*
+4. **DELETE**: *delete a specified resource*
+
+The GET verb is pretty straightforward. Let’s use it in an example where we want to allow other programs to get a list of all students. The URL for that might be:
+
+http://www.exampleschool.com/api/StudentService/Students
+
+If we send an HTTP message to that URL with an HTTP verb of GET, we will receive a list of all students.
+
+Let’s look at an example where we want to get data about a specific student. The URL for that might be:
+
+http://www.exampleschool.com/api/StudentService/Student/:studentId
+
+Here, the HTTP request would use a GET verb. The request would also include the studentId for the student whose data we want.
+
+
+## Creating a Resource
+[Jump Back](#http-messages)
+
+Now let’s look at creating a resource – in our case, a new student.
+
+Again, in RESTful we identify a resource and use the HTTP verb to indicate what we want to happen with that resource.
+
+In this case, we identify the resource by calling the appropriate endpoint in our service:
+
+http://www.exampleschool.com/api/StudentService/Student
+
+In this case, however, we will change the HTTP verb to POST, so that we are creating a new resource, and we will put the information needed to create that new resource in the body of the HTTP message. The HTTP message might look like this:
+```http
+POST /api/StudentService/Student
+Host: www.weatherforecast.com
+Accept-Language: en-us
+```
+```http
+firstName=Billy&lastName=Bart&GPA=2.43
+```
+When this message is received by the server, the data in the body of the message will be used to create a new student. This happens because the programmer who made the service sets it up that way, as part of making their program conform with this idea of a RESTful system.
+
+The response often includes data that will be useful in tracking the state of the various resources that the program is tracking. In this case, the HTTP response would likely include the studentId for the newly-created student “Billy Bart”, as that studentId would have just been created by the program that has the Student service.
 
 
