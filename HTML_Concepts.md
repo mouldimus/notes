@@ -80,6 +80,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Message Format](#message-format)
 - [Request Message](#request-message)
 - [HTTP Verbs](#http-verbs)
+- [GET Method](#get-method)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -1935,5 +1936,57 @@ When you see them, you might want to read them like this: "GET this resource", "
 Technically, these commands are known as "HTTP methods", not "HTTP verbs" but the term “verb” has been in use for so long that it has stuck. As a reminder, a “method” is a subprogram.
 
 The term HTTP verbs and HTTP methods are interchangeable.
+
+## GET Method
+[Jump Back](#http-messages)
+
+The GET verb is pretty straightforward. It is used to *get* information from the web server using a specified URL.
+
+Let's look at the example of requesting a web page.
+
+Assume we have a web site called "exampleschool.com". The web site is on a server that runs the operating system Windows Server 2016, a popular OS for business use.
+
+The web server software running on that computer is called Internet Information Services (IIS) – the web server program built into all Windows operating systems.
+
+IIS has a default file structure it uses to store the files for any web sites it will host. This is typically "`C:/inetpub/wwwroot`". We have stored the files for our website "exampleschool.com" in a folder called "exampleschool" that is inside the "wwwroot" folder. The file structure would look something like this:
+
+    Drive: C
+        Folder: inetpub
+            Folder: wwwroot
+                Folder: exampleschool
+                    File: index.html
+                        File: logo.jpg
+                            Folder: adminportal
+                                File: adminportal.html
+
+IIS has been set up to route incoming HTTP requests for the web site "www.exampleschool.com" to the files and folders inside the "exampleschool" folder.
+
+Knowing this structure, we can specify the exact location of any resource in the web site. For example, the file "index.html" is a resource. The URL for that resource would be:
+
+http://www.exampleschool.com/index.html
+
+There are two primary ways a browser can be directed to request this resource:
+
+1. The exact URL can be entered into the search bar for the browser
+2. An element on the page can be turned into an anchor with the URL as the hyperlink reference. It would look something like this:
+
+```html
+<a href="http://www.exampleschool.com/index.html">Example School</a>
+```
+
+In either event, an HTTP request is created.
+
+The request looks something like this:
+```http
+GET /index.html HTTP/1.1
+Host: www.exampleschool.com
+Accept-Language: en-us
+```
+Let’s break down this HTTP message.
+
+1. The first section is the “Start Line”, which is used to describe the message. In this case, the message uses the HTTP method “GET” from version 1.1 of the HTTP specification – there are various versions, so this is specified. The resource to which this method will be applied is the file “index.html”, which is located in the root directory for our web site.
+2. The second section is the “Header Line”, which contains modifiers for the message. In this case, there are two header items: “Host”, which specifies the domain where the resource will be found, and “Accept-Language”, which specifies what language the requesting browser will accept in the response it receives.
+3. The third section is a blank line, signifying that the list of Header items is complete.
+4. There is no body to the message – it’s optional.
 
 
