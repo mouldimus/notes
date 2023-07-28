@@ -84,6 +84,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Server Response](#server-response)
 - [Query String](#query-string)
 - [HTTP Message](#http-message)
+- [PUT and POST](#put-and-post)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2116,4 +2117,38 @@ Connection: Closed
 This resource would be rendered by the browser as a web page for the user.
 
 An important note is that GET requests are ONLY used to request data, not to create or modify data.
+
+## PUT and POST
+[Jump Back](#http-messages)
+
+POST is used to send data to the server in order to create a resource. The data needed by the server in order to do the creation is stored in the request body.
+
+Example: Given the URL: http://www.exampleschool.com/adminportal/createStudent?studentId=23&firstName=Harry&lastName=Potter
+
+The actual HTTP request would look something like this:
+```http
+POST /adminportal/createOrUpdate_student
+Host: www.exampleschool.com
+Accept-Language: en-us
+```
+```http
+studentId=23&firstName=Harry&lastName=Potter
+```
+PUT is used to replace a resource. In effect, this ends up editing the resource, as the old data about the resource is replaced with the new.
+
+The request needs to contain the location where the resource should be placed, and any needed data about the resource.
+
+Example: Given the URL: http://www.exampleschool.com/adminportal/editStudent?studentId=23&firstName=James&lastName=Potter
+
+The actual HTTP request would look something like this:
+```http
+PUT /adminportal/createOrUpdate_student
+Host: www.exampleschool.com
+Accept-Language: en-us
+```
+```http
+studentId=23&firstName=James&lastName=Potter
+```
+This would result in the name for student 23 being changed from Harry Potter to James Potter.
+
 
