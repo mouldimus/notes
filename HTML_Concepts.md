@@ -4,7 +4,9 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 [For more on HTML check out my college notes.](https://github.com/mouldimus/Pitman_HTML_CSS)
 
 ### Contents
+#### HTML Attributes
 - [Reserved Words and Keywords](#reserved-words-and-keywords)
+#### Additional Web Development Terminology
 - [Cache](#cache)
 - [Clearing the Cache](#clearing-the-cache)
 - [Real Time](#real-time)   
@@ -12,6 +14,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [JavaScript](#javascript)
 - [AJAX](#ajax)
 - [API](#api)
+#### Introduction to JavaScript and Object-Oriented Programming
 - [Objects](#objects)
 - [JSON](#json)
 - [XHR](#xhr)
@@ -32,6 +35,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Using these Terms](#using-these-terms)
 - [Document.getElementById Method](#documentgetelementbyid-method)
 - [Creating a Function](#creating-a-function)
+#### The DOM and Developer Tools
 - [Nodes](#node)
 - [Trees](#trees)
 - [HTML and the Web](#html-and-the-web)
@@ -40,11 +44,13 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [DOM and HTML](#dom-and-html)
 - [DOM](#dom)
 - [DOM and Elements](#dom-and-elements)
+#### Styling with HTML
 - [Type of Font](#type-of-font)
 - [Browser Engines](#browser-engines)
 - [Web Browsers](#web-browsers)
 - [Rendering](#rendering)
 - [Nested Tags](#nested-tags)
+#### A Preview of Cascading Style Sheets (CSS)
 - [CSS](#css)
 - [Aesthetics](#aesthetics)
 - [Selectors, Properties and Values](#selectors-properties-and-values)
@@ -52,12 +58,14 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [HTML and CSS](#html-and-css)
 - [HTML5](#html5)
 - [List of Colors](#list-of-colors)
+#### Linking HTML and CSS Files
 - [External Style Sheets](#external-style-sheets)
 - [Linking Style Sheets](#linking-style-sheets)
 - [Classes and Objects](#classes-and-objects)
 - [Class Attribute](#class-attribute)
 - [Class in External File](#class-in-external-file)
 - [Code Commenting](#commenting-code)
+#### Lists and Tables with HTML and CSS
 - [HTML Tables](#html-tables)
 - [HTML Lists](#html-lists)
 - [Styling Tables with CSS](#styling-tables-with-css)
@@ -66,9 +74,11 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Line Break](#line-break)
 - [Span](#span)
 - [Section](#section)
+#### HTTP Messages
 - [HTTP](#http)
 - [Clients and Servers](#clients-and-servers)
 - [Message Format](#message-format)
+- [Request Message](#request-message)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -1838,7 +1848,7 @@ If we wanted to start every sentence with two spaces, we would write:
 ```
 
 ## HTTP
-[Jump Back](#contents)
+[Jump Back](#http-messages)
 
 As we’ve covered before, the Internet is a collection of networked computers around the world, and protocols for the exchange of various types of data between those networked computers. One of the primary uses of the Internet is to permit the existence and use of the World Wide Web (the web), a collection of linked electronic documents.
 
@@ -1847,7 +1857,8 @@ The protocol used to exchange these linked electronic documents between the comp
 We will now explore how that protocol works, and some ways to use it to make your computer programs more valuable.
 
 ## Clients and Servers
-[Jump Back](#contents)
+[Jump Back](#http-messages)
+
 
 The web is set up as a client/server system. The client computers are usually personal computers that make use of a program called a web browser. The client requests various resources needed to display web pages on the user’s computer.
 
@@ -1868,7 +1879,8 @@ The cycle is this:
 ![Client Server Relationship](./images/clients_and_servers.png) 
 
 ## Message Format
-[Jump Back](#contents)
+[Jump Back](#http-messages)
+
 
 HTTP messages have a simple format. It's the same format whether the message is a request or a response. It has four sections:
 
@@ -1885,5 +1897,20 @@ What do these parts do?
 4. The "Body" section is optional. It is used to include data with the message.
 
 These four parts are always in this exact order, but they are used in different ways depending on whether the message is a request message or a response message.
+
+## Request Message
+[Jump Back](#http-messages)
+
+
+The request message needs to answer four basic questions:
+
+1. What resource is this request concerned with?
+2. What do you want to do with that resource?
+3. How do you want to modify this request from the default, if at all?
+4. Is there additional data you'd like to send along with this request that will be needed to complete the request and generate a response?
+
+The "additional data" item is data that the server will need in order to do its job. An example would be the data collected from an HTML form.
+
+There are several terms used to refer to this additional data: "body", "content", "entity", or "object".
 
 
