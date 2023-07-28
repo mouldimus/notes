@@ -83,6 +83,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [GET Method](#get-method)
 - [Server Response](#server-response)
 - [Query String](#query-string)
+- [HTTP Message](#http-message)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2073,4 +2074,46 @@ Let’s break down the first line of this HTTP message (the remaining lines are 
 
 The first section is the “Start Line”, which is used to describe the message. In this case, the resource to which the GET method will be applied is the program called “get_student”. The query string contains the key/value pair that will be given to that program.
 
+## HTTP Message
+[Jump Back](#http-messages)
+
+So what happens when this HTTP message is received by the web server for www.exampleschool.com?
+
+1. The actual computer program we associated with the web site “exampleschool.com” should be running. IIS is hooked into this program, and can direct requests to specific parts of the program as directed.
+2. In this case, IIS will direct the request to the part of the program called “get_student”.
+3. IIS will receive any text or other resources produced by that program and set it aside for eventual delivery back to the client.
+4. Then it will apply the HTTP verb "GET" to that resource. That just means it will send the resource back in an HTTP response message. The resource will be included in the “body” part of the response.
+
+That response might look something like this:
+```http
+HTTP/1.1 200 OK
+Date: Fri, 24 May 2019 12:38:53 GMT
+Server: Microsoft-IIS/8.5
+Content-Length: 179
+Content-Type: text/html
+Connection: Closed
+```
+```html
+<html>
+    <body>
+        <h1>Student Details</h1>
+        <div>
+            Student ID: 23
+        </div>
+        <div>
+            Name: Jane S. Doe
+        </div>
+        <div>
+            Graduation year: 2027
+        </div>
+        <div>
+            GPA: 3.58
+        </div>
+    </body>
+</html>  
+```
+
+This resource would be rendered by the browser as a web page for the user.
+
+An important note is that GET requests are ONLY used to request data, not to create or modify data.
 
