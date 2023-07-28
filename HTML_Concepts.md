@@ -1797,3 +1797,44 @@ The output of this code looks like this:
     <p><span style="font-style: italic; font-weight: bold;">Petting, scratching, and cuddling a dog could be as soothing to the mind and heart as deep mediation and almost as good for the soul as prayer.</span><br>-Dean Koontz</p>
 </section>
 
+## Non-Breaking Space
+A common character entity used in HTML is the non-breaking space – written like this: `&nbsp;`
+
+A non-breaking space is a space that will not break into a new line. Two words separated by a non-breaking space will stick together. This can be useful when breaking the words might be disruptive.
+
+For example:
+
+
+
+would ensure that the output is:
+
+**3:11 p.m.**
+
+As opposed to:
+
+**3:11**
+**p.m.** (or something)
+
+Additionally, browsers automatically default multiple spaces down to 1. For example: if you write 12 spaces, the browser will delete 11 of them.
+
+You can try it out for yourself but here’s an example:
+
+```html
+<p>         Here's              Johnny          !</p>
+```
+
+will display as:
+
+**Here’s Johnny !**
+
+`&nbsp;` can tell the browser to leave extra spaces in place.
+
+If we wanted to start every sentence with two spaces, we would write:
+
+```html
+<p>&nbsp;Sentence.</p>
+```
+
+
+
+
