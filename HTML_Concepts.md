@@ -93,6 +93,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Creating a Resource](#creating-a-resource)
 #### Planning and Executing a Web Application
 - [IDE](#ide)
+- [Opening a Link in a New Tab](#opening-a-link-in-a-new-tab)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2376,4 +2377,28 @@ An IDE is a set of programming tools for writing software programs. IDEs are a g
 
 **Example**
 >Visual Studio, available from the technology company Microsoft, is one of the many IDEs available for software developers.
+
+## Opening a Link in a New Tab
+[Jump back](#planning-and-executing-a-web-application)
+
+When we write a link in our HTML code, like this:
+
+```html 
+<a href="https://learncodinganywhere.com/">The Tech Academy</a>
+```
+
+[The Tech Academy](https://learncodinganywhere.com/) link takes you to the webpage in the current browser window when you click on it.
+
+You can open the page in a new tab within the current browser window by utilizing the target attribute and using the “new” value, like:
+
+```html
+<a href="https://learncodinganywhere.com/" target="new">The Tech Academy</a>
+```
+
+We can also accomplish this with the “_blank” value (following a target attribute) as follows:
+
+```html
+<a href="https://learncodinganywhere.com/" target="_blank">The Tech Academy</a>
+```
+
 
