@@ -94,6 +94,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 #### Planning and Executing a Web Application
 - [IDE](#ide)
 - [Opening a Link in a New Tab](#opening-a-link-in-a-new-tab)
+- [Emphasis](#emphasis)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2401,4 +2402,15 @@ We can also accomplish this with the “_blank” value (following a target attr
 <a href="https://learncodinganywhere.com/" target="_blank">The Tech Academy</a>
 ```
 
+## Emphasis
+[Jump Back](#planning-and-executing-a-web-application)
 
+Another way to add emphasis to text is the `<em>` tag.
+
+```html
+<em>This text is emphasized.</em>
+```
+
+The output of this code would be:
+
+<em>This text is emphasized.</em>
