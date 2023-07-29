@@ -91,6 +91,8 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [RESTful and APIs](#restful-apis)
 - [RESTful](#restful)
 - [Creating a Resource](#creating-a-resource)
+#### Planning and Executing a Web Application
+- [IDE](#ide)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2365,4 +2367,13 @@ When this message is received by the server, the data in the body of the message
 
 By creating the APIs of your programs to conform to RESTful principles, you enable the tracking and control of the state of the things in your program, even though the HTTP protocol you’re using isn’t stateful by itself.
 
+## IDE
+[Jump Back](#planning-and-executing-a-web-application)
+
+As a reminder, *IDE* stands for *Integrated Development Environment*.
+
+An IDE is a set of programming tools for writing software programs. IDEs are a great aid to computer program creation. An IDE often combines many available tools into one place. Essentially, an IDE is software that helps you make software.
+
+**Example**
+>Visual Studio, available from the technology company Microsoft, is one of the many IDEs available for software developers.
 
