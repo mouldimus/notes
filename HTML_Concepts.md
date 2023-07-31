@@ -98,6 +98,8 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Semantic Content Elements](#semantic-content-elements)
 - [Video and Audio Tags](#video-and-audio-tags)
 - [Bookmarks](#bookmarks)
+- [PNG](#png)
+- [Naming Convention](#naming-convention)
 
 
 ## Reserved Words and Keywords
@@ -2518,10 +2520,29 @@ Our webpage would display like:
 </body>
 
 ## PNG
+[Jump Back](#planning-and-executing-a-web-application)
+
 *PNG* stands for Portable Network Graphics. This is a type of image file that allows for compressed size without any loss in image quality.
 
 **Example**
 > PNG is a great file type to use for website images.
+
+
+## Naming Convention
+[Jump Back](#planning-and-executing-a-web-application)
+
+“Convention” means “the usual and agreed-upon way of doing things”.
+
+*Naming convention* is the general rules applied when writing text in coding – it is how the text is written. Some naming conventions are built into a programming language – such as requiring certain commands to be written in all caps.
+
+As a coder, you can also choose your own naming conventions, such as placing _ between all words in titles or numbering all images.
+
+**Example**
+>Naming conventions help ensure consistency and facilitate visual scanning of code.
+
+
+
+
 
 
 
