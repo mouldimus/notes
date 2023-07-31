@@ -95,15 +95,16 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [IDE](#ide)
 - [Opening a Link in a New Tab](#opening-a-link-in-a-new-tab)
 - [Emphasis](#emphasis)
+- [Semantic Content Elements](#semantic-content-elements)
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
 
-In most programming languages, there are certain words you can’t use as variables, labels (names assigned to sections of code), or functions (repeatable blocks of code). These are called reserved words. For example, in the popular programming language Python, `def` (which defines a function) and `if` (which creates an if statement) are reserved words.
+In most programming languages, there are certain words you can't use as variables, labels (names assigned to sections of code), or functions (repeatable blocks of code). These are called reserved words. For example, in the popular programming language Python, `def` (which defines a function) and `if` (which creates an if statement) are reserved words.
 
-The reason you cannot use these words is that they already mean something else – they are reserved for the programming language.
+The reason you cannot use these words is that they already mean something else - they are reserved for the programming language.
 
-And so, if you were creating a variable in Python, you couldn’t write:
+And so, if you were creating a variable in Python, you couldn't write:
 ```python
 if = 10
 ```
@@ -114,7 +115,7 @@ Reserved words are also called keywords (again, code built into the syntax of a 
 ## Cache
 [Jump Back](#contents)
 
-A cache (pronounced “cash”) is a collection of items stored somewhere for use at a later time. For example, a weapons cache is a place where weapons are kept until they are needed.
+A cache (pronounced "cash") is a collection of items stored somewhere for use at a later time. For example, a weapons cache is a place where weapons are kept until they are needed.
 
 In computers, a cache is a set of computer memory where data can be stored for later use. One of the most common uses for a cache in computers relates to situations where there is a significant time delay in acquiring certain data. In order to provide a faster user experience, the computer will store the data in a cache after the first time that data is used in order to avoid having to read the data from a slower device or without having to dig around in the computer to find the information again.
 
@@ -125,15 +126,15 @@ Files that you view from a cache may only take 2 or 3 seconds to display on your
 
 Whenever you enter a URL into the browser's address bar, you are making a request to the web server that is hosting the website for a specific file. This file may be an HTML document or a combination of files.
 
-It takes time for the browser to load this content (it often downloads many files in order to reconstruct the webpage). To reduce the load time for future visits, the browser may store some of these pages as snapshots into its memory. This action is called “caching” and each snapshot is called a “cache file.” The next time you visit the same website, your browser may attempt to load up the cached files to reduce the load time. While this is useful for speed, occasionally websites do not display correctly due to corrupted or outdated data in the cache.
+It takes time for the browser to load this content (it often downloads many files in order to reconstruct the webpage). To reduce the load time for future visits, the browser may store some of these pages as snapshots into its memory. This action is called "caching" and each snapshot is called a "cache file." The next time you visit the same website, your browser may attempt to load up the cached files to reduce the load time. While this is useful for speed, occasionally websites do not display correctly due to corrupted or outdated data in the cache.
 
 You may run a file or visit a site and see errors.
 
-To ensure you’re viewing the correct and newest version of a website, you can clear your cache.
+To ensure you're viewing the correct and newest version of a website, you can clear your cache.
 
-There are different ways to clear the cache, depending on the browser you’re using. Simply Google *“clear cache ______(browser name).”* For Google Chrome, you can click `CTRL+F5`.
+There are different ways to clear the cache, depending on the browser you're using. Simply Google *"clear cache ______(browser name)."* For Google Chrome, you can click `CTRL+F5`.
 
-This is mentioned here as a troubleshooting tip for web pages that aren’t displaying properly.
+This is mentioned here as a troubleshooting tip for web pages that aren't displaying properly.
 
 ## Real Time
 [Jump Back](#contents)
@@ -146,16 +147,16 @@ In one scenario, there is little to no time lag between when an event occurs at 
 
 In another scenario, the events of the game are recorded, and then viewed at another time. This can be called "delayed playback". The delay can be a few seconds, an hour, a day or any other length of time.
 
-This applies in any situation where the stream of information that is produced can be accessed as it is produced – that is, in "real time”.
+This applies in any situation where the stream of information that is produced can be accessed as it is produced - that is, in "real time".
 
 ## Static vs. Dynamic
 [Jump Back](#contents)
 
-As a reminder, *static* means “rigid; unchanging.”
+As a reminder, *static* means "rigid; unchanging."
 
 *Static web sites* are delivered to the browser exactly how they were stored originally on the web server. Static web pages don't change. No matter who is accessing the web site, it looks the same.
 
-Most web sites nowadays are *dynamic*, meaning that the appearance and content of the web pages can be changed on the web server before the web page is sent back to the browser, or it can be changed by the browser on the user’s computer before being displayed on the screen.  
+Most web sites nowadays are *dynamic*, meaning that the appearance and content of the web pages can be changed on the web server before the web page is sent back to the browser, or it can be changed by the browser on the user's computer before being displayed on the screen.  
 
 ## JavaScript
 As a reminder, *JavaScript* is a computer language that is able to work on most computers. It is useful in making websites.
@@ -169,13 +170,13 @@ JavaScript is used mainly to make websites more dynamic (describing websites tha
 [Jump Back](#contents)
 
 *AJAX* stands for *Asynchronous JavaScript and XML.*
-*Asynchronous* means “broken down into separate pieces/occurrences without a set pattern.”
+*Asynchronous* means "broken down into separate pieces/occurrences without a set pattern."
 
 *XML* is an acronym for *extensible* markup language. This means that computer programmers can create their own document structure, and then use XML to specify markup instructions for the data in those documents.
 
 AJAX is a set of tools that can be used in creating asynchronous functions for web sites.
 
-AJAX is best understood by relating it to the way a normal web page is accessed by a user. With a web browser, a user issues a “request" to see a specific web page. That request is sent to the web server. That server gathers those requested files and sends them to the user's computer as a “response” to the “request,” and the browser then converts them to a visual form and displays them for the user.
+AJAX is best understood by relating it to the way a normal web page is accessed by a user. With a web browser, a user issues a "request" to see a specific web page. That request is sent to the web server. That server gathers those requested files and sends them to the user's computer as a "response" to the "request," and the browser then converts them to a visual form and displays them for the user.
 
 If the creator of that web page wants to make it so that some content on the web page can change based on a user action, they have a number of different options.
 
@@ -183,21 +184,21 @@ One method is to just send a new request for the web page, along with an instruc
 
 This is where AJAX can come in. Instead of requesting that the entire page be recreated, the creator of the web site can make it so that just the new content is requested from the web server.
 
-The way this works is that user action triggers an asynchronous request to the web server for JUST a specific section of the web page. It is asynchronous in that it is not tied to the full “request” – “response” – “page display” process used for a full web page.
+The way this works is that user action triggers an asynchronous request to the web server for JUST a specific section of the web page. It is asynchronous in that it is not tied to the full "request" - "response" - "page display" process used for a full web page.
 
-The technologies used to accomplish this feature are JavaScript and XML – hence the name "AJAX,” or `A`synchronous `J`avaScript `A`nd `X`ML.
+The technologies used to accomplish this feature are JavaScript and XML - hence the name "AJAX," or `A`synchronous `J`avaScript `A`nd `X`ML.
 
 **Example**
->If you are viewing a web page, AJAX can make it so that when you click on a video, the video is sent over from the server – as opposed to the video and the rest of the entire web page.
+>If you are viewing a web page, AJAX can make it so that when you click on a video, the video is sent over from the server - as opposed to the video and the rest of the entire web page.
 
 ## API
 [Jump Back](#contents)
 
 As a reminder, an *API* (Application Program Interface) is a collection of methods that allow different programs to communicate with each other.
 
-It is basically a way that a computer program can tell other programs, “If you want to give or get information, here is the exact way you’ll need to ask me.”
+It is basically a way that a computer program can tell other programs, "If you want to give or get information, here is the exact way you'll need to ask me."
 
-The reason programs would have an API is so there is a description of the standard way other programs can access that program. That way, any programmer who has a description of the API for a particular program can make another program connect to the API. If there is no API for a program, other programs can’t access that program easily.
+The reason programs would have an API is so there is a description of the standard way other programs can access that program. That way, any programmer who has a description of the API for a particular program can make another program connect to the API. If there is no API for a program, other programs can't access that program easily.
 
 While the concept of APIs applies to any type of computer program, it is most often used to describe a function that websites can implement.
 
@@ -214,7 +215,7 @@ Here, an external website wants to request data about a specific student from th
 
 When the web server for https://www.learncodinganywhere.com receives this request, it gives it to the API on that web server - the program that knows how to interpret the request, perform the task requested, format any data that is required as a response, and send that response to the program that requested it.
 
-Here is an example of what the data received from that request (the “response”) might look like:
+Here is an example of what the data received from that request (the "response") might look like:
 
 ```json
 {
@@ -233,7 +234,7 @@ Here is an example of what the data received from that request (the “response�
 The people who create the API would write a description of the way to use the API (create requests) and a description of what the data in the responses will look like. This is called an API specification.
 
 **Example**
-> If there was a software program that kept track of the inventory for a bicycle manufacturer, that program might have an API that would allow the company’s dealers to connect to the program and find out how many of a certain type of bicycle were available at the manufacturer. In this case, the dealers could have a software program of their own, which would connect to the API of the software at the manufacturer and request that inventory data.
+> If there was a software program that kept track of the inventory for a bicycle manufacturer, that program might have an API that would allow the company's dealers to connect to the program and find out how many of a certain type of bicycle were available at the manufacturer. In this case, the dealers could have a software program of their own, which would connect to the API of the software at the manufacturer and request that inventory data.
 
 ## Objects
 [Jump Back](#contents)
@@ -241,9 +242,9 @@ The people who create the API would write a description of the way to use the AP
 Often in computer programming, there will be part of a computer program that defines the concept of a thing. When the program needs to create one of those things, it looks to the definition and uses it in creating one of them. Another term for these things that can be created is *objects*.
 
 **Example**
->A computer program for use in a school might have a definition for a thing called a Student. The program instructions in that definition are essentially answers to the question, “If I were a student, what characteristics and actions are available to me?”
+>A computer program for use in a school might have a definition for a thing called a Student. The program instructions in that definition are essentially answers to the question, "If I were a student, what characteristics and actions are available to me?"
 
-We have covered the basics of OOP (object-oriented programming) earlier but let’s delve into it further.
+We have covered the basics of OOP (object-oriented programming) earlier but let's delve into it further.
 
 Characteristics of a Student object might be things like:
 
@@ -258,15 +259,15 @@ Actions available to a student might include things like:
 - Add a new area of study
 - Remove an area of study
 
-This type of definition is often called an “Object definition” or a “Class.” Here, we have an Object definition for an Object called a “Student.”
+This type of definition is often called an "Object definition" or a "Class." Here, we have an Object definition for an Object called a "Student."
 
-Until the computer program is directed to create an actual “Student” object, there aren't any in the program.
+Until the computer program is directed to create an actual "Student" object, there aren't any in the program.
 
 When the program is directed to create an actual Student object, the program looks to the Object definition of a Student and creates an actual Student.
 
-To do so, the program will need the data for that actual Student – their name, their age, their GPA. It will then create a “Student.”
+To do so, the program will need the data for that actual Student - their name, their age, their GPA. It will then create a "Student."
 
-This “Student” is a collection of data, stored in the computer memory, that defines an INSTANCE of a Student. That is, it is a single occurrence of the type of thing defined by the Object definition called “Student.”
+This "Student" is a collection of data, stored in the computer memory, that defines an INSTANCE of a Student. That is, it is a single occurrence of the type of thing defined by the Object definition called "Student."
 
 **Example**
 >If a 15-year-old student named Angela Smith enrolled at a school to study Physics and Computer Science, and her Grade Point Average was 3.25, the Student Object created in the computer program might look like this:
@@ -284,20 +285,20 @@ Major areas of study: Physics, Computer Science
 ## JSON
 [Jump Back](#contents)
 
-As a reminder, *JSON* (pronounced “Jay-son”) stands for JavaScript Object Notation.
+As a reminder, *JSON* (pronounced "Jay-son") stands for JavaScript Object Notation.
 
-JSON is a way to represent a specific object, using the JavaScript language. This can be useful in exchanging data between different computers or computer programs. In fact, JSON is what is known as a “data-interchange format” – a method of formatting data in a manner that is easily exchanged between different computers.
+JSON is a way to represent a specific object, using the JavaScript language. This can be useful in exchanging data between different computers or computer programs. In fact, JSON is what is known as a "data-interchange format" - a method of formatting data in a manner that is easily exchanged between different computers.
 
 This is done by using JavaScript language instructions, in a specific format, to describe the various characteristics of the object that is to be exchanged.
 
-There are two main elements in JSON that are used to describe the format of data: collections of “key/value pairs” and “ordered lists of values.”
+There are two main elements in JSON that are used to describe the format of data: collections of "key/value pairs" and "ordered lists of values."
 
 ### Key/Value Pairs
 A "key/value pair" is a set of two pieces of data.
 
-The first, the “key,” can be text data or numeric data. It might be something like “Age” or “Name.” It is used to uniquely identify a particular key/value pair, so it must be unique within a collection of key/value pairs.
+The first, the "key," can be text data or numeric data. It might be something like "Age" or "Name." It is used to uniquely identify a particular key/value pair, so it must be unique within a collection of key/value pairs.
 
-The second, the “value,” is the actual data associated with that key. It can be any type of data that the language JavaScript can represent. This is data like text, decimal numbers, integers, true/false data, etc.
+The second, the "value," is the actual data associated with that key. It can be any type of data that the language JavaScript can represent. This is data like text, decimal numbers, integers, true/false data, etc.
 
 In JSON, key/value pairs are written in this manner:
 
@@ -314,7 +315,7 @@ In our earlier example Student, some of the key/value pairs are:
 
 ### Ordered Lists of Values
 
-An “ordered list of values” is just that – a collection of values. Again, these values can be any type of data that the language JavaScript can represent. This is data like text, decimal numbers, integers, true/false data, etc.
+An "ordered list of values" is just that - a collection of values. Again, these values can be any type of data that the language JavaScript can represent. This is data like text, decimal numbers, integers, true/false data, etc.
 
 In JSON, ordered lists of values are written in this manner:
 
@@ -379,13 +380,13 @@ XHR works by establishing a communication path between a web page's client-side 
 ## State
 [Jump Back](#contents)
 
-A key technology term is “state”. It basically means, “the condition or status of a thing at a specific point in time”.
+A key technology term is "state". It basically means, "the condition or status of a thing at a specific point in time".
 
-This concept of state is used in various ways in technology, and it has more precise meanings in those contexts – but it usually means “what’s the state of this thing at this exact time?”.
+This concept of state is used in various ways in technology, and it has more precise meanings in those contexts - but it usually means "what's the state of this thing at this exact time?".
 
-We’re going to examine the way this concept applies to the Web and web development.
+We're going to examine the way this concept applies to the Web and web development.
 
-To start, let’s review some basic elements that apply to communication between connected computers, or networks.
+To start, let's review some basic elements that apply to communication between connected computers, or networks.
 
 One reason to create computer networks in the first place is to allow for the design and operation of what is called a distributed system. A distributed system is a computing system in which the various elements of the system are located on different computers on a network. In this system, the various computers communicate and coordinate their actions by passing messages to each other.
 
@@ -398,11 +399,11 @@ Here is a diagram of a distributed system:
 
 A computer program that runs within one of these distributed systems is called a distributed program or a distributed application. In this type of application, there are usually several individual computer programs installed on the various computers in the network. These programs are designed to work together. Each program will perform some function that relates to the overall purpose of the distributed application. Together, this system of networked computers and programs will accomplish the overall purpose of the distributed application.
 
-The use of the term “state” that we will examine here revolves around a distributed application structure called “client/server.” In this structure, one or more of the computers in the network are arbitrarily designated as the servers, and one or more other computers are designated as clients.
+The use of the term "state" that we will examine here revolves around a distributed application structure called "client/server." In this structure, one or more of the computers in the network are arbitrarily designated as the servers, and one or more other computers are designated as clients.
 
 A server acts as the provider of a resource or a service; a client acts as a requester of that resource or service. The server can do things like sending files and images or processing some data the client gave it.
 
-The primary factor that applies when computers are communicating and passing data is the concept of a protocol – a precise description of how to structure, send, receive and process data of a specific type.
+The primary factor that applies when computers are communicating and passing data is the concept of a protocol - a precise description of how to structure, send, receive and process data of a specific type.
 
 Distributed applications need a protocol that governs how the various elements in the system communicate and coordinate their actions.
 
@@ -413,11 +414,11 @@ Distributed applications need a protocol that governs how the various elements i
 
 When we look at the Web, the protocol at work is the Hypertext Transfer Protocol (HTTP).
 
-When a client establishes a connection to a server using this protocol, a “session” is begun. Here, a session is a temporary and interactive exchange of information between two computers using HTTP. Once the server sends the requested data, the session is ended.
+When a client establishes a connection to a server using this protocol, a "session" is begun. Here, a session is a temporary and interactive exchange of information between two computers using HTTP. Once the server sends the requested data, the session is ended.
 
-This illustration sets the stage for examining the use of the term “state” in the web and web development.
+This illustration sets the stage for examining the use of the term "state" in the web and web development.
 
-Often, the server is the central place used to store information that can change over time. An example might be a list of customers. This list could change at any moment, as new customers are added to the list, or existing customers are removed. The contents of that list at any given point in time are called the “state” of the list.
+Often, the server is the central place used to store information that can change over time. An example might be a list of customers. This list could change at any moment, as new customers are added to the list, or existing customers are removed. The contents of that list at any given point in time are called the "state" of the list.
 
 ![HTTP Request](./images/state3.png)
 
@@ -426,18 +427,18 @@ How does this work? Like this:
 
 When a client computer wants to get a list of all customers, it will send a request for that information to the server. The server will gather together the list of customers AS IT EXISTS AT THAT EXACT POINT IN TIME and send that list back to the client computer.
 
-If, moments after the server sends that list to the client computer, a customer is added to or removed from the server, that data will not be accounted for in the list the client now has. How could it? The server didn’t have that data at the time it formatted and sent the response to the client.
+If, moments after the server sends that list to the client computer, a customer is added to or removed from the server, that data will not be accounted for in the list the client now has. How could it? The server didn't have that data at the time it formatted and sent the response to the client.
 
-Meanwhile, the client computer could be modifying the information related to one or more of the customers in the list it got – and the server will have no way of knowing that the information has changed on the client.
+Meanwhile, the client computer could be modifying the information related to one or more of the customers in the list it got - and the server will have no way of knowing that the information has changed on the client.
 
 ## Stateless
 [Jump Back](#contents)
 
-This situation comes about because of the nature of the Hypertext Transfer Protocol. HTTP is what is called a “stateless” protocol. More precisely, this means that neither the client nor the server are aware of the state of the other at any particular point in time.
+This situation comes about because of the nature of the Hypertext Transfer Protocol. HTTP is what is called a "stateless" protocol. More precisely, this means that neither the client nor the server are aware of the state of the other at any particular point in time.
 
-When the Web was first being created and used, this wasn’t much of an issue, because the various web pages that were stored on servers didn’t change based on which client was accessing the web page. Now, however, the web pages that are served up to clients often need to be stateful – that is, the web page content needs to be modified to reflect the state of the client and/or the server. The “list of customers” example above should illustrate this.
+When the Web was first being created and used, this wasn't much of an issue, because the various web pages that were stored on servers didn't change based on which client was accessing the web page. Now, however, the web pages that are served up to clients often need to be stateful - that is, the web page content needs to be modified to reflect the state of the client and/or the server. The "list of customers" example above should illustrate this.
 
-Because of this fact, various systems have been devised that seek to keep the state of the client and the server synchronized. In other words, they try to make the HTTP protocol, which is inherently stateless, into a “stateful” protocol – meaning, the various actions that take place on the server and the client are remembered and accounted for.
+Because of this fact, various systems have been devised that seek to keep the state of the client and the server synchronized. In other words, they try to make the HTTP protocol, which is inherently stateless, into a "stateful" protocol - meaning, the various actions that take place on the server and the client are remembered and accounted for.
 
 One approach, for instance, is to create a persistent connection from the client to the server, so that changes in one can be immediately communicated to the other.
 
@@ -452,15 +453,15 @@ JavaScript is a scripting language that is commonly used in combination with HTM
 
 In order to give you a better idea of scripts and how HTML utilizes other languages, we will now write some basic JavaScript code.
 
-Even though JavaScript is a different language and will be covered thoroughly on its own course, it is necessary to bring up some of it now in order to teach you certain concepts – such as additional data on object-oriented programming, since JavaScript is an object-oriented programming language and HTML isn’t.
+Even though JavaScript is a different language and will be covered thoroughly on its own course, it is necessary to bring up some of it now in order to teach you certain concepts - such as additional data on object-oriented programming, since JavaScript is an object-oriented programming language and HTML isn't.
 
 The `<script>` tag is used to define a JavaScript script.
 
-As mentioned earlier, an “object” is something that has state and behavior.
+As mentioned earlier, an "object" is something that has state and behavior.
 
-A “method” is something an object can do – a named sequence of events.
+A "method" is something an object can do - a named sequence of events.
 
-“Alert” is a JavaScript method that displays an alert box with an “OK” button.
+"Alert" is a JavaScript method that displays an alert box with an "OK" button.
 
 Here is how to create an alert box in HTML and JavaScript:
 
@@ -473,18 +474,18 @@ Here is how to create an alert box in HTML and JavaScript:
 </html>
 ```
 
-The “`<script> alert("Hello, World!"); </script>`” code is JavaScript.
+The "`<script> alert("Hello, World!"); </script>`" code is JavaScript.
 
 ## Values
 [Jump Back](#contents)
 
-Nearly every computer programming language comes with certain data types built in and allows for the creation of other types of data by computer programmers. In JavaScript, these various types of data are called “values.” There are six value types in JavaScript:
+Nearly every computer programming language comes with certain data types built in and allows for the creation of other types of data by computer programmers. In JavaScript, these various types of data are called "values." There are six value types in JavaScript:
 
 - Strings (data that represent text or a series of text)
 - Numbers 
 - Booleans (true or false statements)
 - Objects (things with state and behavior)
-- Functions (a block of organized, reusable computer code used to perform a single, related action – also called a subprogram or subroutine)
+- Functions (a block of organized, reusable computer code used to perform a single, related action - also called a subprogram or subroutine)
 - Values that are undefined 
 
 ## Variables
@@ -505,7 +506,7 @@ A sub program in the most basic sense is this: a set of computer instructions, s
 
 A call is a direction by a main computer program to execute the tasks of a subprogram.
 
-More specifically a “call” is when a main program temporarily transfers control of the computer to a subprogram. Once the subprogram is done executing, control of the computer is returned to the main program. A program could make many “calls” to multiple subprograms as the program does its sequence of tasks.
+More specifically a "call" is when a main program temporarily transfers control of the computer to a subprogram. Once the subprogram is done executing, control of the computer is returned to the main program. A program could make many "calls" to multiple subprograms as the program does its sequence of tasks.
 
 Sub programs were an early development in computer programming, and their creation was driven by one basic factor: Programmers quickly found that they were often having a program do certain exact things many times as the program was being executed. This meant that the exact same set of programming instructions had to be entered in the computer program every time that thing was needed.
 
@@ -533,20 +534,20 @@ At a high-level, these terms mean the same thing but if you try to clear up thei
 
 This is because of a few factors. First, some programming languages use the same term to mean slightly different things. Second, some programming languages are designed to implement this concept in two related ways, so the language designers needed two different terms.
 
-What this means in terms of your study of various computer programming languages is that you’ll often have to research what a specific term means in that language, ignoring source data that’s related to other languages.
+What this means in terms of your study of various computer programming languages is that you'll often have to research what a specific term means in that language, ignoring source data that's related to other languages.
 
-This concept is best illustrated through an example. We’ll use the popular programming language JavaScript to do this.
+This concept is best illustrated through an example. We'll use the popular programming language JavaScript to do this.
 
 ## JavaScript - Related Terms
 [Jump Back](#contents)
 
-JavaScript uses two related terms: function and method. They are very similar, in that they both involve the creation of a pre-made set of instructions that can be made use of by other program elements. They do have some subtle but important differences, however. Let’s explore them.
+JavaScript uses two related terms: function and method. They are very similar, in that they both involve the creation of a pre-made set of instructions that can be made use of by other program elements. They do have some subtle but important differences, however. Let's explore them.
 
-First, some basic definitions – and remember, these definitions are for the use of these terms in JavaScript.
+First, some basic definitions - and remember, these definitions are for the use of these terms in JavaScript.
 
-In JavaScript, an “object” is a type of data that represents a thing through its various properties (characteristics – what it looks like) and behavior (what it can do).
+In JavaScript, an "object" is a type of data that represents a thing through its various properties (characteristics - what it looks like) and behavior (what it can do).
 
-An example of an object would be a “vehicle”. Thinking of this common real-world thing as an “object” that will be stored in computer memory and kept track of as a program is executed, we can think of various properties and behavior for it. Under properties, we could have things like “chassis type”, “engine type”, “number of doors”, “speed”, etc. Under behavior, we could have things like “accelerate”, “deccelerate”, “turn right”, “turn left”, etc.
+An example of an object would be a "vehicle". Thinking of this common real-world thing as an "object" that will be stored in computer memory and kept track of as a program is executed, we can think of various properties and behavior for it. Under properties, we could have things like "chassis type", "engine type", "number of doors", "speed", etc. Under behavior, we could have things like "accelerate", "deccelerate", "turn right", "turn left", etc.
 
 An example of creating an object in JavaScript might look like this:
 
@@ -559,16 +560,16 @@ var student = {
 };
 ```
 
-In this example, we have only specified properties for the “student” object, and not specified any behavior. We will look at that in a moment.
+In this example, we have only specified properties for the "student" object, and not specified any behavior. We will look at that in a moment.
 
-Let’s look at how this applies to methods and functions in JavaScript.
+Let's look at how this applies to methods and functions in JavaScript.
 
 ## Functions
 [Jump Back](#contents)
 
-A *function* is a repeatable block of code that executes certain actions and performs tasks. You execute a function by calling it. This is also called “invoking” the function (“invoking” means “causing a procedure to be carried out”).
+A *function* is a repeatable block of code that executes certain actions and performs tasks. You execute a function by calling it. This is also called "invoking" the function ("invoking" means "causing a procedure to be carried out").
 
-One writes a JavaScript function by stating the keyword “function”, then a name for the function, then parentheses, like this:
+One writes a JavaScript function by stating the keyword "function", then a name for the function, then parentheses, like this:
 
 ```js
 function name()
@@ -576,7 +577,7 @@ function name()
 
 Functions are valuable because of code reusability—you can invoke functions over and over. Since functions in JavaScript contain properties and methods, they are basically objects.
 
-Functions are useful so you don’t have to keep retyping code; you can instead simply invoke the function whenever needed.
+Functions are useful so you don't have to keep retyping code; you can instead simply invoke the function whenever needed.
 
 An example could look like this:
 
@@ -586,20 +587,20 @@ function add(num1, num2) {
 }
 ```
 
-Other JavaScript code elements could call this “add” function by specifying its name and passing it two numbers. That could look like this:
+Other JavaScript code elements could call this "add" function by specifying its name and passing it two numbers. That could look like this:
 
 ```js
 var sum = add(5,7);
 ```
 
-Here, the code would create the variable called “sum”, call the function “add” and pass it the two numbers 5 and 7, and take the result (12) and assign that value to the variable “sum”.
+Here, the code would create the variable called "sum", call the function "add" and pass it the two numbers 5 and 7, and take the result (12) and assign that value to the variable "sum".
 
 ## Methods
 [Jump Back](#contents)
 
 In JavaScript, a *method* is a set of code *associated with an object* that is designed to change the state of that object when it executes. In other words, the method is performed *on the object*.
 
-You create these methods when you create the object. Let’s look at how we might do that with our previous example of a “student” object:
+You create these methods when you create the object. Let's look at how we might do that with our previous example of a "student" object:
 
 ```js
 var student = {
@@ -612,7 +613,7 @@ var student = {
 };
 ```
 
-Here, we aren’t setting the property “gradeAverage” to a fixed number of 3.5. Instead, we are setting that property to the value returned by a set of code. Specifically, that code will take in a number (the variable “avg”) and set the value of the “gradeAverage” property to the value of that variable.
+Here, we aren't setting the property "gradeAverage" to a fixed number of 3.5. Instead, we are setting that property to the value returned by a set of code. Specifically, that code will take in a number (the variable "avg") and set the value of the "gradeAverage" property to the value of that variable.
 
 Executing that code could look like this:
 
@@ -620,30 +621,30 @@ Executing that code could look like this:
 student.gradeAverage(3.4);
 ```
 
-Here, we are telling the computer to make use of the object called “student”. Specifically, the computer is to run the function “gradeAverage” that is defined in the “student” object. Since that function needs an input (the variable “avg”), we give it the number 3.4.
+Here, we are telling the computer to make use of the object called "student". Specifically, the computer is to run the function "gradeAverage" that is defined in the "student" object. Since that function needs an input (the variable "avg"), we give it the number 3.4.
 
-So here’s the distinction: In this specific situation, that function “gradeAverage” is called a method. Yes, it’s confusing – until you recall that in JavaScript, a method is a set of code, associated with an object, that is performed on the object itself. So we have the confusing situation of a property of an object that we are defining using a *function* – but we’re calling the action performed by the function a *method*.
+So here's the distinction: In this specific situation, that function "gradeAverage" is called a method. Yes, it's confusing - until you recall that in JavaScript, a method is a set of code, associated with an object, that is performed on the object itself. So we have the confusing situation of a property of an object that we are defining using a *function* - but we're calling the action performed by the function a *method*.
 
 ## Using these Terms
 [Jump Back](#contents)
 
-In actual practice, there is very little danger in using these terms interchangeably – and you’ll often find technical sources will do so. But occasionally you’ll find a source that uses the terms in their strictest sense.
+In actual practice, there is very little danger in using these terms interchangeably - and you'll often find technical sources will do so. But occasionally you'll find a source that uses the terms in their strictest sense.
 
 The lessons here are these:
 
-1. First, there are many varied terms in use for the concept of “a block of code that can be executed on demand by other code.”
-2. Second, in order to clarify any potential difference between these various terms, you’ll need to investigate their exact meaning in the language you’re concerned with.
+1. First, there are many varied terms in use for the concept of "a block of code that can be executed on demand by other code."
+2. Second, in order to clarify any potential difference between these various terms, you'll need to investigate their exact meaning in the language you're concerned with.
 
 Any attempt to give them a blanket, universal meaning ignores the subtleties described here.
 
 ## `document.getElementById` Method
 [Jump Back](#contents)
 
-As a reminder, a “method” is an action that an object can perform. It is a named sequence of events.
+As a reminder, a "method" is an action that an object can perform. It is a named sequence of events.
 
 The *document.getElementById* method returns (executes and provides relevant output) an element.
 
-An “attribute” is a specification that assigns a property (name; characteristic) to something. Basically, an attribute is metadata (data that describes other data).
+An "attribute" is a specification that assigns a property (name; characteristic) to something. Basically, an attribute is metadata (data that describes other data).
 
 The element returned by document.getElementById has an Id attribute with a specific value assigned to it. The Id is a variable.
 
@@ -653,20 +654,20 @@ For an example:
 <h1 id="Header_1">This is my heading</h1>
 ```
 
-We have assigned the h1 element the Id “Header_1”. To run and display (return) this element, we write:
+We have assigned the h1 element the Id "Header_1". To run and display (return) this element, we write:
 
 ```js 
 document.getElementById("Header_1").innerHTML
 ```
 
-“innerHTML” gets or sets the HTML markup contained within the element.
+"innerHTML" gets or sets the HTML markup contained within the element.
 
-Document.getElementById is used mainly to control or get information from an element within your code. If it can’t find the element with the specified Id, it will return “null.”
+Document.getElementById is used mainly to control or get information from an element within your code. If it can't find the element with the specified Id, it will return "null."
 
 ## Creating a Function
 [Jump Back](#contents)
 
-Let’s look at creating a function using the `document.getElementById` method:
+Let's look at creating a function using the `document.getElementById` method:
 
 ```html
 <!DOCTYPE html>
@@ -690,8 +691,8 @@ Let’s look at creating a function using the `document.getElementById` method:
 The above code accomplished the following:
 
 1. Created a button element.
-2. Utilized the ID attribute and assigned the paragraph element the value “Irish”.
-3. Returned the paragraph element by calling the “Irish” value that we assigned earlier (when writing the ID attribute).
+2. Utilized the ID attribute and assigned the paragraph element the value "Irish".
+3. Returned the paragraph element by calling the "Irish" value that we assigned earlier (when writing the ID attribute).
 
 Everything inside our curly brackets `{ }` is our function.
 
@@ -700,7 +701,7 @@ Everything inside our curly brackets `{ }` is our function.
 
 A *node* is a point where lines meet; it is where paths intersect. There are two main types of nodes:
 
-1. A node is something connected to a network. If several computers are joined together, each computer is considered a node. Here’s what some nodes could look like:
+1. A node is something connected to a network. If several computers are joined together, each computer is considered a node. Here's what some nodes could look like:
 ![Nodes1](./images/html50.png)
 
 2. In a set of data that is organized into a hierarchical (based on rank) structure, a node is any individual element in that structure. 
@@ -726,11 +727,11 @@ One important relationship is the parent/child relationship. Parent nodes have a
 
 We will now cover an element of the Web that can help a developer greatly in their web development tasks.
 
-First, let’s review some fundamentals of the Web. You will have learned much of this already but there’s going to be some new data.
+First, let's review some fundamentals of the Web. You will have learned much of this already but there's going to be some new data.
 
-The *Web* is a collection of linked electronic documents. These documents, called “web pages,” are precisely formatted text documents that define the content and appearance of a visual display of the web page.
+The *Web* is a collection of linked electronic documents. These documents, called "web pages," are precisely formatted text documents that define the content and appearance of a visual display of the web page.
 
-These web page documents are written in a specialized type of computer language called a “markup language.” This is a computer language whose instructions are used to tell the computer how to display and format visual elements.
+These web page documents are written in a specialized type of computer language called a "markup language." This is a computer language whose instructions are used to tell the computer how to display and format visual elements.
 
 One aspect of markup language instructions is that they reside in the same document as the content that they affect, and the instructions can be differentiated from that content.
 
@@ -739,7 +740,7 @@ There are several markup languages in use in computer programming. The one used 
 ## HTML and the Web
 [Jump Back](#contents)
 
-As we’ve covered, HTML uses instructions called “tags” to alter the format and appearance of displayed content and the combination of a tag and its associated content is called an “element”.
+As we've covered, HTML uses instructions called "tags" to alter the format and appearance of displayed content and the combination of a tag and its associated content is called an "element".
 
 The basic operation of the Web is this:
 
@@ -749,7 +750,7 @@ The basic operation of the Web is this:
 - The web server sends the web page back to the browser.
 - The browser processes the HTML in the web page and renders a visual display based on the HTML.
 
-Usually, HTML documents are created by hand by programmers. Often, though, programmers have a need to change these HTML files programatically – that is, to change the markup instructions and/or the content based on logic contained in a computer program.
+Usually, HTML documents are created by hand by programmers. Often, though, programmers have a need to change these HTML files programatically - that is, to change the markup instructions and/or the content based on logic contained in a computer program.
 
 ## REPL
 [Jump Back](#contents)
@@ -758,7 +759,7 @@ REPL is short for read-eval-print-loop.
 
 A REPL is a simple, interactive computer programming environment that allows developers to write code and see a near-immediate result.
 
-The REPL takes input, evaluates (executes) it, and returns the result to the user. They’re much simpler than IDEs but have much less to offer in terms of functionality and tools.
+The REPL takes input, evaluates (executes) it, and returns the result to the user. They're much simpler than IDEs but have much less to offer in terms of functionality and tools.
 
 **Example**
 >Here is a REPL provided by w3schools:
@@ -770,18 +771,18 @@ The REPL takes input, evaluates (executes) it, and returns the result to the use
 
 Programmers need an interface that can expose the form and content of any given HTML document in such a way that a computer program can analyze and modify the document as needed.
 
-In other words, they need an API – an Application Programming Interface – for the web page.
+In other words, they need an API - an Application Programming Interface - for the web page.
 
 In simple terms, an API is a system that allows one program to talk to another. Here, what is needed is a tool that can scan an HTML document and then create a representation of that document that other programs can interact with.
 
 ## DOM and HTML
 [Jump Back](#contents)
 
-The interface for HTML documents exists and it is called the Document Object Model, or the DOM. It is pronounced “dom,” not “dee-oh-em.”
+The interface for HTML documents exists and it is called the Document Object Model, or the DOM. It is pronounced "dom," not "dee-oh-em."
 
-The middle word is “object” and in its simplest form, an object is just “something the computer is keeping track of.” Usually it’s a variable, or a data structure, or similar item. It’s essentially a value stored in computer memory, so it has a location and an identifier that can be used to identify and use it.
+The middle word is "object" and in its simplest form, an object is just "something the computer is keeping track of." Usually it's a variable, or a data structure, or similar item. It's essentially a value stored in computer memory, so it has a location and an identifier that can be used to identify and use it.
 
-So the DOM is a model of the various objects in the HTML document – a document object model.
+So the DOM is a model of the various objects in the HTML document - a document object model.
 
 The DOM presents the HTML document as a tree structure, where each node in the tree is an object representing a part of the HTML document.
 
@@ -813,7 +814,7 @@ A DOM for an HTML page is generated by specialized computer programs. These prog
 
 Once the DOM is generated for a particular HTML document, other programs can access the Object Model and the various parts of the document that are represented in it. They can get data about the various elements on the page, and can even modify the page.
 
-Let’s look at some examples of how this could be done, using pseudocode.
+Let's look at some examples of how this could be done, using pseudocode.
 
 Suppose you wanted to find all paragraph elements in an HTML document. You might use code like this:
 
@@ -821,7 +822,7 @@ Suppose you wanted to find all paragraph elements in an HTML document. You might
 var foo = document.getElementByTagName("p");
 ```
 
-The variable called “foo” would now contain a collection of all the paragraph tags in the document.
+The variable called "foo" would now contain a collection of all the paragraph tags in the document.
 
 Many different programming languages can be used to work with the DOM. One of the most common is JavaScript; in fact, the code example above is actually JavaScript.
 
@@ -841,22 +842,22 @@ and more.
 
 Having the DOM also opens up the ability to change the HTML for a web page, or to generate HTML entirely from scratch. In fact, an entire web page could be created by a program, only coming into existence after a DOM for it is constructed.
 
-Most browsers generate a DOM for the web pages they display, and most browsers allow you to look at that DOM. Most browsers have built-in tools to help web developers; they are generally called “developer tools.”
+Most browsers generate a DOM for the web pages they display, and most browsers allow you to look at that DOM. Most browsers have built-in tools to help web developers; they are generally called "developer tools."
 
 ## Accessing the DOM
 The DOM can be accessed by opening up these developer tools in your browser.
 
-Let’s look at an example of this, using the web browser Chrome. You can open Developer Tools in Chrome by right-clicking on a web page and clicking “Inspect.” A second window will open up, showing a great deal of information about the web page and the browser. There are tabs in this window that let you select what you’d like to view. The DOM is viewable in the “Elements” tab.
+Let's look at an example of this, using the web browser Chrome. You can open Developer Tools in Chrome by right-clicking on a web page and clicking "Inspect." A second window will open up, showing a great deal of information about the web page and the browser. There are tabs in this window that let you select what you'd like to view. The DOM is viewable in the "Elements" tab.
 
 For our HTML in the previous step, the DOM would look like this from within those Developer Tools in Chrome:
 
 ![Accessing the DOM](./images/accessing_the_DOM.png)
 
-This looks much like the actual HTML from the web page file itself – but it’s actually a tree structure that represents the structure of the various objects that make up the web page. The “down arrows” in the display of the DOM are a graphical interface that lets you expand and collapse the individual nodes on the tree structure of the DOM.
+This looks much like the actual HTML from the web page file itself - but it's actually a tree structure that represents the structure of the various objects that make up the web page. The "down arrows" in the display of the DOM are a graphical interface that lets you expand and collapse the individual nodes on the tree structure of the DOM.
 
-Many browsers even let you edit the DOM from within these tools and see those changes reflected immediately in the displayed web page – but it’s important to know that those changes aren’t being made to the actual stored HTML files that were given to the browser - you’re only changing the DOM that the browser is creating and using to create the display. In order to permanently change the web page, you’ll need to change the actual files that will be given to the browser.
+Many browsers even let you edit the DOM from within these tools and see those changes reflected immediately in the displayed web page - but it's important to know that those changes aren't being made to the actual stored HTML files that were given to the browser - you're only changing the DOM that the browser is creating and using to create the display. In order to permanently change the web page, you'll need to change the actual files that will be given to the browser.
 
-There is a lot more to know about the DOM, and as you do more web development, you’ll pick up a lot more knowledge and skill. But you now have the basic principles and application of the DOM.
+There is a lot more to know about the DOM, and as you do more web development, you'll pick up a lot more knowledge and skill. But you now have the basic principles and application of the DOM.
 
 ## Type of Font
 [Jump Back](#contents)
@@ -895,7 +896,7 @@ In fact, we can also specify the font size as well, like this:
 </p>
 ```
 
-The size attribute uses sizes from 1 to 7 – the default browser size is 3.
+The size attribute uses sizes from 1 to 7 - the default browser size is 3.
 
 NOTE: The face attribute is not HTML5 but comes from an earlier version of HTML. We are teaching you how to do some styling using HTML to help with your comprehension of this language. Please keep in mind that when you learn CSS later on this course, that it is best practice to handle all styling (including fonts) with CSS.
 
@@ -903,9 +904,9 @@ NOTE: The face attribute is not HTML5 but comes from an earlier version of HTML.
 [Jump Back](#contents)
 
 
-An “engine” is the central part of a computer program.
+An "engine" is the central part of a computer program.
 
-A “browser engine” is the core software component of every major web browser. The primary job of browser engines is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.
+A "browser engine" is the core software component of every major web browser. The primary job of browser engines is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.
 
 ## Web Browsers
 [Jump Back](#contents)
@@ -918,10 +919,10 @@ There are seven main components to any web browser:
 
 1. User Interface: The user interface of the browser includes all of the visual components of the browser with the exception of the display of the requested page. For example, the address bar, bookmarks bar and navigation buttons are all part of the User Interface.
 2. Browser Engine: The browser engine is responsible for organizing actions between the UI and Rendering Engine.
-3. Rendering Engine: “Render” literally means “to cause to be; make.” A rendering engine takes HTML code and interprets it into what you see visually. For example: a `<bold>` tag would be interpreted by the rendering engine as a set of instructions to make the text inside the element bold.
+3. Rendering Engine: "Render" literally means "to cause to be; make." A rendering engine takes HTML code and interprets it into what you see visually. For example: a `<bold>` tag would be interpreted by the rendering engine as a set of instructions to make the text inside the element bold.
 4. JavaScript Interpreter: The JavaScript interpreter takes JavaScript code, parses (analyzes and reads the code) it, executes it, and returns the results.
 5. Networking: This is a function of the browser that happens behind the scenes and handles network functions such as encryption (concealing data by altering it into a secure format), requests, and all network settings such as HTTP.
-6. Data Persistence: Browser’s must store some data which can include cached files and cookies.
+6. Data Persistence: Browser's must store some data which can include cached files and cookies.
 7. UI Backend: The browser interacts with the operating system to display several elements of the page, like drop down boxes and some icons on the window (close, maximize, and minimize buttons).
 
 
@@ -943,7 +944,7 @@ Though, technically, the DOM (render tree) would look like this:
 
 > The $0, $1, $2, $3 and $4 commands work as a historical reference to the last five DOM elements inspected within the Elements panel or the last five JavaScript heap objects selected in the Profiles panel. $0 returns the most recently selected element or JavaScript object, $1 returns the second most recently selected one, and so on.
 
-> You can read Google’s documentation on this here:
+> You can read Google's documentation on this here:
 
 > [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/console/utilities?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3#dom)
 
@@ -951,9 +952,9 @@ Though, technically, the DOM (render tree) would look like this:
 ## Nested Tags
 [Jump Back](#contents)
 
-Since there is often a need to format content within other tags, the tags can be "nested”, meaning one tag can include other tags.
+Since there is often a need to format content within other tags, the tags can be "nested", meaning one tag can include other tags.
 
-Here’s an example of HTML where tags are nested within other tags:
+Here's an example of HTML where tags are nested within other tags:
 
 ```html
 <!DOCTYPE html>
@@ -978,7 +979,7 @@ Styling is not concerned with the content (text, pictures, videos, etc.) on a we
 
 *Cascading* is a term that comes from the idea of water dropping down a series of drops in height. Think of it as a series of small waterfalls. Information can cascade, meaning it can be stored at one central, most important location and then apply to other locations that are considered to be lower than, or derived from, that more important central location.
 
-In Cascading Style Sheets, the people who make a website can create one master style sheet for all web pages in the site. Unless otherwise specified, the style information from the master CSS sheet will ‘cascade’ - meaning it will apply to any new web pages that are created. You can, if you like, create specific styling on a page that will override the styling from the CSS style sheet.
+In Cascading Style Sheets, the people who make a website can create one master style sheet for all web pages in the site. Unless otherwise specified, the style information from the master CSS sheet will ‘cascade' - meaning it will apply to any new web pages that are created. You can, if you like, create specific styling on a page that will override the styling from the CSS style sheet.
 
 This is a benefit to the people making the website because if they want to change any of the things that they set up in the style sheet, they only have to change it in one place, and those changes will be applied to all pages in the website at once.
 
@@ -988,7 +989,7 @@ CSS3 is the newest version of CSS.
 ## Aesthetics
 [Jump Back](#contents)
 
-“Aesthetic” means “concerned with being attractive; the appreciation of beauty”.
+"Aesthetic" means "concerned with being attractive; the appreciation of beauty".
 
 CSS and JavaScript can be used to increase the aesthetic (how visually appealing something is) of a website.
 
@@ -1003,11 +1004,11 @@ That way if you want to change the aesthetics of your website, you can simply ed
 ## Selectors, Properties and Values
 [Jump Back](#contents)
 
-In CSS, a “selector” points to the HTML elements you wish to style.
+In CSS, a "selector" points to the HTML elements you wish to style.
 
-A “property” is an identifier; a name. The property explains what feature is being considered.
+A "property" is an identifier; a name. The property explains what feature is being considered.
 
-A “value” describes how the feature is handled.
+A "value" describes how the feature is handled.
 
 ![Selectors, Properties and Values](./images/html73.png)
 
@@ -1016,11 +1017,11 @@ In this picture, we are selecting the `<p>` element and stating we want to color
 ## CSS Rule-Set
 [Jump Back](#contents)
 
-A CSS “rule-set” is a block of CSS code that contains:
+A CSS "rule-set" is a block of CSS code that contains:
 
-1. **Selector** – this points to the HTML element that you want to style.
+1. **Selector** - this points to the HTML element that you want to style.
 
-2. **Declaration** – a statement that consists of a property and a value.
+2. **Declaration** - a statement that consists of a property and a value.
 
 This is a CSS rule-set:
 
@@ -1078,7 +1079,7 @@ Note that in the above code, the CSS rule-set is nested within the HTML `<style>
 
 HTML5 was designed to encourage that CSS be utilized for styling.
 
-For example: the font attributes color, size and face that we covered earlier on the course aren’t supported by HTML5. Meaning, they were a part of earlier versions of HTML and are not included in HTML5 documentation. They can still be run in the browser because most browsers support all versions of HTML.
+For example: the font attributes color, size and face that we covered earlier on the course aren't supported by HTML5. Meaning, they were a part of earlier versions of HTML and are not included in HTML5 documentation. They can still be run in the browser because most browsers support all versions of HTML.
 
 The point is
 : *it is a best practice to have all styling contained within style sheets (CSS).*
@@ -1094,25 +1095,25 @@ Here is a list of CSS colors:
 ## External Style Sheets
 [Jump Back](#contents)
 
-As we mentioned earlier, CSS can be saved in a different file than one’s HTML code. This is actually recommended. We do this in a similar way to how we did it with JavaScript:
+As we mentioned earlier, CSS can be saved in a different file than one's HTML code. This is actually recommended. We do this in a similar way to how we did it with JavaScript:
 
 ```html 
 <link rel="stylesheet" type="text/css" href="">
 ```
 
-In HTML, there’s a `<link>` element that defines a link between a document and an external resource. It is common to use `<link>` tags to link to a style sheet.
+In HTML, there's a `<link>` element that defines a link between a document and an external resource. It is common to use `<link>` tags to link to a style sheet.
 
-“Rel” is short for “relationship”. Rel is an attribute (word used inside an element’s opening tag that controls its behavior) that specifies the relationship between two documents. For example: if you wanted to specify that you were linking to the help page on your website, you’d write:
+"Rel" is short for "relationship". Rel is an attribute (word used inside an element's opening tag that controls its behavior) that specifies the relationship between two documents. For example: if you wanted to specify that you were linking to the help page on your website, you'd write:
 
 ```html
 <link rel="help" href="https://www.yourwebsitename.com/help/">
 ```
 
-“Stylesheet” is a common value used following the rel attribute. The stylesheet value imports the specified stylesheet.
+"Stylesheet" is a common value used following the rel attribute. The stylesheet value imports the specified stylesheet.
 
-Type is an attribute of the `<link>` element that tells the browser the kind of resource you are linking to. For example: if you were linking to an audio file, you would write type=“audio” within the element. When linking CSS files, we use the type value “text/css”.
+Type is an attribute of the `<link>` element that tells the browser the kind of resource you are linking to. For example: if you were linking to an audio file, you would write type="audio" within the element. When linking CSS files, we use the type value "text/css".
 
-As a reminder “href” is short for “hypertext reference” and it specifies the link’s destination (address).
+As a reminder "href" is short for "hypertext reference" and it specifies the link's destination (address).
 
 ## Linking Style Sheets
 [Jump Back](#contents)
@@ -1139,7 +1140,7 @@ Earlier we displayed HTML and CSS code contained within the same file as follows
 
 To separate our HTML code from our CSS, we would do the following:
 
-1. Create a new file and write the following code within it (this is a CSS rule-set that assigns “green” and “right” values to the color and text-align properties respectively):
+1. Create a new file and write the following code within it (this is a CSS rule-set that assigns "green" and "right" values to the color and text-align properties respectively):
 
 ```css
 p {
@@ -1168,19 +1169,19 @@ Then we'd save this file as `My_Style.css`.
 ## Classes and Objects
 [Jump Back](#contents)
 
-There is a concept in creating a computer program called “classes”.
+There is a concept in creating a computer program called "classes".
 
 A class is an object, created from the mind of the computer programmer, that represents a type of thing the programmer wants to represent in the computer program.
 
-Examples of objects include things like “integer”, “string”, “Student”, “Teacher”, etc.
+Examples of objects include things like "integer", "string", "Student", "Teacher", etc.
 
 Classes are not actually objects themselves. Instead, they provide a template that actual objects can be created from. The programmer defines the structure of a potential object, as well as the behaviors available to that potential object.
 
-This action of creating an actual example of the object defined by a class is called “instantiation”, and the created object is called an “instance” of the class.
+This action of creating an actual example of the object defined by a class is called "instantiation", and the created object is called an "instance" of the class.
 
-Objects so created can also be referred to as a “class object” or “class instance.”
+Objects so created can also be referred to as a "class object" or "class instance."
 
-You can think of the class definition as an answer to the question of, “If I were a [type of object], what would I look like and what could I do?” Here, “what would I look like” refers to the structure of the potential object, and “what could I do” refers to the behavior of the potential object.
+You can think of the class definition as an answer to the question of, "If I were a [type of object], what would I look like and what could I do?" Here, "what would I look like" refers to the structure of the potential object, and "what could I do" refers to the behavior of the potential object.
 
 ![Classes and Objects](./images/html83.png)
 
@@ -1213,7 +1214,7 @@ Here is an example of how to create two styles using the class attribute:
 
 We created two class names: `.font_1` and `.font_2`. The class attribute specified the class names.
 
-By pointing to the class name “font_1” or “font_2” we can specify the styling of our font.
+By pointing to the class name "font_1" or "font_2" we can specify the styling of our font.
 
 This is how:
 
@@ -1318,7 +1319,7 @@ The output of our code would look like this:
 ## Class in External File
 [Jump back](#contents)
 
-Let’s try keeping our class in a separate file. To do this, we would first write a new css file as follows:
+Let's try keeping our class in a separate file. To do this, we would first write a new css file as follows:
 
 ```css
 body {
@@ -1331,7 +1332,7 @@ body {
 }
 ```
 
-This code states that anything within the <body> element will be written in italics and centered on the page. We’ve also created our class name (Class_A) and stated that any element connected to that class name will have its text written in blue. Let’s say we saved the file as Class_A.css.
+This code states that anything within the <body> element will be written in italics and centered on the page. We've also created our class name (Class_A) and stated that any element connected to that class name will have its text written in blue. Let's say we saved the file as Class_A.css.
 
 Here is what the separate HTML file would look like:
 
@@ -1370,16 +1371,16 @@ The output of this code would look like this:
     </div>
 </html>
 
-Notice that “Good afternoon!” is written in default black (not blue) because we didn’t utilize the class name with it.
+Notice that "Good afternoon!" is written in default black (not blue) because we didn't utilize the class name with it.
 
 ## Commenting Code
 [Jump back](#contents)
 
 It is highly recommended that you write comments throughout your code that explains what each section of it is meant to do. This enhances the ability of other developers to read through and understand your code, and can also remind you of things in the future.
 
-An HTML comment begins with `<!––` and closes with `––>`. HTML comments are visible to anyone that views the page source code, but are not rendered when the HTML document is rendered by a browser.
+An HTML comment begins with `<!--` and closes with `-->`. HTML comments are visible to anyone that views the page source code, but are not rendered when the HTML document is rendered by a browser.
 
-Meaning, you don’t see the comments when viewing the website in the browser but you can see them when you utilize Chrome’s dev tools.
+Meaning, you don't see the comments when viewing the website in the browser but you can see them when you utilize Chrome's dev tools.
 
 An example of commenting HTML code is as follows:
 
@@ -1440,7 +1441,7 @@ The output of this code would be:
     </body>
 </html>
 
->Note that the comments aren’t displayed.
+>Note that the comments aren't displayed.
 
 ### CSS Comments
 To write comments within your CSS code, you use.
@@ -1525,7 +1526,7 @@ In HTML, there are two main types of lists:
 1. *Ordered* lists
 2. *Unordered* lists
 
-An ordered list is given in a sequence. An unordered list isn’t given a sequence and is usually bullet points.
+An ordered list is given in a sequence. An unordered list isn't given a sequence and is usually bullet points.
 
 Here would be an example of an ordered list:
 
@@ -1606,7 +1607,7 @@ Here is some CSS code we can use to enhance the aesthetic of the table:
 - Hover selector (this highlights the table as its hovered over)
 - Background-color (this changes the background color of rows)
 
-To beautify it, we would create a new, separate CSS file and call it “CSS_Table.css”.
+To beautify it, we would create a new, separate CSS file and call it "CSS_Table.css".
 
 Here is the code we would write to add a silver border around the cells of the table (we are making it one px thick):
 
@@ -1710,18 +1711,18 @@ As a note, here is a complete list of CSS properties:
 
 There are two important points to keep in mind:
 
-1. No one expects you to memorize the complete syntax of every programming language. Working developers spend a lot of time online looking up code, finding solutions and debugging. For example: after you graduate, it’s completely normal to Google questions like, “How to insert an image in HTML?” or “How to add a CSS border to a webpage?” – even senior-level developers with decades of experience operate this way.
+1. No one expects you to memorize the complete syntax of every programming language. Working developers spend a lot of time online looking up code, finding solutions and debugging. For example: after you graduate, it's completely normal to Google questions like, "How to insert an image in HTML?" or "How to add a CSS border to a webpage?" - even senior-level developers with decades of experience operate this way.
 
-2. It would take months to cover all HTML and CSS code. What’s important is that you understand the basics and can self-teach yourself in the future – both will be achieved on this course.
+2. It would take months to cover all HTML and CSS code. What's important is that you understand the basics and can self-teach yourself in the future - both will be achieved on this course.
 
-You’ve accomplished quite a lot already – well done!
+You've accomplished quite a lot already - well done!
 
-Let’s continue.
+Let's continue.
 
 ## Line Break
 [Jump Back](#contents)
 
-A line break refers to starting text on a new line. It’s like pressing “ENTER” in a word processor. Take a look at this text:
+A line break refers to starting text on a new line. It's like pressing "ENTER" in a word processor. Take a look at this text:
 
 >Two roads diverged in a yellow wood,
 And sorry I could not travel both
@@ -1755,7 +1756,7 @@ Did you know you could write all of that using just one `<p>` element? This is h
 </p>
 ```
 
-Now, that code is not very orderly, so for appearance’s sake, we’d write it more like:
+Now, that code is not very orderly, so for appearance's sake, we'd write it more like:
 
 ```html
 <p>
@@ -1771,7 +1772,7 @@ Now, that code is not very orderly, so for appearance’s sake, we’d write it 
 
 Inline (also written in-line) refers to code contained within the webpage. The opposite of inline is code kept in an external file (like a URL or an external style sheet).
 
-The `<span>` tag connects inline elements and provides a way to connect text. It literally spans (stretches across) a section of code. Here’s an example:
+The `<span>` tag connects inline elements and provides a way to connect text. It literally spans (stretches across) a section of code. Here's an example:
 
 ```html
 <p>
@@ -1796,7 +1797,7 @@ The resulting output would be:
 
 As the name sounds, the `<section>` tag designates sections in a document, such as headers, footers, chapters, or any other sections of the document.
 
-Here’s an example:
+Here's an example:
 
 ```html
     <!-- This section is about cats -->
@@ -1826,7 +1827,7 @@ The output of this code looks like this:
 </section>
 
 ## Non-Breaking Space
-A common character entity used in HTML is the non-breaking space – written like this: `&nbsp;`
+A common character entity used in HTML is the non-breaking space - written like this: `&nbsp;`
 
 A non-breaking space is a space that will not break into a new line. Two words separated by a non-breaking space will stick together. This can be useful when breaking the words might be disruptive.
 
@@ -1845,7 +1846,7 @@ As opposed to:
 
 Additionally, browsers automatically default multiple spaces down to 1. For example: if you write 12 spaces, the browser will delete 11 of them.
 
-You can try it out for yourself but here’s an example:
+You can try it out for yourself but here's an example:
 
 ```html
 <p>         Here's              Johnny          !</p>
@@ -1853,7 +1854,7 @@ You can try it out for yourself but here’s an example:
 
 will display as:
 
-**Here’s Johnny !**
+**Here's Johnny !**
 
 `&nbsp;` can tell the browser to leave extra spaces in place.
 
@@ -1866,7 +1867,7 @@ If we wanted to start every sentence with two spaces, we would write:
 ## HTTP
 [Jump Back](#http-messages)
 
-As we’ve covered before, the Internet is a collection of networked computers around the world, and protocols for the exchange of various types of data between those networked computers. One of the primary uses of the Internet is to permit the existence and use of the World Wide Web (the web), a collection of linked electronic documents.
+As we've covered before, the Internet is a collection of networked computers around the world, and protocols for the exchange of various types of data between those networked computers. One of the primary uses of the Internet is to permit the existence and use of the World Wide Web (the web), a collection of linked electronic documents.
 
 The protocol used to exchange these linked electronic documents between the computers of the Internet is the Hypertext Transfer Protocol (HTTP).
 
@@ -1876,7 +1877,7 @@ We will now explore how that protocol works, and some ways to use it to make you
 [Jump Back](#http-messages)
 
 
-The web is set up as a client/server system. The client computers are usually personal computers that make use of a program called a web browser. The client requests various resources needed to display web pages on the user’s computer.
+The web is set up as a client/server system. The client computers are usually personal computers that make use of a program called a web browser. The client requests various resources needed to display web pages on the user's computer.
 
 The server provides these resources to its clients. These resources are static items like HTML files, images, videos, etc.; and dynamic items produced as a result of executing a program or part of a program
 
@@ -1935,7 +1936,7 @@ Here, the word "verbs" refers to an exact command given in the request that cont
 
 These verbs go in the first section of the request.
 
-In grammar, verbs (words that describe action or state of being) have an associated subject (a main part of a sentence – that which we are talking about). The verbs tell the reader about an action related to the subject – what the subject is doing, or what is being done to the subject. In the sentence, “John can run”, “run” is the verb and “John” is the subject.
+In grammar, verbs (words that describe action or state of being) have an associated subject (a main part of a sentence - that which we are talking about). The verbs tell the reader about an action related to the subject - what the subject is doing, or what is being done to the subject. In the sentence, "John can run", "run" is the verb and "John" is the subject.
 
 It is much the same in HTTP. HTTP verbs have an associated resource. They tell what the specified resource should do, or what should be done with or to the specified resource.
 
@@ -1947,7 +1948,7 @@ These verbs are simple, one-word commands. The most common are:
 
 When you see them, you might want to read them like this: "GET this resource", "PUT this resource", "POST this resource".
 
-Technically, these commands are known as "HTTP methods", not "HTTP verbs" but the term “verb” has been in use for so long that it has stuck. As a reminder, a “method” is a subprogram.
+Technically, these commands are known as "HTTP methods", not "HTTP verbs" but the term "verb" has been in use for so long that it has stuck. As a reminder, a "method" is a subprogram.
 
 The term HTTP verbs and HTTP methods are interchangeable.
 
@@ -1960,7 +1961,7 @@ Let's look at the example of requesting a web page.
 
 Assume we have a web site called "exampleschool.com". The web site is on a server that runs the operating system Windows Server 2016, a popular OS for business use.
 
-The web server software running on that computer is called Internet Information Services (IIS) – the web server program built into all Windows operating systems.
+The web server software running on that computer is called Internet Information Services (IIS) - the web server program built into all Windows operating systems.
 
 IIS has a default file structure it uses to store the files for any web sites it will host. This is typically "`C:/inetpub/wwwroot`". We have stored the files for our website "exampleschool.com" in a folder called "exampleschool" that is inside the "wwwroot" folder. The file structure would look something like this:
 
@@ -1996,12 +1997,12 @@ GET /index.html HTTP/1.1
 Host: www.exampleschool.com
 Accept-Language: en-us
 ```
-Let’s break down this HTTP message.
+Let's break down this HTTP message.
 
-1. The first section is the “Start Line”, which is used to describe the message. In this case, the message uses the HTTP method “GET” from version 1.1 of the HTTP specification – there are various versions, so this is specified. The resource to which this method will be applied is the file “index.html”, which is located in the root directory for our web site.
-2. The second section is the “Header Line”, which contains modifiers for the message. In this case, there are two header items: “Host”, which specifies the domain where the resource will be found, and “Accept-Language”, which specifies what language the requesting browser will accept in the response it receives.
+1. The first section is the "Start Line", which is used to describe the message. In this case, the message uses the HTTP method "GET" from version 1.1 of the HTTP specification - there are various versions, so this is specified. The resource to which this method will be applied is the file "index.html", which is located in the root directory for our web site.
+2. The second section is the "Header Line", which contains modifiers for the message. In this case, there are two header items: "Host", which specifies the domain where the resource will be found, and "Accept-Language", which specifies what language the requesting browser will accept in the response it receives.
 3. The third section is a blank line, signifying that the list of Header items is complete.
-4. There is no body to the message – it’s optional.
+4. There is no body to the message - it's optional.
 
 
 ## Server Response
@@ -2035,16 +2036,16 @@ Connection: Closed
     </body>
 </html>
 ```
-Often, when using the GET verb to retrieve a resource, additional data is needed by the server in order to process the request. Usually this is some unique information that specifies the exact resource needed – for example, data that identifies a specific student in a database.
+Often, when using the GET verb to retrieve a resource, additional data is needed by the server in order to process the request. Usually this is some unique information that specifies the exact resource needed - for example, data that identifies a specific student in a database.
 
 ## Query String
 [Jump Back](#http-messages)
 
-This data is included in the HTTP message as a “query string”. This is a series of key/value pairs.
+This data is included in the HTTP message as a "query string". This is a series of key/value pairs.
 
-As a reminder, “key/value pair” is a set of two pieces of data. The first, the key, can be text data or numeric data. It might be something like “Age” or “Name.” It is used to uniquely identify a particular key/value pair, so it must be unique within a collection of key/value pairs.
+As a reminder, "key/value pair" is a set of two pieces of data. The first, the key, can be text data or numeric data. It might be something like "Age" or "Name." It is used to uniquely identify a particular key/value pair, so it must be unique within a collection of key/value pairs.
 
-The second, the “value,” is the actual data associated with that key. This is data like text, decimal numbers, integers, true/false data, etc. If we write “Animal=Dog,” “animal” is the key and “dog” is the value.
+The second, the "value," is the actual data associated with that key. This is data like text, decimal numbers, integers, true/false data, etc. If we write "Animal=Dog," "animal" is the key and "dog" is the value.
 
 The key/value pairs sent with the query string are written in this format:
 ```http
@@ -2054,7 +2055,7 @@ For example:
 ```http
 firstName=Harry
 ```
-A question mark is used to show where the query string begins, and key/value pairs are separated by an ampersand (& – symbol for “and”). The format is:
+A question mark is used to show where the query string begins, and key/value pairs are separated by an ampersand (& - symbol for "and"). The format is:
 ```http
 ?[key1]=[value]&[key2]=[value]
 ```
@@ -2064,36 +2065,36 @@ For example:
 ```http
 ?firstName=Harry&lastName=Potter
 ```
-Let’s take a look at how this is used.
+Let's take a look at how this is used.
 
-Say there is a program out on our web server that can retrieve the data for a particular student if it is given a valid student ID – a unique identifier for the student. The program is called “get_student”.
+Say there is a program out on our web server that can retrieve the data for a particular student if it is given a valid student ID - a unique identifier for the student. The program is called "get_student".
 
-We have given the user a web page that lists out all the students in the school. Next to each student name is a link that says “Details”. The URL might look like this:
+We have given the user a web page that lists out all the students in the school. Next to each student name is a link that says "Details". The URL might look like this:
 
 ```html
 <a href="http://www.exampleschool.com/adminportal/get_student?studentId=23">Details</a>
 ```
 
-The actual HTTP request generated by clicking on the “Details” hyperlink would look something like this:
+The actual HTTP request generated by clicking on the "Details" hyperlink would look something like this:
 
 ```http
 GET /adminportal/get_student?studentId=23
 Host: www.exampleschool.com
 Accept-Language: en-us
 ```
-Let’s break down the first line of this HTTP message (the remaining lines are identical to what we saw in the earlier example):
+Let's break down the first line of this HTTP message (the remaining lines are identical to what we saw in the earlier example):
 
-The first section is the “Start Line”, which is used to describe the message. In this case, the resource to which the GET method will be applied is the program called “get_student”. The query string contains the key/value pair that will be given to that program.
+The first section is the "Start Line", which is used to describe the message. In this case, the resource to which the GET method will be applied is the program called "get_student". The query string contains the key/value pair that will be given to that program.
 
 ## HTTP Message
 [Jump Back](#http-messages)
 
 So what happens when this HTTP message is received by the web server for www.exampleschool.com?
 
-1. The actual computer program we associated with the web site “exampleschool.com” should be running. IIS is hooked into this program, and can direct requests to specific parts of the program as directed.
-2. In this case, IIS will direct the request to the part of the program called “get_student”.
+1. The actual computer program we associated with the web site "exampleschool.com" should be running. IIS is hooked into this program, and can direct requests to specific parts of the program as directed.
+2. In this case, IIS will direct the request to the part of the program called "get_student".
 3. IIS will receive any text or other resources produced by that program and set it aside for eventual delivery back to the client.
-4. Then it will apply the HTTP verb "GET" to that resource. That just means it will send the resource back in an HTTP response message. The resource will be included in the “body” part of the response.
+4. Then it will apply the HTTP verb "GET" to that resource. That just means it will send the resource back in an HTTP response message. The resource will be included in the "body" part of the response.
 
 That response might look something like this:
 ```http
@@ -2164,15 +2165,15 @@ This would result in the name for student 23 being changed from Harry Potter to 
 ## Difference Between PUT and POST
 [Jump Back](#http-messages)
 
-In order to understand how they differ, you need to understand the word “idempotent”.
+In order to understand how they differ, you need to understand the word "idempotent".
 
-The conventional meaning of idempotent is taken from mathematics. It is an adjective used to describe a number, and it basically means “unchanged when multiplied by itself”. You can see that the number 1 is idempotent – you could multiply it by itself and it would still be 1. In fact, you could multiply it by itself many times, and it would still be 1.
+The conventional meaning of idempotent is taken from mathematics. It is an adjective used to describe a number, and it basically means "unchanged when multiplied by itself". You can see that the number 1 is idempotent - you could multiply it by itself and it would still be 1. In fact, you could multiply it by itself many times, and it would still be 1.
 
-This leads us to how the word “idempotent” is used in HTTP verbs. Here, it basically describes an operation that will produce the same result even if it is performed multiple times.
+This leads us to how the word "idempotent" is used in HTTP verbs. Here, it basically describes an operation that will produce the same result even if it is performed multiple times.
 
-Let’s look at an example: If you wanted to edit the name of a student on the web server, you wouldn’t necessarily care if the operation to change that name was performed multiple times. The edit you wanted would happen the first time the operation was performed; subsequent identical operations wouldn’t change the name, as it has already been changed. That would be an idempotent operation.
+Let's look at an example: If you wanted to edit the name of a student on the web server, you wouldn't necessarily care if the operation to change that name was performed multiple times. The edit you wanted would happen the first time the operation was performed; subsequent identical operations wouldn't change the name, as it has already been changed. That would be an idempotent operation.
 
-The PUT verb is idempotent. For example: If you wanted to **change the GPA of an existing student**, you might send an HTTP request that took the data from a form and sent it to a program on the server called “updateStudent”:
+The PUT verb is idempotent. For example: If you wanted to **change the GPA of an existing student**, you might send an HTTP request that took the data from a form and sent it to a program on the server called "updateStudent":
 ```http
 PUT /admin/updateStudent HTTP/1.1
 Host:www.exampleschool.com
@@ -2180,9 +2181,9 @@ studentId=23&GPA=3.74
 ```
 This would result in the change of the GPA of the student with ID 23 from 3.58, as above, to 3.74.
 
-On the other hand, if you were creating a new student, you wouldn’t want it to actually happen multiple times – that would result in more than one identical student being created.
+On the other hand, if you were creating a new student, you wouldn't want it to actually happen multiple times - that would result in more than one identical student being created.
 
-The POST verb is non-idempotent. If you wanted to **create a new student**, you might send an HTTP request that took the data from a form and sent it to a program on the server called “createStudent”:
+The POST verb is non-idempotent. If you wanted to **create a new student**, you might send an HTTP request that took the data from a form and sent it to a program on the server called "createStudent":
 ```http
 POST /admin/createStudent HTTP/1.1
 Host: www.exampleschool.com
@@ -2193,13 +2194,13 @@ This would result in a new student named John Doe being created on the server.
 ## HTTP and State
 [Jump Back](#http-messages)
 
-As covered earlier, the HTTP protocol is *stateless* – meaning, the server maintains no record of what operations have happened on it, so you can’t use the sending of these various HTTP messages back and forth to know the state of any particular resource on the server.
+As covered earlier, the HTTP protocol is *stateless* - meaning, the server maintains no record of what operations have happened on it, so you can't use the sending of these various HTTP messages back and forth to know the state of any particular resource on the server.
 
 However, it is valuable for computer programs to know and modify the state of the various resources that the program is concerned with.
 
 In order to facilitate this, a system was created that can use the HTTP protocol to be used to monitor and control the state of these various resources.
 
-This system is called “RESTful”. “REST” stands for “Representational State Transfer”.
+This system is called "RESTful". "REST" stands for "Representational State Transfer".
 
 
 ## Using RESTful and APIs
@@ -2207,13 +2208,13 @@ This system is called “RESTful”. “REST” stands for “Representational S
 
 RESTful involves the creation of APIs in an exact manner.
 
-As a reminder, an API is an “Application Programming Interface”.
+As a reminder, an API is an "Application Programming Interface".
 
 On the web, an API is essentially a description of how one program can use the Internet to request certain things from another program. It is a set of clearly defined methods of communication between various software components.
 
 As an example, we could have a program out on a web server that maintains weather forecasts and makes those forecasts available to programs on other computers.
 
-In order to make this system work, the creators of the “weather forecasting” program would have to publish instructions that programmers could use if they wanted to have their programs make use of the weather forecasting program.
+In order to make this system work, the creators of the "weather forecasting" program would have to publish instructions that programmers could use if they wanted to have their programs make use of the weather forecasting program.
 
 To do this, they would think of the various things people might want from their program, and create a name for each thing. Examples might be:
 
@@ -2226,11 +2227,11 @@ Each of these things would need a separate API.
 
 They would publish a description of each API, including how to format a request for that thing, and what the data would look like that would be sent to the requesting computer.
 
-The object they are describing is actually called an “endpoint”. This is because it is at the end of a line connecting the requesting computer with the providing computer.
+The object they are describing is actually called an "endpoint". This is because it is at the end of a line connecting the requesting computer with the providing computer.
 
 The endpoint has a precise format defined for the requests it receives, and the responses it creates.
 
-An endpoint has a URL, since it’s something that can be identified and accessed over the Internet.
+An endpoint has a URL, since it's something that can be identified and accessed over the Internet.
 
 In our weather forecasting example, the URL for an endpoint might look something like this:
 
@@ -2253,9 +2254,9 @@ Date: Sat, 25 May 2019 12:38:53 GMT
 ```
 ```json
 {
-“ZIP”: 95437
-“Date”: “05 25 2019”
-“High Temperature”: “77F”
+"ZIP": 95437
+"Date": "05 25 2019"
+"High Temperature": "77F"
 }
 ```
 There are many APIs available on the Internet. You will likely create and use APIs in your work.
@@ -2267,17 +2268,17 @@ There are many APIs available on the Internet. You will likely create and use AP
 
 Back to the concept of RESTful. Here, we create APIs that enable us to access and change the state of various resources using HTTP messages and verbs.
 
-There is no change to how HTTP works – we format our messages the same way, and we use the same verbs.
+There is no change to how HTTP works - we format our messages the same way, and we use the same verbs.
 
 What changes, though, is that we use those messages and verbs in an agreed-upon manner so that we create APIs for other programs to use to access and modify the state of the resources our program is concerned with.
 
 We do this by creating, in our program, various services that perform the actions we want other programs to be able to request.
 
-Using our “example school” as an example, we might want to create a service for other programs to be able to use to create students – and another service for other programs to be able to use to modify student information.
+Using our "example school" as an example, we might want to create a service for other programs to be able to use to create students - and another service for other programs to be able to use to modify student information.
 
-In RESTful, we are concerned with resources – but the word “resources” is being used in a slightly different manner than the usual meaning for web sites. Instead of talking about the various items that a browser might need in order to render a web page, instead we are talking about the objects or things that a computer program might want to create and modify.
+In RESTful, we are concerned with resources - but the word "resources" is being used in a slightly different manner than the usual meaning for web sites. Instead of talking about the various items that a browser might need in order to render a web page, instead we are talking about the objects or things that a computer program might want to create and modify.
 
-In our “example school” example, our program is concerned with creating and modifying students - so those are our resources for the purpose of a RESTful system. In other words, we are creating a service in our program that can create, modify and delete students. We might call this service “StudentService”.
+In our "example school" example, our program is concerned with creating and modifying students - so those are our resources for the purpose of a RESTful system. In other words, we are creating a service in our program that can create, modify and delete students. We might call this service "StudentService".
 
 This service will have a URL. It might be something like this:
 
@@ -2291,7 +2292,7 @@ Each function in the service will have its own URL. In our example, the URLs mig
 
 2. http://www.exampleschool.com/api/StudentService/Student
 
-To use this API in the RESTful system, we have to think in this manner: “What resource am I concerned with, and what do I want to do to that resource”.
+To use this API in the RESTful system, we have to think in this manner: "What resource am I concerned with, and what do I want to do to that resource".
 
 
 ## RESTful
@@ -2306,13 +2307,13 @@ In simple terms, we use the HTTP verbs in this fashion:
 3. **PUT**: *modify a specified resource*
 4. **DELETE**: *delete a specified resource*
 
-The GET verb is pretty straightforward. Let’s use it in an example where we want to allow other programs to get a list of all students. The URL for that might be:
+The GET verb is pretty straightforward. Let's use it in an example where we want to allow other programs to get a list of all students. The URL for that might be:
 
 http://www.exampleschool.com/api/StudentService/Students
 
 If we send an HTTP message to that URL with an HTTP verb of GET, we will receive a list of all students.
 
-Let’s look at an example where we want to get data about a specific student. The URL for that might be:
+Let's look at an example where we want to get data about a specific student. The URL for that might be:
 
 http://www.exampleschool.com/api/StudentService/Student/:studentId
 
@@ -2322,7 +2323,7 @@ Here, the HTTP request would use a GET verb. The request would also include the 
 ## Creating a Resource
 [Jump Back](#http-messages)
 
-Now let’s look at creating a resource – in our case, a new student.
+Now let's look at creating a resource - in our case, a new student.
 
 Again, in RESTful we identify a resource and use the HTTP verb to indicate what we want to happen with that resource.
 
@@ -2341,11 +2342,11 @@ firstName=Billy&lastName=Bart&GPA=2.43
 ```
 When this message is received by the server, the data in the body of the message will be used to create a new student. This happens because the programmer who made the service sets it up that way, as part of making their program conform with this idea of a RESTful system.
 
-The response often includes data that will be useful in tracking the state of the various resources that the program is tracking. In this case, the HTTP response would likely include the studentId for the newly-created student “Billy Bart”, as that studentId would have just been created by the program that has the Student service.
+The response often includes data that will be useful in tracking the state of the various resources that the program is tracking. In this case, the HTTP response would likely include the studentId for the newly-created student "Billy Bart", as that studentId would have just been created by the program that has the Student service.
 
 
 ## DELETE
-DELETE is pretty straightforward – it would use the same URL, but include the HTTP verb DELETE. Additionally, a piece of data that would identify the specific resource to be deleted would be in the body of the message. The HTTP message might look like this:
+DELETE is pretty straightforward - it would use the same URL, but include the HTTP verb DELETE. Additionally, a piece of data that would identify the specific resource to be deleted would be in the body of the message. The HTTP message might look like this:
 ```http
 DELETE /api/StudentService/Student
 Host: www.weatherforecast.com
@@ -2356,7 +2357,7 @@ studentId=24
 ```
 When this message is received by the server, the data in the body of the message will be used to delete the student with an ID of 23.
 
-Finally, let’s look at the use of the PUT verb to modify the state of a specified resource. If we wanted to change the first name of a specified student from “Billy” to “William”, the HTTP message might look like this:
+Finally, let's look at the use of the PUT verb to modify the state of a specified resource. If we wanted to change the first name of a specified student from "Billy" to "William", the HTTP message might look like this:
 ```http
 PUT /api/StudentService/Student
 Host: www.weatherforecast.com
@@ -2365,9 +2366,9 @@ Accept-Language: en-us
 ```http
 studentId=24&firstName=William
 ```
-When this message is received by the server, the data in the body of the message will be used to change the first name of the student with an ID of 24 from “Billy” to “William”.
+When this message is received by the server, the data in the body of the message will be used to change the first name of the student with an ID of 24 from "Billy" to "William".
 
-By creating the APIs of your programs to conform to RESTful principles, you enable the tracking and control of the state of the things in your program, even though the HTTP protocol you’re using isn’t stateful by itself.
+By creating the APIs of your programs to conform to RESTful principles, you enable the tracking and control of the state of the things in your program, even though the HTTP protocol you're using isn't stateful by itself.
 
 ## IDE
 [Jump Back](#planning-and-executing-a-web-application)
@@ -2390,13 +2391,13 @@ When we write a link in our HTML code, like this:
 
 [The Tech Academy](https://learncodinganywhere.com/) link takes you to the webpage in the current browser window when you click on it.
 
-You can open the page in a new tab within the current browser window by utilizing the target attribute and using the “new” value, like:
+You can open the page in a new tab within the current browser window by utilizing the target attribute and using the "new" value, like:
 
 ```html
 <a href="https://learncodinganywhere.com/" target="new">The Tech Academy</a>
 ```
 
-We can also accomplish this with the “_blank” value (following a target attribute) as follows:
+We can also accomplish this with the "_blank" value (following a target attribute) as follows:
 
 ```html
 <a href="https://learncodinganywhere.com/" target="_blank">The Tech Academy</a>
@@ -2414,3 +2415,25 @@ Another way to add emphasis to text is the `<em>` tag.
 The output of this code would be:
 
 <em>This text is emphasized.</em>
+
+## Semantic Content Elements
+[Jump Back](#planning-and-executing-a-web-application)
+
+"Semantics" means "the study of the meanings of words and phrases in a language". Semantic elements are elements that have a meaning. Specifically, a semantic element clearly describes its meaning to the person reading/writing the code and the browser.
+
+For example: the `<form>` element is a semantic element because it clearly defines what it is (the content is a form). The `<table>` element is also a semantic element because by reading it we know that we are dealing with content in the form of a table.
+
+Whereas `<div>` is a non-semantic element because there are many types of content that could be contained within the `<div>` tags - the `<div>` element doesn't automatically clearly define its content.
+
+Here are some other semantic content elements:
+
+- `<article>`
+- `<details>`
+- `<footer>`
+- `<header>`
+- `<main>`
+- `<nav>`
+- `<section>`
+- `<summary>`
+- `<time>`
+
