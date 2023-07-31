@@ -97,6 +97,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Emphasis](#emphasis)
 - [Semantic Content Elements](#semantic-content-elements)
 - [Video and Audio Tags](#video-and-audio-tags)
+- [Bookmarks](#bookmarks)
 
 
 ## Reserved Words and Keywords
@@ -2463,5 +2464,58 @@ As a reminder, *MP4* is a specific format for a type of file that contains infor
 The statement “Looks like your browser does not support the video tag – use Google Chrome!” will display if there’s an issue with showing the video in the browser.
 
 Please note that the code above links to video files on our machine. In order to use it as written, you would need to have a video (such as an mp4) saved in your code folder.
+
+## Bookmarks
+[Jump Back](#planning-and-executing-a-web-application)
+
+You can create “bookmarks” on web pages that allow users to jump to specific section on web pages.
+
+To make a bookmark, you will use the id attribute like this:
+
+```html
+<h1 id="About Page">About</h1>
+```
+
+Then you add a link to the bookmark like this:
+
+```html
+<a href="#About Page">Go to About</a>
+```
+
+We use the # symbol, followed by the id name as the value of “href”.
+
+Here’s an example:
+
+```html 
+<!DOCTYPE html>
+<html>
+    <body>
+        <p><a href="#About Section">Go to About</a></p>
+        <p><a href="#FAQ Section">Go to FAQ</a></p>
+        <h1>Home</h1>
+        <p> This is the Home section of our web page...</p>
+
+        <h1 id="About Section">About</h1>
+        <p>This is the About section of our web page...</p>
+
+        <h1 id="FAQ Section">FAQs</h1>
+        <p>This is the FAQ section of our web page...</p>
+    </body>
+</html>
+```
+
+Our webpage would display like:
+
+<body>
+    <p><a href="#About Section">Go to About</a></p>
+    <p><a href="#FAQ Section">Go to FAQ</a></p>
+    <h1>Home</h1>
+    <p> This is the Home section of our web page...</p>
+    <h1 id="About Section">About</h1>
+    <p>This is the About section of our web page...</p>
+    <h1 id="FAQ Section">FAQs</h1>
+    <p>This is the FAQ section of our web page...</p>
+</body>
+
 
 
