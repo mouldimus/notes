@@ -2517,5 +2517,12 @@ Our webpage would display like:
     <p>This is the FAQ section of our web page...</p>
 </body>
 
+## PNG
+*PNG* stands for Portable Network Graphics. This is a type of image file that allows for compressed size without any loss in image quality.
+
+**Example**
+> PNG is a great file type to use for website images.
+
+
 
 
