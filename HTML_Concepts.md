@@ -96,6 +96,8 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Opening a Link in a New Tab](#opening-a-link-in-a-new-tab)
 - [Emphasis](#emphasis)
 - [Semantic Content Elements](#semantic-content-elements)
+- [Video and Audio Tags](#video-and-audio-tags)
+
 
 ## Reserved Words and Keywords
 [Jump Back](#contents)
@@ -2436,4 +2438,30 @@ Here are some other semantic content elements:
 - `<section>`
 - `<summary>`
 - `<time>`
+
+## Video and Audio Tags
+[Jump Back](#planning-and-executing-a-web-application)
+
+Another way we can embed videos in our code is utilizing the `<video>` tag:
+
+```html
+<video width="320" height="240" controls>
+    <source src="Video.mp4" type="video/mp4">
+    <source src="Video.ogg" type="video/ogg">
+    Looks like your browser doesn't support the video tag - try Google Chrome!
+</video>
+```
+
+We can specify the width and height of the video in pixels.
+
+The controls attribute instructs the browser to display the video controls (play, volume, etc.).
+
+As a reminder, *MP4* is a specific format for a type of file that contains information about videos, sounds, subtitles, etc.; this kind of file can be used to play videos on computers and other devices. It stands for “Moving Pictures Experts Group-4:. The Moving Pictures Experts Group is a group of people chosen to determine set standards for how video and audio content will be transmitted, shown, etc. The “4” only refers to the type of file it is and that there were three earlier formats before this one.
+
+*Ogg* is a format for audio and video. The term originates from a computer game called *Netrek* and refers to “ogging” (a type of attack against other players where someone crashes their ship into another). Ogg is free and can be utilized with no copyright restrictions.
+
+The statement “Looks like your browser does not support the video tag – use Google Chrome!” will display if there’s an issue with showing the video in the browser.
+
+Please note that the code above links to video files on our machine. In order to use it as written, you would need to have a video (such as an mp4) saved in your code folder.
+
 
