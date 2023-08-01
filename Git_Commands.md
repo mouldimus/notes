@@ -122,7 +122,7 @@ When trying to resolve merge conflicts go into the listed file in the error mess
 Then edit, save and commit the changes of the file by simply removing what you dont want in the program. Then executing the command:
         
 ```bash
-commit -a -m "Commit Message"`
+commit -am "Commit Message"`
 ```
 
 ---

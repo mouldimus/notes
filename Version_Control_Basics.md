@@ -31,7 +31,9 @@ This is my rough understanding and explaination of Version Control
 
 
 
-### Branches
+## Branches
+[Back](#)
+
 A branch is a duplication of code or a portion of it, so that changes can be made to it without affecting the original code.
 
 The purpose of branching is to allow a developer to edit a copy of the code without affecting the original code. Typically the developer later “merges” the branch – which means they integrate their edited code back into the original code.
@@ -50,9 +52,12 @@ When a developer adds their latest change (i.e., newest version of their code) t
 	
 If a developer wanted to explore an alternate method for sorting a large collection of financial records, they could create a branch of the original code and work on that alternative sorting approach while they, or other developers, continued to do other work on the original code. Then, when they had perfected the new approach to sorting the data, they could merge the changes they made back into the original code, which now had additional functions due to the continued work on that original code.
 
----
 
-### Source Code
+## Source Code
+[Back](#)
+
+
+
 As a reminder, source code is the set of computer instructions that make up a computer program, in such a form that a computer programmer can modify the instructions.
 
 Source code is the version of a computer program as it is originally written (i.e., typed into a computer in a programming language) by the designer of the program. 
@@ -63,9 +68,12 @@ In that new format, the program can't be easily understood by people – but it 
 
 It also can't be modified by other developers at that point.
 
----
 
-### Version Control
+## Version Control
+[Back](#)
+
+
+
 Version control (also called source control or revision control ) is the tools and processes that are used to manage multiple versions of computer files as the files change over time.
 
 A version control system, or VCS, provides two primary data management capabilities. It allows users to:	
@@ -84,9 +92,12 @@ This is used a lot when you are creating computer programs.
 
 If a team of writers were preparing a large textbook, and each writer could add, edit and remove content to the textbook at any time, they would find a version control system valuable to keep track of all changes as the textbook was written.
 
----
 
-### Git
+## Git
+[Back](#)
+
+
+
 Git is a specific example of version control. It is a popular version control system. You can use Git to manage the versions of your computer programs and work on programs in conjunction with other developers.
 
 Git is itself a computer program. A computer programmer can install the Git program on their computers, and then use that program while creating software and websites.
@@ -95,27 +106,36 @@ Git is itself a computer program. A computer programmer can install the Git prog
 
 Git is free software, and is used by millions of computer programmers around the world.
 
----
 
-### GitHub
+## GitHub
+[Back](#)
+
+
+
 GitHub is a popular web site owned by Microsoft. It can be used to store source code, accomplish version control on that source code, track defects in that source code and manage work tasks for the computer programmers working on that source code.
 
 **Example:**
 
 GitHub is the largest host of source code in the world.
 
----
 
-### Software Suite
+## Software Suite
+[Back](#)
+
+
+
 A software suite is a collection of computer programs that typically perform similar functions. These computer programs usually share a similar user interface.
 
 **Example:**
 
 One of the most popular software suites is Microsoft Office 365. It includes several programs, including Word and Excel.
 
----
 
-### Repository
+## Repository
+[Back](#)
+
+
+
 
 As a reminder, a repository is the main location where data can be kept and handled. It is the central location where code for a particular program is stored.
 
@@ -123,9 +143,12 @@ As a reminder, a repository is the main location where data can be kept and hand
 
 GitHub is an online code repository.
 
----
 
-### Project
+## Project
+[Back](#)
+
+
+
 A project is an undertaking that typically has exact requirements and specifications. Projects are usually created following a plan.
 
 Within code editors (programs that developers use to write their code) websites and programs are typically saved as projects.
@@ -134,9 +157,12 @@ Within code editors (programs that developers use to write their code) websites 
 
 If you were creating a portfolio website to showcase your accomplishments as a developer, the code for this site would be referred to as, and saved as, a project.
 
----
 
-### Version Control Systems
+## Version Control Systems
+[Back](#)
+
+
+
 In this course you will learn about various Version Control Systems (VCSs).
 
 A VCS is a specialized software suite that is used to maintain and track multiple versions of project files, also known as "source control" or "revision control.”
@@ -145,9 +171,12 @@ VCSs consists of a repository where all of the project files are stored. This re
 
 The original project files that are stored on another server’s hard drive (such as online storage) so that others can also access the files are considered to be on a “REMOTE” repository.
 
----
 
-### Checking In and Checking Out
+## Checking In and Checking Out
+[Back](#)
+
+
+
 While a team of developers are working on a project together, it is important that no two team members are editing the same content at the same time. If this happens, it is possible for one person to accidentally overwrite the changes made by someone else. For this reason, version control allows users to “check out” files for editing.
 
 When a file has been checked out from a shared file server, it cannot be edited by other users. When the developer finishes editing the file, he can save the changes and “check in” the file, effectively releasing that file so that other team members can edit the file once more.
@@ -162,28 +191,40 @@ Checking in is sometimes referred to as “committing” code.
 
 If you were working with a team of two other developers on a computer program that tracked the students in a school, and you wanted to work on the part of the code that calculated grade point averages, you might “check out” that section of code. The version control system would then mark that section of code in some way, and could notify the other two developers that the section of code has been checked out should they attempt to change it.
 
----
 
-### Creating Branches
+## Creating Branches
+[Back](#)
+
+
+
 A typical business scenario for a team of developers working together on a particular project would be for the main project files, known as “MASTER” or “MAIN” repository files to be cloned (copied) to a developer’s local hard drive so that they may work with these files whether they are connected to the remote hard drive or not. Before a developer will make any changes to their copied files, they typically will make a new “BRANCH” of all the copied files in the local repository.
 
 This creates all new versions of the original copied repository files. Essentially, these may be thought of as new instances of the files. Developers make new branches of the project files so that any new changes are not actually affecting the original state of these files on the original branch.
 
----
 
-### Sub Branches
+## Sub Branches
+[Back](#)
+
+
+
 After the developer has created a sub-branch which is named uniquely from the main branch to ensure differentiation, the files may be altered and improved. In a version control system, each file in the local repository will have an associated file history attached to it. This history is updated with a short description and timestamp each and every time the file undergoes changes in which the developer has committed these changes to their local repository. If the developer feels there are mistakes in a particular file, they may pick a save point on the file’s history timeline and revert this file back to the condition as it was at that exact moment of time.
 
----
 
-### VCS Software
+## VCS Software
+[Back](#)
+
+
+
 A file on one particular branch may be modified and thus it will contain different data than that very same file on another branch since they are no longer on the same plane of reality. Think about those popular science fiction novels or films concerning time travel. The time traveler may have gone back to a special point in time and made an alteration but the new future is not the previous future to the time traveler anymore as there was a new branch in time generated as soon as the time traveler had made their alteration in the timeline. Every successive change they may make will also make new branches in their reality accordingly.
 
 Luckily for developers, the VCS software will remember each and every change for them and associate a brief but concise description, explaining each change made so that all the developer has to do is read through these brief descriptions to help them determine the point in time they would like to revert the file back to.
 
----
 
-### Merges
+## Merges
+[Back](#)
+
+
+
 As was mentioned earlier, merging is the action of combining various versions of a file or folder. It means to combine changes in files that exist in two or more different locations (or being handled by two or more developers). It is combining changes in data.
 
 **Example:**
@@ -192,9 +233,12 @@ If a developer wanted to explore an alternate method for sorting a large collect
 
 When the two sets of code do not merge properly, this is referred to as a “merge conflict.” For an example: If you attempt to merge code stored on your laptop with source code elsewhere, but someone had made changes to the exact section of the code you had been working on, you might have a merge conflict.
 
----
 
-### Network Backbone
+## Network Backbone
+[Back](#)
+
+
+
 A backbone is a part of a computer network that interconnects various pieces of a network, providing a path for the exchange of information between different subnetworks.
 
 This is part of a computer network that connects various sections of the network. It provides a path for information exchange between the various networks integrated into it.
@@ -205,9 +249,12 @@ It is essentially a “senior” network containing a high capacity connection t
 
 If several offices were connected to a network, the network backbone would be the main link connecting all of the offices. If this connection was a wireless connection, one would say, “Our company uses a wireless network backbone.”
 
----
 
-### Overhead
+## Overhead
+[Back](#)
+
+
+
 Overhead literally means “the cost associated with something.” In running a business, overhead includes rent cost, marketing expenses and payroll.
 
 In computers, overhead refers to the amount of work required of the computer to perform an action (such as running certain software). Overhead includes how much bandwidth is utilized, how much processing power is required, the amount of memory taken up, etc. by a particular website, program, etc.
@@ -216,9 +263,12 @@ In computers, overhead refers to the amount of work required of the computer to 
 
 Microsoft Word takes more overhead than Notepad.
 
----
 
-### Iteration
+## Iteration
+[Back](#)
+
+
+
 As a reminder, to iterate means to say or do something again; to repeat something.
 
 An iteration is the act of repeating. Iteration means to go through a defined series of actions, repeating a certain number of times. Usually this defined series of actions is repeated a certain number of times, or until a condition is met.
@@ -227,9 +277,12 @@ An iteration is the act of repeating. Iteration means to go through a defined se
 
 Computer programs are usually created in iterations: Coming up with a basic working version, reviewing the program for mistakes to correct and improvements to make, doing that work, and repeating. This can be continued indefinitely.
 
----
 
-### Shell
+## Shell
+[Back](#)
+
+
+
 As a reminder, a shell is a type of program that provides a user interface between the user and the operating system. You can use the shell to locate files, start and stop other programs, etc.
 
 Some shells provide a graphical interface, where visual objects on the screen are used to represent the files and programs on the computer. Other shells provide a text-only interface.
@@ -238,9 +291,12 @@ Some shells provide a graphical interface, where visual objects on the screen ar
 
 You might use a shell to look at all the files in one section of your computer.
 
----
 
-### Version Control Systems - Enabling Collaborations
+## Version Control Systems - Enabling Collaborations
+[Back](#)
+
+
+
 A Version Control System also makes team development possible, even with remote team members. With a centralized “repository” of document changes, developers can easily download the “latest” version and edit it. Once done, they just “check it in” to this main repository for the other team members to view and edit.
 
 Of course, having two developers work on the same document can cause problems. Version Control Systems utilize two distinct methods for enabling this type of collaboration. The first solution is to enable a developer to “lock” a file being edited. In other words, while the file is being edited, no other team member can edit it. Others can download it and view it, but none can make changes.
@@ -251,13 +307,19 @@ This is solved by the copy-modify-merge method. Any number of developers can dow
 
 The VCS known as Git, utilized through the GitHub interface, follows the copy-modify-merge method and has made it possible for software development to occur amongst hundreds of developers simultaneously. It has opened the door to “open-source software development” projects that have helped revolutionize the world of technology.
 
----
-### Fork
+## Fork
+[Back](#)
+
+
+
 A fork is a copy of a repository. You can fork a repository and make changes to it without affecting the original project. Forks are commonly used to recommend changes to projects belonging to someone else or to utilize someone else’s project as a starting point for your own.
 
----
 
-### Linux
+## Linux
+[Back](#)
+
+
+
 **Unix:** 
 
 Unix is built on the idea of the server being able to handle multiple client requests at the same time.
@@ -265,6 +327,10 @@ Unix is built on the idea of the server being able to handle multiple client req
 
 
 ## Elements of a Good README
+[Back](#)
+
+
+
 A good README consists of a few important elements, for example:
 | Name | Description |
 | ----- | ------|
@@ -288,19 +354,35 @@ And depending on the scope of the project, they will also contain:
 Each of these concepts will be explained further in the next pages.
 
 ### Title
+[Back](#)
+
+
+
 The title should clearly explain what the repository is about. It should be the name of the project and typically uses a heading tag. In markdown a hashtag is used to make a heading. It may also include titles of certain project sections as well.
 
 ### Introduction/Summary
+[Back](#)
+
+
+
 The introduction is a summary of what the project is about. It should not be too long, about two or three sentences will do for a small project.
 
 Here is an example of a title with a table of contents containing the important titles of each part of the project.
 
 ### Technologies
+[Back](#)
+
+
+
 This section explains which languages were used in the project, as well as the version of the language that was used. This is good for relaunching a project, as this section will clarify any potential issues a user may run into with certain updates. It is also useful when looking for a job, as it will more clearly showcase what languages the developer has used in various projects, and recruiters will be able to find these keywords on GitHub. Creating well-written and organized READMEs could be the difference between receiving an offer or being passed up.
 
 Overall, the README should be legible and have a simple format that is easy to navigate. Having thorough documentation will make your repositories stand out not just to recruiters, but also for people on your team or others that might want to use the application.
 	
 ### Additional Information on READMEs
+[Back](#)
+
+
+
 Read these articles regarding GitHub READMEs:
 - [About README.md](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-readmes)			
 - [Writing on GitHub Basic Writing & Formatting Syntax](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)

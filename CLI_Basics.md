@@ -34,7 +34,9 @@
 
 
 ## Breaking down the bash command:
-> `$ /bin/bash -c "$(curl -fsSL https://raw.githububusercontent.com/Homebrew/install/HEAD/install.sh)"`
+ ```bash
+ $ /bin/bash -c "$(curl -fsSL https://raw.githububusercontent.com/Homebrew/install/HEAD/install.sh)"'
+ ```
 
 Here is the syntax for some of the elements of various Mac CLI commands:
 
@@ -135,7 +137,9 @@ In many CLIs, these options are written by typing a hyphen, followed by the desi
 
 the command “ls” tells the computer to list the files in the current directory. Adding the switch “-lS” will modify the command so that the list of files is sorted from largest file size to smallest. The full command (command plus the command-line option) would look like this:
 
-> `ls -lS`
+```bash
+ls -lS
+```
 
 
 
@@ -146,7 +150,9 @@ Working directory (also called current working directory [CWD], current director
 
 In the following file path, the working directory would be “Docs”
 
-> `C:\Windows\Docs\Letter.docx`
+```
+C:\Windows\Docs\Letter.docx
+```
 
 
 
@@ -172,11 +178,15 @@ Python is a case-sensitive programming language.
 
 In Python, the following code would print "Hello, World!" on the screen.
 
-> `print("Hello, World!")`
+```python
+print("Hello, World!")
+```
 
 But if you wrote your code as follows, there would be a syntax error and the text wouldn’t be displayed. This is because, in Python, the print command does not begin with a capital P
 
-> `Print("Hello, World!")`
+```python
+Print("Hello, World!")
+```
 
 While Git is not a programming language, git commands are case sensitive.
 
