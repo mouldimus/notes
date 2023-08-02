@@ -85,7 +85,7 @@ In here I'll do my best to explain HTML concepts, keywords and phrases.
 - [Query String](#query-string)
 - [HTTP Message](#http-message)
 - [PUT and POST](#put-and-post)
-- [Difference Between PUT and POST](#difference-between-put-and-post)
+- [Difference Between PUT and POST (Idempotent & Non-idempotent)](#difference-between-put-and-post)
 - [HTTP and State](#http-and-state)
 - [Using RESTful and APIs](#using-restful-and-apis)
 - [RESTful and APIs](#restful-apis)
@@ -2186,7 +2186,7 @@ studentId=23&GPA=3.74
 ```
 This would result in the change of the GPA of the student with ID 23 from 3.58, as above, to 3.74.
 
-On the other hand, if you were creating a new student, you wouldn't want it to actually happen multiple times - that would result in more than one identical student being created.
+On the other hand, *if you were creating a new student*, you wouldn't want it to actually happen multiple times - that would result in more than one identical student being created.
 
 The POST verb is non-idempotent. If you wanted to **create a new student**, you might send an HTTP request that took the data from a form and sent it to a program on the server called "createStudent":
 ```http
