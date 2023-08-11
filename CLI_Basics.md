@@ -34,6 +34,7 @@
 
 
 ## Breaking down the bash command:
+[Back](#)
  ```bash
  $ /bin/bash -c "$(curl -fsSL https://raw.githububusercontent.com/Homebrew/install/HEAD/install.sh)"'
  ```
@@ -63,6 +64,8 @@ Here is the syntax for some of the elements of various Mac CLI commands:
 
 
 ## Directory
+[Back](#)
+
 A directory is something (such as a book) which contains listings of information in an organized manner.
 
 Technically, in computers, a folder and directory are the same thing. The only difference is that folder refers to a visual representation of a directory. Meaning, folders are icons representing a directory in the computer.
@@ -76,6 +79,8 @@ The root directory is the first or top directory in your computer. The root dire
 
 
 ## OneDrive
+[Back](#)
+
 OneDrive is a service provided by Microsoft for storing files online.
 
 **Example:**
@@ -83,6 +88,8 @@ You could back up your hard drive on OneDrive and share the data with other peop
 
 
 ## INI File Format
+[Back](#)
+
 "INI" is short for "initialization".
 
 INI files are used by the Windows operating system, typically to lay out operating instructions for the OS and some programs.
@@ -94,6 +101,8 @@ Usually the instructions to the computer that enables the use of a mouse are sto
 
 
 ## Docx
+[Back](#)
+
 The docx file format (.docx) is short for “document XML.” 
 
 As a reminder, XML is an extensible markup language. This means that developers can create their own document structure, and then use XML to specify markup instructions for the data in those documents. Tags are the markup language words that usually have two parts, a start tag and an end tag. They have these symbols before and after them: < and >. XML is similar to HTML except that the code itself can be customized (i.e. the developer can create their own tags).
@@ -107,6 +116,8 @@ If you attempted to open a .docx file in a program that doesn’t support Word d
 
 
 ## Touch
+[Back](#)
+
 Touch is a command-line interface program for Unix that is used to update date information – such as: changing the date that a file or directory was modified or accessed. Touch can also be used to create or open a file.
 
 **Example:**
@@ -116,6 +127,7 @@ You could type “touch dogstory.docx” in the Git command line to create a bla
 
 
 ## Tilde
+[Back](#)
 
 Tilde is the name for the symbol ~
 
@@ -129,6 +141,8 @@ The tilde (~) is placed over certain letters in some Spanish words as an accent,
 
 
 ## Command-line Option
+[Back](#)
+
 A command-line option (also known as an option, flag or switch ) modifies the operation of a command.
 
 In many CLIs, these options are written by typing a hyphen, followed by the desired option (called a switch ).
@@ -144,6 +158,8 @@ ls -lS
 
 
 ## Working Directory
+[Back](#)
+
 Working directory (also called current working directory [CWD], current directory and working tree) is the directory you are currently working in as a developer.
 
 **Example:**
@@ -157,6 +173,8 @@ C:\Windows\Docs\Letter.docx
 
 
 ## Parse
+[Back](#)
+
 Parse means to break something up into its parts and analyze it.
 
 **Example:**
@@ -170,6 +188,8 @@ For example, search engines typically parse search phrases entered by users so t
 
 
 ## Case-Sensitive
+[Back](#)
+
 As a reminder, case-sensitive refers to a programming language where capital and lowercase letters affect the syntax. Some languages allow you to write code with no attention given to capitalization or lowercase letters, while others won’t operate unless you write the code exactly.
 
 **Example:**
@@ -193,6 +213,8 @@ While Git is not a programming language, git commands are case sensitive.
 
 
 ## Hash
+[Back](#)
+
 Hash is an operation that converts one value to another. It is usually used to mask data with different data.
 
 **Example:**
@@ -202,6 +224,8 @@ The original file name could be orangepants.docx and the hash could be absdfmoij
 
 
 ## Staging
+[Back](#)
+
 Staging is the step prior to the commit process in Git.
 
 A staged file means that you have marked the file to be included in your next commit.
@@ -211,6 +235,8 @@ Staging is basically a loading dock where you can determine which changes you wi
 
 
 ## Tracked File
+[Back](#)
+
 Tracked files are the files that were last saved. They are files that Git “knows” about.
 
 Untracked files are everything else – any files in your working directory that were not saved and are not in your staging area.
@@ -218,6 +244,8 @@ Untracked files are everything else – any files in your working directory that
 
 
 ## Branching
+[Back](#)
+
 When you use the command “git init,” the current location within your file system will be assigned as a local git repository. So you will want to be sure to use this command with a project folder you have created specifically for your project files.
 
 If you have created and initialized the “myRepository” project folder while you were following along with this tutorial series, then this is your project folder.
@@ -227,6 +255,8 @@ In the next video, we will create and initialize another Git project folder and 
 
 
 ## Using GitHub
+[Back](#)
+
 Later on in your boot camp, you will be adding various code and projects to GitHub, which is why the Version Control Course comes before the main coding courses on the program. 
 
 One of the primary benefits of maintaining a GitHub profile is to create a sort of development portfolio for yourself that other developers and potential employers can view. Though it’s not common, some Tech Academy graduates have even been offered employment opportunities by people who happened upon their GitHub profile. It is wise to list one’s GitHub profile on their résumé.
@@ -234,6 +264,8 @@ One of the primary benefits of maintaining a GitHub profile is to create a sort 
 Remember: Always keep your Github folders and projects organized. This will prevent the headache of having to organize everything later down the line when you're preparing to present your work to a potential employer.
 
 ## Underscores and Spaces
+[Back](#)
+
 The underscore symbol “_” is a short horizontal line.
 
 Occasionally you’ll see file names with underscores in them, like:
@@ -249,6 +281,8 @@ And so, some use underscores or hyphens instead of spaces because spaces can occ
 While underscores or hyphens are not always required, they’ve become common in the tech industry.
 
 ## Character Encoding
+[Back](#)
+
 Character encoding is a system where numbers, letters, etc. are represented by codes. The codes used are in a form that computers can easily understand. The system used for each type of code depends on how that code is going to be used.
 
 #### Example
@@ -260,6 +294,8 @@ Usually, the actual codes for a letter, number, etc. are in binary. Every letter
     The letter “B” might have 1000010 as its character encoding.
 
 ## Character Sets
+[Back](#)
+
 In HTML (and all coding) you will be dealing with *characters*.
 
 In the written form of a language, a character is a written symbol that represents one of the various parts of that language – the various letters, punctuation marks and symbols that are used to lay out that language in written form.
@@ -283,6 +319,8 @@ Here is a website that contains the full ASCII table:
 [ASCII Table Chart](https://www.asciitable.com/)
 
 ## ASCII
+[Back](#)
+
 In addition to the nearly 100 symbols used to represent the letters, numbers and punctuation of the language, ASCII also includes control characters – symbols that aren’t meant to represent printable characters, but instead represent instructions to control the various pieces of electronic equipment that would use the ASCII characters – printers and monitors, for example. These are instructions such as “backspace” (to delete the character immediately to the left of the current position of the printing mechanism) and “carriage return” (to move down to the next line of printing and return to the far left of the page).
 
 Since computers operate in binary, the characters in character sets must each be translated into binary. This is done through character encoding. This typically goes through this process:
@@ -309,6 +347,8 @@ As there are many different written languages in use on Earth, a system was need
 As a developer, in creating software and web sites, you will utilize various character sets and character encoding, so it is important you understand these subjects and their various types.
 
 ## Unicode
+[Back](#)
+
 Unicode is another standard for representing letters and symbols in computers. It stands for “**Unique, Universal, and Uniform character enCoding.**”
 
 Unicode is intended to represent all languages across the world, not just English. Each letter and symbol of the various languages of the world has a specific number in the Unicode system.
@@ -320,11 +360,15 @@ Developers needed a way to clarify what letters or symbols to use in their progr
 For example, in Unicode the letter “A” could be represented as 0041.
 
 ## ASCII vs. Unicode
+[Back](#)
+
 Whereas the standard ASCII character set can only support 128 characters, Unicode can support about 1,000,000 characters.
 
 Another difference between Unicode and ASCII is that ASCII utilizes one byte (8 binary digits) to represent each character. Unicode utilizes between one and four bytes to represent characters.
 
 ## Code Point
+[Back](#)
+
 Technically, when speaking of character encoding, the numerical value assigned to a specific character or format is called a “code point.”
 
 For example: ASCII has 128 code points.
@@ -334,6 +378,8 @@ In the chart below, you can see some of the code points in the ASCII character s
 ![ASCII2](./images/ASCII2.png)
 
 ## UTF
+[Back](#)
+
 If you look closely at some URLs, you may see the characters “UTF”.
 
 “UTF” stands for “Unicode Transformation Format.” UTF is a character encoding format that is able to utilize all of the code points in Unicode.
@@ -368,6 +414,8 @@ Here is a website that shows the full character list for UTF-16:
 [Complete Character List for UTF-16](https://www.fileformat.info/info/charset/UTF-16/list.htm)
 
 ## Universal Coded Character Set (UCS)
+[Back](#)
+
 UCS is a standard set of characters defined by the International Organization for Standardization (ISO) – an organization composed of representatives from various standards organizations across the world. The ISO exists to monitor and promote international industrial and commercial standards.
 
 Under the umbrella of the UCS, the ISO created the UTF character encoding systems – including UTF-8 and UTF-16.
@@ -381,10 +429,20 @@ It should be noted that in 2017 the ISO stated “UCS-2 should now be considered
 UTF-16 is an extension of (improvement upon) UCS-2.
 
 ## Character Sets vs. Encoding Systems
+[Back](#)
+
 
 A character set (called “char set” for short) is a standardized set of characters. Here is part of the character set for ASCII:
 
-![charset](./images/char_set.png)
+
+| Character | Code Point | Character | Code Point |
+| :-------: | ---------- | :-------: | ---------- |
+| **O** | *015* | **!** | *033* |
+| **P** | *016* | **"** | *034* |
+| **Q** | *017* | **#** | *035* |
+| **R** | *018* | **$** | *036* |
+| **S** | *019* | **%** | *037* |
+
 
 An encoding system is a standardized way to translate characters into binary. In the UTF-8 encoding system the character A is assigned 01000001 in binary, and in UT-16 it is assigned 00000000 01000001.
 
@@ -396,6 +454,8 @@ A character set (Unicode includes the characters needed for nearly all of Earth�
 Several encoding systems (as covered earlier, the most popular are UTF-8 and UTF-16).
 
 ## Decoding
+[Back](#)
+
 Have you ever opened a file and the document was displayed incorrectly?
 
 In order to properly display characters when opening a file, a program (like a text editor) must know which encoding system was used.
@@ -409,6 +469,8 @@ One of the encoding options for Notepad documents is UTF-8. This can be seen in 
 ![Encoding](./images/utf_8.png)
 
 ## Using Encoding as a Developer
+[Back](#)
+
 As a developer, you can assign which encoding system you’re using.
 
 The default encoding system for HTML5 is UTF-8.
