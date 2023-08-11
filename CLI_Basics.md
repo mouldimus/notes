@@ -246,7 +246,7 @@ Untracked files are everything else – any files in your working directory that
 ## Branching
 [Back](#)
 
-When you use the command “git init,” the current location within your file system will be assigned as a local git repository. So you will want to be sure to use this command with a project folder you have created specifically for your project files.
+When you use the command `git init`, the current location within your file system will be assigned as a local git repository. So you will want to be sure to use this command with a project folder you have created specifically for your project files.
 
 If you have created and initialized the “myRepository” project folder while you were following along with this tutorial series, then this is your project folder.
 
@@ -371,7 +371,7 @@ Another difference between Unicode and ASCII is that ASCII utilizes one byte (8 
 
 Technically, when speaking of character encoding, the numerical value assigned to a specific character or format is called a “code point.”
 
-For example: ASCII has 128 code points.
+For example: [ASCII](#ascii) has 128 code points.
 
 In the chart below, you can see some of the code points in the ASCII character set (032-127 – note: the left column is the decimal code point, the middle column is the hexadecimal code point, and the right column is the character):
 
