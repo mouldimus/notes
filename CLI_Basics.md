@@ -12,10 +12,6 @@
 - [Parse](#parse)
 - [Case-Sensitive](#case-sensitive)
 - [Hash](#hash)
-- [Staging](#staging)
-- [Tracked File](#tracked-file)
-- [Branching](#branching)
-- [Using Github](#using-github)
 - [Underscores and Spaces](#underscores-and-spaces)
 - [Character Encoding](#character-encoding)
 - [Character Sets](#character-sets)
@@ -122,7 +118,7 @@ Touch is a command-line interface program for Unix that is used to update date i
 
 **Example:**
 
-You could type “touch dogstory.docx” in the Git command line to create a blank Microsoft Word document entitled “dogstory”.
+You could type “touch dogstory.docx” in the command line interface to create a blank Microsoft Word document entitled “dogstory”.
 
 
 
@@ -149,7 +145,7 @@ In many CLIs, these options are written by typing a hyphen, followed by the desi
 
 **Example:**
 
-the command “ls” tells the computer to list the files in the current directory. Adding the switch “-lS” will modify the command so that the list of files is sorted from largest file size to smallest. The full command (command plus the command-line option) would look like this:
+the command `ls` tells the computer to list the files in the current directory. Adding the switch `-lS` will modify the command so that the list of files is sorted from largest file size to smallest. The full command (command plus the command-line option) would look like this:
 
 ```bash
 ls -lS
@@ -160,7 +156,7 @@ ls -lS
 ## Working Directory
 [Back](#)
 
-Working directory (also called current working directory [CWD], current directory and working tree) is the directory you are currently working in as a developer.
+Working directory (also called current working directory **CWD**, current directory and working tree) is the directory you are currently working in as a developer.
 
 **Example:**
 
@@ -220,48 +216,6 @@ Hash is an operation that converts one value to another. It is usually used to m
 **Example:**
     
 The original file name could be orangepants.docx and the hash could be absdfmoijgfsdnsadf. Both would point to the file.
-
-
-
-## Staging
-[Back](#)
-
-Staging is the step prior to the commit process in Git.
-
-A staged file means that you have marked the file to be included in your next commit.
-
-Staging is basically a loading dock where you can determine which changes you will commit. You can perform actions in the staging area, such as temporarily storing your changes.
-
-
-
-## Tracked File
-[Back](#)
-
-Tracked files are the files that were last saved. They are files that Git “knows” about.
-
-Untracked files are everything else – any files in your working directory that were not saved and are not in your staging area.
-
-
-
-## Branching
-[Back](#)
-
-When you use the command `git init`, the current location within your file system will be assigned as a local git repository. So you will want to be sure to use this command with a project folder you have created specifically for your project files.
-
-If you have created and initialized the “myRepository” project folder while you were following along with this tutorial series, then this is your project folder.
-
-In the next video, we will create and initialize another Git project folder and name it “myProjects” just as a review. You should not actually need to create and initialize multiple folders as local Git repositories, this was just a review so that you would have more practice with the process.
-
-
-
-## Using GitHub
-[Back](#)
-
-Later on in your boot camp, you will be adding various code and projects to GitHub, which is why the Version Control Course comes before the main coding courses on the program. 
-
-One of the primary benefits of maintaining a GitHub profile is to create a sort of development portfolio for yourself that other developers and potential employers can view. Though it’s not common, some Tech Academy graduates have even been offered employment opportunities by people who happened upon their GitHub profile. It is wise to list one’s GitHub profile on their résumé.
-
-Remember: Always keep your Github folders and projects organized. This will prevent the headache of having to organize everything later down the line when you're preparing to present your work to a potential employer.
 
 ## Underscores and Spaces
 [Back](#)

@@ -17,6 +17,10 @@ This is my rough understanding and explaination of Version Control
 - [Project](#project)
 - [Version Control Systems](#version-control-systems)
 - [Checking In and Out](#checking-in-and-checking-out)
+- [Staging](#staging)
+- [Tracked File](#tracked-file)
+- [Branching](#branching)
+- [Using Github](#using-github)
 - [Creating Branches](#creating-branches)
 - [Sub Branches](#sub-branches)
 - [VCS Software](#vcs-software)
@@ -190,6 +194,48 @@ Checking in is sometimes referred to as “committing” code.
 **Example:**
 
 If you were working with a team of two other developers on a computer program that tracked the students in a school, and you wanted to work on the part of the code that calculated grade point averages, you might “check out” that section of code. The version control system would then mark that section of code in some way, and could notify the other two developers that the section of code has been checked out should they attempt to change it.
+
+
+
+## Staging
+[Back](#)
+
+Staging is the step prior to the commit process in Git.
+
+A staged file means that you have marked the file to be included in your next commit.
+
+Staging is basically a loading dock where you can determine which changes you will commit. You can perform actions in the staging area, such as temporarily storing your changes.
+
+
+
+## Tracked File
+[Back](#)
+
+Tracked files are the files that were last saved. They are files that Git “knows” about.
+
+Untracked files are everything else – any files in your working directory that were not saved and are not in your staging area.
+
+
+
+## Branching
+[Back](#)
+
+When you use the command `git init`, the current location within your file system will be assigned as a local git repository. So you will want to be sure to use this command with a project folder you have created specifically for your project files.
+
+If you have created and initialized the “myRepository” project folder while you were following along with this tutorial series, then this is your project folder.
+
+In the next video, we will create and initialize another Git project folder and name it “myProjects” just as a review. You should not actually need to create and initialize multiple folders as local Git repositories, this was just a review so that you would have more practice with the process.
+
+
+
+## Using GitHub
+[Back](#)
+
+Later on in your boot camp, you will be adding various code and projects to GitHub, which is why the Version Control Course comes before the main coding courses on the program. 
+
+One of the primary benefits of maintaining a GitHub profile is to create a sort of development portfolio for yourself that other developers and potential employers can view. Though it’s not common, some Tech Academy graduates have even been offered employment opportunities by people who happened upon their GitHub profile. It is wise to list one’s GitHub profile on their résumé.
+
+Remember: Always keep your Github folders and projects organized. This will prevent the headache of having to organize everything later down the line when you're preparing to present your work to a potential employer.
 
 
 ## Creating Branches
