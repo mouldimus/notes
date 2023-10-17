@@ -21,3 +21,8 @@
 - `chown` - change ownership
 - `COMMAND --help` - quick access help guide
  
+## Commands from [part 2](https://www.youtube.com/watch\?v\=kVlkgiwiY6w\&list\=PLc7fktTRMBozYfi4zlDeH0IdLdGImeOnO\&index\=2)
+
+- `history` - Shows list of commands you've given. You could then use `!`+start of last command+`TAB`, to run a previous command. 
+Or even `!`+Line Number. EXAMPLE = `!148` or `!nan`+`TAB` = nano .bashrc
+- 
