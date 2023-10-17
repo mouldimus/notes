@@ -20,6 +20,9 @@ For a network to function, the computers in the network need to be able to do a 
 - Understand what has been said.
 - Confirm they have received the message.
 
+<video src="./vids/basic_networking_functionality.mov" width="100%" autoplay>
+<source src="./vids/basic_networking_functionality.mov" >
+</video>
 ![Networking_functionality](./vids/basic_networking_functionality.mov) 
 
 ## Applications
