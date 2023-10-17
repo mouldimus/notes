@@ -35,3 +35,6 @@ Usage `ssh <remote-user>@<destination-IP-or-DNS>`. `exit` to logout the remote c
 - `curl ifconfig.me` - This runs a script at https://ifconfig.me that executes a long list of commands that give you your external IP address (the internet facing one)
 - `top` - Display the processes running
 - `htop` - much more powerful version of `top`
+
+
+ ## [Come Back to Part 3](https://www.youtube.com/watch\?v\=gibm4NYWSqg\&list\=PLc7fktTRMBozYfi4zlDeH0IdLdGImeOnO\&index\=3)
