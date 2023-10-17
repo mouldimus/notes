@@ -25,7 +25,10 @@
 
 - `history` - Shows list of commands you've given. You could then use `!`+start of last command+`TAB`, to run a previous command. 
 Or even `!`+Line Number. EXAMPLE = `!148` or `!nan`+`TAB` = nano .bashrc
-- 
-- grep - Used in conjunction with any command that spits out a wall of text. 
-Usage goes something like ls -laR / | grep '*.mov'. 
+- `grep` - Used in conjunction with any command that spits out a wall of text. 
+Usage goes something like `ls -laR / | grep '*.mov'`. 
 Probably a bad example, since I could've just done that with the ls command but hey.
+- `df` - Disk Free `-h` for Human readable
+- `ssh` - A way to securely access another computer. 
+Usage `ssh <remote-user>@<destination-IP-or-DNS>`.
+
