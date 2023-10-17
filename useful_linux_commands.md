@@ -33,3 +33,5 @@ Probably a bad example, since I could've just done that with the ls command but 
 Usage `ssh <remote-user>@<destination-IP-or-DNS>`. `exit` to logout the remote computer.
 - `ifconfig -a` - Find your internal IP address within your home network.
 - `curl ifconfig.me` - This runs a script at https://ifconfig.me that executes a long list of commands that give you your external IP address (the internet facing one)
+- `top` - Display the processes running
+- `htop` - much more powerful version of `top`
