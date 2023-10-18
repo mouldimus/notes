@@ -73,3 +73,5 @@ whereis zsh;
 whereis zip;
 ```
 
+- Building Programs from source. 
+[Watch here](https://www.youtube.com/watch\?v\=atSZAbyrjxU\&list\=PLc7fktTRMBozYfi4zlDeH0IdLdGImeOnO\&index\=7)
