@@ -37,4 +37,39 @@ Usage `ssh <remote-user>@<destination-IP-or-DNS>`. `exit` to logout the remote c
 - `htop` - much more powerful version of `top`
 
 
- ## [Come Back to Part 3](https://www.youtube.com/watch\?v\=gibm4NYWSqg\&list\=PLc7fktTRMBozYfi4zlDeH0IdLdGImeOnO\&index\=3)
+## [Part 3 - How to find files](https://www.youtube.com/watch\?v\=gibm4NYWSqg\&list\=PLc7fktTRMBozYfi4zlDeH0IdLdGImeOnO\&index\=3)
+- `find` - The find command can be used to find files.
+
+```bash
+find ~/Dropbox/Documents -name "*.label"
+```
+
+This would find all files that end with `.label`. **Case sensitive.**
+
+Now lets say you need to find a photo, but you can't remember whether it's called "photo.png" or "Photo.png".
+
+```bash
+find ~ -iname "photo.png"
+```
+
+Find files in from the last 7 days
+```bash 
+find <path> -mtime -7
+```
+
+Find files from the last 7 minutes
+```bash
+find <path> -mmin -7
+```
+
+Find files from the last 30 days above 10MB in Size
+```bash
+find <path> -mtime -30 -size +10M
+```
+
+- `whereis` - This command helps to find packages.
+```bash
+whereis zsh;
+whereis zip;
+```
+
