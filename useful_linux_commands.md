@@ -75,3 +75,28 @@ whereis zip;
 
 - Building Programs from source. 
 [Watch here](https://www.youtube.com/watch\?v\=atSZAbyrjxU\&list\=PLc7fktTRMBozYfi4zlDeH0IdLdGImeOnO\&index\=7)
+## vim
+[See video here](https://www.youtube.com/watch\?v\=P88ydZVcm1s\&list\=PLc7fktTRMBozYfi4zlDeH0IdLdGImeOnO\&index\=9)
+
+NGL I thought vim was also just for veterans. After watching that guy jump around so easily.. Pfft, *now I need to learn vim.*
+
+I've set my background to the VIM cheatsheet, to remembering all the shortcuts less of a task.
+
+![Vim Cheatsheet](./images/vim_cheatsheet.jpeg)
+
+You can use the command `vimtutor` to help you learn.
+
+## Sidenote
+I just found this by accident.
+
+Let's say these are your recent directories in order.
+Most recent to last recent. 
+```bash
+~
+~/Dropbox/coding
+/
+/Users
+```
+I can use `1`,`2`,`3`, etc to `cd` between my most recent directories.
+
+If my working directory was `~`, I could press `1` + `<ENTER>` to switch to `~/Dropbox/coding`, then `2` + `<ENTER>` to switch to `/`.
