@@ -100,3 +100,4 @@ Most recent to last recent.
 I can use `1`,`2`,`3`, etc to `cd` between my most recent directories.
 
 If my working directory was `~`, I could press `1` + `<ENTER>` to switch to `~/Dropbox/coding`, then `2` + `<ENTER>` to switch to `/`.
+Note - vimtutor 3.4
