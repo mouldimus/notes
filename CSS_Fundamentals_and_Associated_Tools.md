@@ -187,3 +187,20 @@ A *debug environment* would be an environment that is used for debugging purpose
 
 ### Debug Console
 A *debug console* is a tool that is used to find and display errors in code. For example, Google Chrome has its own debug console in developer tools called “console.”
+
+### CSS
+CSS holds the purpose of beautifying websites and separating styling from HTML.
+
+When HTML was originally developed, it was intended to build static, text-based websites. Images were made up of characters on the ASCII chart – made of commas, underscores, apostrophes, etc. Like this:
+
+![ascii_sonic](./images/ascii_sonic.png)
+
+HTML was very basic and developers did not require much in terms of features.
+
+### CSS and HTML
+As the Internet grew in popularity and more companies shifted their business models to have an online presence, the need for innovative web-development features arrived.
+
+CSS was designed to solve this problem.
+
+In the mid-1990s, developers used only HTML to manage colors, images, fonts, sizes and all of the other stylings. With large websites, this proved difficult because all of the styling was mixed in with the website functionality.
+
