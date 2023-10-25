@@ -179,3 +179,11 @@ RESOURCES:
 Review Microsoft’s documentation on using HTML in Visual Studio Code here:
 
 [HTML Programming with Visual Studio Code](https://code.visualstudio.com/docs/languages/html)
+
+### Debug Environment
+As a reminder, an *environment* is an overall structure within which a user, computer, etc. operates. This is often used to mean “the combination of physical hardware and operating system that my computer uses.”
+
+A *debug environment* would be an environment that is used for debugging purposes.
+
+### Debug Console
+A *debug console* is a tool that is used to find and display errors in code. For example, Google Chrome has its own debug console in developer tools called “console.”
