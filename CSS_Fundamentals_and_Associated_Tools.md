@@ -174,3 +174,8 @@ RESOURCES:
 
 1) [Integrated Terminal in Visual Studio Code](https://code.visualstudio.com/docs/editor/integrated-terminal)
 2) [The Visual Studio Code command-line options](https://code.visualstudio.com/docs/editor/command-line)
+
+### HTML in Visual Studio Code
+Review Microsoft’s documentation on using HTML in Visual Studio Code here:
+
+[HTML Programming with Visual Studio Code](https://code.visualstudio.com/docs/languages/html)
