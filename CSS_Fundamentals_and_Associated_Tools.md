@@ -204,3 +204,172 @@ CSS was designed to solve this problem.
 
 In the mid-1990s, developers used only HTML to manage colors, images, fonts, sizes and all of the other stylings. With large websites, this proved difficult because all of the styling was mixed in with the website functionality.
 
+### The Arrival of CSS
+When CSS arrived in 1998, it allowed developers to manage larger websites with fewer lines of code, located within a centralized .css document (style sheet).
+
+CSS introduced the concept of grouping many similar HTML elements into classes where developers would be able to make style changes, across multiple pages, all at once by simply making a few changes to the corresponding class attributes referenced within the centralized .css document.
+
+For example: let’s say that we have a website made up of 12 different webpages. Each web page is saved as a separate .html file – meaning, there are 12 .html files. Each is linked to our .css file (style sheet). We want to change all of the `<h2>` elements so they are an exact size, color and font type. Instead of individually changing the style of every `<h2>` tag within each .html file, we can make the change in our style sheet and voila! We’ve updated the `<h2>` across all our webpages.
+
+### The Basic CSS Syntax
+As a reminder, the CSS syntax consists of a CSS selector (this points to the HTML element that you want to style) with properties and values. A “property” is an identifier; a name – it explains what feature is being considered. A “value” describes how the feature is handled.
+
+A CSS declaration is a statement that consists of a property and a value.
+
+A CSS rule-set is:
+
+![CSS Syntax](./images/css_syntax.png)
+
+The process of matching CSS selectors with their HTML element is termed "CSS targeting".
+
+### Axis
+Coordinates are a set of two numbers that can locate any point on a grid or chart. For example: by using the coordinates longitude and latitude, you can find a location on a map:
+
+![longditude latitude](./images/css12.png)
+
+An axis is a line that measures coordinates – in the above example longitude is an axis and latitude is an axis.
+
+The line that runs left or right (horizontal) is called the X-axis. The line that runs up or down (vertical) is called the Y-axis.
+
+![x and y axis](./images/css13.png)
+
+These axes can be used to point to exact locations on a grid. For example: let's say we want to place these symbols at these coordinates:
+
+| Symbol | X Axis | Y Axis |
+|---|---|---|
+| % | 3 | 4 |
+| $ | -3 | -2 |
+| & | -2 | 2 |
+| @ | 4 | -4 |
+
+The output on the grid would look like this:
+
+![x and y result](./images/css14.png)
+
+### Gaussian Blur
+Also called *Gaussian smoothing*, *Gaussian blur* is an effect named after the French mathematician Carl Friedrich Gauss. It creates an effect like this (left side is the original picture and right is with the effect):
+
+![gaussian blur](./images/gaussian_blur.jpeg)
+
+You can create this effect with CSS.
+
+### Array
+As a reminder, an array is a collection of data, arranged in rows and columns.
+
+In computers, an array is a group of related things that are stored together in a sequence. It is a way things can be organized in a computer in a logical way. Arrays can be quite simple, or quite complex.
+
+#### Example
+
+A simple array would be something like the numbers 7, 3 and 15. It would be written out like this:
+
+    [7,3,15]
+These three pieces of data are called elements - they are the elements of the array. Another word for the data in an element is “value”. The first element in the array above has a value of “7”.
+
+A system is needed for identifying each element of an array. The simplest method for this is to start numbering them at zero starting at the left position and count up from there.
+
+In the above example, the element "7" would be at position 0, "3" would be at position 1 and "15" would be at position 2.
+
+Another word for the position of an element is the "index" of the element - for the above example of an array, index 0 is "7," index 1 is "3," etc.
+
+Each element, therefore, has two properties: its index and its value.
+
+#### Example
+You have three pictures of your cat and you could save them in an array: CatPic1, CatPic2 and CatPic3. The array would look like this:
+
+    [“CatPic1”,“CatPic2”,“CatPic3”]
+Here, the element at index 1 has a value of "CatPic2".
+
+### Nth
+*Nth* denotes an unspecified number in a series of numbers. It refers to an unspecified item or instance in a series.
+
+#### Example
+If you performed testing on a group of people, you could refer to this as, “systematic testing by taking every nth name from a list”.
+
+Sometimes the term is used as slang to mean you are emphasizing the number of times something has occurred. Like, “My two-year old asked for candy for the nth time.”
+
+### More Data on Classes
+Let’s look at the example of a class called “vehicle”. The structure of a vehicle class would include such things as:
+
+An energy source that can provide the motive force to move the vehicle. Examples might be “a gasoline engine” or “an electric motor”.
+
+A physical form that implements the primary purpose of the vehicle. Examples might be “sedan”, “convertible”, “pickup truck”, etc.
+
+One or more doors to provide entrance and egress for the people operating or being transported by the vehicle.
+
+A mechanism for increasing the speed of the vehicle. Examples might be “an accelerator pedal” or “a speed lever”.
+
+A mechanism for decreasing the speed of the vehicle. Examples might be “a brake pedal” or “a brake lever”.
+
+A mechanism for steering the vehicle. Examples might be “a steering wheel” or “a steering lever”.
+
+A speed at which the vehicle is traveling. Examples might be “55 miles per hour”, “10 feet per second”, or “0”.
+
+Another term for these structure elements is “Properties”.
+
+The behaviors of a vehicle would include such things as:
+
+Accelerate the vehicle.
+
+Slow the vehicle.
+
+Stop the vehicle.
+
+Steer the vehicle to the right.
+
+Steer the vehicle to the left.
+
+When the computer program has a need for a vehicle, it would be directed to use this class definition to create, or “instantiate” one. Specifically, it would create an object of type “Vehicle”. At that point, the program would set aside parts of the computer memory to keep track of the properties of that particular object of the Vehicle class.
+
+The computer program would then be directed to set the state of this new object of the Vehicle class. It would have to have specific values for the properties of this Vehicle – what type of engine it had, what physical form it was built to, what kind of steering mechanism it had, etc. Probably it would get these values from the user of the computer program.
+
+Here are two examples of instantiated objects of the type Vehicle:
+
+**Vehicle 1:**
+Energy source: gasoline engine
+Physical form: Pickup truck
+Number of doors: 2
+Mechanism for increasing speed: Accelerator pedal
+Mechanism for decreasing speed: Brake pedal
+Mechanism for steering the vehicle: Steering wheel
+Speed: 0
+
+**Vehicle 2:**
+Energy source: electric motor
+Physical form: Sedan
+Number of doors: 4
+Mechanism for increasing speed: Accelerator pedal
+Mechanism for decreasing speed: Brake pedal
+Mechanism for steering the vehicle: Steering wheel
+Speed: 0
+
+At this point, the computer program can make use of the defined behaviors for objects of the Vehicle class. That is, the computer might execute an instruction to “Increase speed of Vehicle1 by 10 miles per hour once a minute until its Speed property is 40 miles per hour”, or “Steer Vehicle2 to the right”.
+
+### Child and Parent
+Some computer programming languages allow for the definition of classes that inherit the structure and behavior of another class, while also allowing for the addition of new properties and new behaviors.
+
+This concept is called “inheritance” – that is, the second class “inherits” the structure and behavior of the first class. In this system, the first class is called the “parent” class and the inheriting class is called the “child” class.
+
+Using a “Vehicle” class as an example, the programmer might create child classes like “Airplane” and “Helicopter”. Each of these child classes would automatically get the structure and behavior of the parent class (“Vehicle”), but the programmer could add certain structure and behavior elements particular to that type of object.
+
+For example, the “Airplane” class might add properties like:
+
+1. A number of wings to provide lift
+2. A number of engines
+
+This “Airplane” class might add behaviors like:
+
+1. Take off
+2. Land
+
+This way of programming adds certain benefits for the computer programmer. One primary benefit is that they don’t have to write the same code more than once. Besides the fact that it saves time, this is valuable because the programmer can make a change in the parent class and all its children can then make use of that change.
+
+For example, the programmer might add the properties to the Vehicle class “A number of passengers” and the behaviors “Load a passenger” and “Remove a passenger”. Now, the children of the Vehicle class (“Airplane” and “Helicopter”) can use those properties and behaviors with no further work from the computer programmer.
+
+### Absolute and Relative Paths
+As a reminder, an absolute path is the full description of a file path, like:
+- **C:\Users\User\Desktop\HTML webpage\image.png**
+- **https://learncodinganywhere.com/**
+
+A relative file path is when the directory is assumed to be the same location as your webpage. For example: 
+- **./image.png**
+
