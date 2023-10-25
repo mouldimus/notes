@@ -160,4 +160,17 @@ Here is an example of what an Issue would look like.
 
 ![example_issue](./images/example_issue.png) 
 
+### Customization Assignment
+Set up the appearance of Visual Studio Code the way you’d like it.
 
+OPTIONAL RESOURCE – review this web page: 
+
+[Visual Studio Code Themes](https://code.visualstudio.com/docs/getstarted/themes)
+
+### Visual Studio Code Integrated Terminal Challenge
+Write and execute a command-line command (console command) within Visual Studio Code from the Integrated Terminal.
+
+RESOURCES:
+
+1) [Integrated Terminal in Visual Studio Code](https://code.visualstudio.com/docs/editor/integrated-terminal)
+2) [The Visual Studio Code command-line options](https://code.visualstudio.com/docs/editor/command-line)
